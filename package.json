@@ -15,5 +15,11 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
+"scripts": {
+      "deploy": "gh-pages -d public/"
   }
 }
