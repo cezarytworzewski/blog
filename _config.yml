@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Blog programistyczny
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
+author: Cezary Tworzewski
+language: polish
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://cezarytworzewski.github.io/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
