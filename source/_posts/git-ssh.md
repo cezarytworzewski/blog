@@ -17,7 +17,7 @@ na pliku, plikach, bądź całym katalogu
 * umożliwia przywrócenie wcześniejszej wersji projektu
 
 
-#### Jak skonfigurować GIT'a z GitHubem?
+#### Jak skonfigurować GIT'a z GitHub'em?
 
 1. Jesli nie posiadamy konta na `GitHub` musimy je założyć.
 Tutaj założymy konto: <https://github.com/join?source=header-home>
@@ -29,17 +29,22 @@ Tutaj założymy konto: <https://github.com/join?source=header-home>
 
 * muszę utworzyć klucz SSH, wykonując polecenie: `ssh-keygen -t rsa -C "adres-email"`
 
-* następnie, muszę przejść do katalogu użytkowniak `/.ssh`. Z poziomu terminala w Linux'ie do katalogu użytkownika przechodzimy za pomocą
+* następnie, muszę przejść do katalogu użytkownika `/.ssh`. Z poziomu terminala w Linux'ie do katalogu użytkownika przechodzimy za pomocą
 polecenia `cd ~` - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o nazwie: `id_rsa.pub` --> wchodzę do niego i kopiuję całą jego zawartość.
 
-Zawartość pliku `id_rsa.pub` jest moim kluczem publiczny, którą to wklejam na koncie `GitHub w zakładce `Settings` --> `SSH and GPG keys`.
+Zawartość pliku `id_rsa.pub` jest moim kluczem publiczny, którą to wklejam na koncie `GitHub` w zakładce `Settings` --> `SSH and GPG keys`.
 
 Następnie w konsoli wydaję polecenie:
-	`git init`,
-	`git add .` ( . - kropka oznacza, że chce dodać wszystkie pliki)
-			Jeśli chciałbym dodać tylko jeden plik to wydam polecenie
-			`git add index.html`, gdzie plik `index.html` jest moim
-			plikiem, który chce wysłać na serwer
+
+```
+    git init
+    git add .
+```
+
+znak `.` - kropka oznacza, że chce dodać wszystkie pliki. Jeśli chciałbym dodać tylko jeden plik to wydam polecenie
+
+`git add index.html`, gdzie plik `index.html` jest moim plikiem, który chce wysłać na serwer.
+
 
 
 ```
@@ -50,4 +55,4 @@ Następnie w konsoli wydaję polecenie:
 ```
 
 
-I pliki są już na [GiTHub](http://www.github.com).
+I pliki są już na [GitHub](http://www.github.com).
