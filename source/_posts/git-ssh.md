@@ -4,11 +4,9 @@ title: Czym jest GIT? Klucze SSH - jak to zrozumieć?
 
 Drugi post postanowiłem, że będzie poświęcony konfiguracji `GIT'a` krok po
 kroku.
-Sam wiele razy miałem sytuację, że posypały mi się `klucze SSH` w `GIT` lub
-wystepowały inne błędy. Postanowiłem napisać wszystko kroku po kroku,
-bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,
-męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu.
-Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie
+Sam wiele razy miałem sytuację, że posypały mi się `klucze SSH` w `GIT` lub wystepowały inne błędy.
+Postanowiłem napisać wszystko kroku po kroku, bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,
+męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu. Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie
 dla Was pożyteczny.
 
 Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.
@@ -30,16 +28,12 @@ Tutaj założymy konto: <https://github.com/join?source=header-home>
 2. Na komputerze lokalnym tworzę folder o nazwie np.:  `Pliki` oraz tworzę plik `index.html`
    dalej... muszę połączyć git'a lokalnie z kontem `GitHub` na serwerze:
 
-* muszę utworzyć klucz SSH, wykonując polecenie:
-	`ssh-keygen -t rsa -C "adres-email"`
+* muszę utworzyć klucz SSH, wykonując polecenie: `ssh-keygen -t rsa -C "adres-email"`
 
-* następnie, muszę przejść do katalogu użytkowniak `/.ssh`. Z poziomu
-terminala w Linux'ie do katalogu użytkownika przechodzimy za pomocą
-polecenia `cd ~` - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o
-nazwie: `id_rsa.pub` --> wchodzę do niego i kopiuję całą jego zawartość.
+* następnie, muszę przejść do katalogu użytkowniak `/.ssh`. Z poziomu terminala w Linux'ie do katalogu użytkownika przechodzimy za pomocą
+polecenia `cd ~` - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o nazwie: `id_rsa.pub` --> wchodzę do niego i kopiuję całą jego zawartość.
 
-Zawartość pliku `id_rsa.pub` jest moim kluczem publiczny, którą to wklejam
-na koncie `GitHub w zakładce `Settings` --> `SSH and GPG keys`.
+Zawartość pliku `id_rsa.pub` jest moim kluczem publiczny, którą to wklejam na koncie `GitHub w zakładce `Settings` --> `SSH and GPG keys`.
 
 Następnie w konsoli wydaję polecenie:
 	`git init`,
