@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="Blog programistyczny">
 <meta property="og:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lub wystepowały inne błędy.Postanowiłem napisać ws">
 <meta property="og:locale" content="polish">
-<meta property="og:updated_time" content="2018-05-30T14:43:54.088Z">
+<meta property="og:updated_time" content="2018-05-30T15:03:37.273Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Czym jest GIT? Klucze SSH - jak to zrozumieć?">
 <meta name="twitter:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lub wystepowały inne błędy.Postanowiłem napisać ws">
@@ -67,7 +67,7 @@
         <section id="main"><article id="post-git-ssh" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/blog/2018/05/30/git-ssh/" class="article-date">
-  <time datetime="2018-05-30T14:43:54.088Z" itemprop="datePublished">2018-05-30</time>
+  <time datetime="2018-05-30T15:03:37.277Z" itemprop="datePublished">2018-05-30</time>
 </a>
     
   </div>
@@ -93,7 +93,7 @@
 <li>system kontroli wersji śledzi wszystkie zmiany jakie zostały dokonane<br>na pliku, plikach, bądź całym katalogu</li>
 <li>umożliwia przywrócenie wcześniejszej wersji projektu</li>
 </ul>
-<h4 id="Jak-skonfigurowac-GIT’a-z-GitHubem"><a href="#Jak-skonfigurowac-GIT’a-z-GitHubem" class="headerlink" title="Jak skonfigurować GIT’a z GitHubem?"></a>Jak skonfigurować GIT’a z GitHubem?</h4><ol>
+<h4 id="Jak-skonfigurowac-GIT’a-z-GitHub’em"><a href="#Jak-skonfigurowac-GIT’a-z-GitHub’em" class="headerlink" title="Jak skonfigurować GIT’a z GitHub’em?"></a>Jak skonfigurować GIT’a z GitHub’em?</h4><ol>
 <li><p>Jesli nie posiadamy konta na <code>GitHub</code> musimy je założyć.<br>Tutaj założymy konto: <a href="https://github.com/join?source=header-home" target="_blank" rel="noopener">https://github.com/join?source=header-home</a></p>
 <p> Jeśli posiadamy konto to wszystko jak na razie jest dobrze. :-)</p>
 </li>
@@ -103,18 +103,21 @@
 <ul>
 <li><p>muszę utworzyć klucz SSH, wykonując polecenie: <code>ssh-keygen -t rsa -C &quot;adres-email&quot;</code></p>
 </li>
-<li><p>następnie, muszę przejść do katalogu użytkowniak <code>/.ssh</code>. Z poziomu terminala w Linux’ie do katalogu użytkownika przechodzimy za pomocą<br>polecenia <code>cd ~</code> - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o nazwie: <code>id_rsa.pub</code> –&gt; wchodzę do niego i kopiuję całą jego zawartość.</p>
+<li><p>następnie, muszę przejść do katalogu użytkownika <code>/.ssh</code>. Z poziomu terminala w Linux’ie do katalogu użytkownika przechodzimy za pomocą<br>polecenia <code>cd ~</code> - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o nazwie: <code>id_rsa.pub</code> –&gt; wchodzę do niego i kopiuję całą jego zawartość.</p>
 </li>
 </ul>
-<p>Zawartość pliku <code>id_rsa.pub</code> jest moim kluczem publiczny, którą to wklejam na koncie <code>GitHub w zakładce</code>Settings<code>--&gt;</code>SSH and GPG keys`.</p>
-<p>Następnie w konsoli wydaję polecenie:<br>    <code>git init</code>,<br>    <code>git add .</code> ( . - kropka oznacza, że chce dodać wszystkie pliki)<br>            Jeśli chciałbym dodać tylko jeden plik to wydam polecenie<br>            <code>git add index.html</code>, gdzie plik <code>index.html</code> jest moim<br>            plikiem, który chce wysłać na serwer</p>
+<p>Zawartość pliku <code>id_rsa.pub</code> jest moim kluczem publiczny, którą to wklejam na koncie <code>GitHub</code> w zakładce <code>Settings</code> –&gt; <code>SSH and GPG keys</code>.</p>
+<p>Następnie w konsoli wydaję polecenie:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br></pre></td></tr></table></figure>
+<p>znak <code>.</code> - kropka oznacza, że chce dodać wszystkie pliki. Jeśli chciałbym dodać tylko jeden plik to wydam polecenie</p>
+<p><code>git add index.html</code>, gdzie plik <code>index.html</code> jest moim plikiem, który chce wysłać na serwer.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status (opcjonalnie)</span><br><span class="line">git commit -m &quot;commit-message&quot;</span><br><span class="line">git remote add origin git@github.com:NAZWA_UŻYTKOWNIKA_GITHUB/NAZWA_REPOZYTORIUM.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
-<p>I pliki są już na <a href="http://www.github.com" target="_blank" rel="noopener">GiTHub</a>.</p>
+<p>I pliki są już na <a href="http://www.github.com" target="_blank" rel="noopener">GitHub</a>.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cezarytworzewski.github.io/2018/05/30/git-ssh/" data-id="cjht81vcx0000utamqrd3o8di" class="article-share-link">Share</a>
+      <a data-url="http://cezarytworzewski.github.io/2018/05/30/git-ssh/" data-id="cjht8r2x70000jdamrkeqqnzs" class="article-share-link">Share</a>
       
       
     </footer>
