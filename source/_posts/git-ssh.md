@@ -6,8 +6,7 @@ Drugi post postanowiłem, że będzie poświęcony konfiguracji `GIT'a` krok po
 kroku.
 Sam wiele razy miałem sytuację, że posypały mi się `klucze SSH` w `GIT` lub wystepowały inne błędy.
 Postanowiłem napisać wszystko kroku po kroku, bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,
-męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu. Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie
-dla Was pożyteczny.
+męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu. Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie dla Was pożyteczny.
 
 Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.
 
