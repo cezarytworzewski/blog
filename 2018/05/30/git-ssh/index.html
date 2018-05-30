@@ -7,17 +7,17 @@
   
   <title>Czym jest GIT? Klucze SSH - jak to zrozumieć? | Blog programistyczny</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lubwystepowały inne błędy. Postanowiłem napisać ws">
+  <meta name="description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lub wystepowały inne błędy.Postanowiłem napisać ws">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Czym jest GIT? Klucze SSH - jak to zrozumieć?">
 <meta property="og:url" content="http://cezarytworzewski.github.io/2018/05/30/git-ssh/index.html">
 <meta property="og:site_name" content="Blog programistyczny">
-<meta property="og:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lubwystepowały inne błędy. Postanowiłem napisać ws">
+<meta property="og:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lub wystepowały inne błędy.Postanowiłem napisać ws">
 <meta property="og:locale" content="polish">
-<meta property="og:updated_time" content="2018-05-30T14:24:39.075Z">
+<meta property="og:updated_time" content="2018-05-30T14:39:00.902Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Czym jest GIT? Klucze SSH - jak to zrozumieć?">
-<meta name="twitter:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lubwystepowały inne błędy. Postanowiłem napisać ws">
+<meta name="twitter:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lub wystepowały inne błędy.Postanowiłem napisać ws">
   
     <link rel="alternate" href="/blog/atom.xml" title="Blog programistyczny" type="application/atom+xml">
   
@@ -67,7 +67,7 @@
         <section id="main"><article id="post-git-ssh" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/blog/2018/05/30/git-ssh/" class="article-date">
-  <time datetime="2018-05-30T14:24:39.079Z" itemprop="datePublished">2018-05-30</time>
+  <time datetime="2018-05-30T14:39:00.910Z" itemprop="datePublished">2018-05-30</time>
 </a>
     
   </div>
@@ -86,7 +86,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Drugi post postanowiłem, że będzie poświęcony konfiguracji <code>GIT&#39;a</code> krok po<br>kroku.<br>Sam wiele razy miałem sytuację, że posypały mi się <code>klucze SSH</code> w <code>GIT</code> lub<br>wystepowały inne błędy. Postanowiłem napisać wszystko kroku po kroku,<br>bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,<br>męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu.<br>Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie<br>dla Was pożyteczny.</p>
+        <p>Drugi post postanowiłem, że będzie poświęcony konfiguracji <code>GIT&#39;a</code> krok po<br>kroku.<br>Sam wiele razy miałem sytuację, że posypały mi się <code>klucze SSH</code> w <code>GIT</code> lub wystepowały inne błędy.<br>Postanowiłem napisać wszystko kroku po kroku, bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,<br>męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu. Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie<br>dla Was pożyteczny.</p>
 <p>Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.</p>
 <h4 id="W-skrocie-czym-jest-GIT"><a href="#W-skrocie-czym-jest-GIT" class="headerlink" title="W skrócie, czym jest GIT?"></a>W skrócie, czym jest <code>GIT</code>?</h4><ul>
 <li>to system kontroli wersji</li>
@@ -101,12 +101,12 @@
 </li>
 </ol>
 <ul>
-<li><p>muszę utworzyć klucz SSH, wykonując polecenie:<br>  <code>ssh-keygen -t rsa -C &quot;adres-email&quot;</code></p>
+<li><p>muszę utworzyć klucz SSH, wykonując polecenie: <code>ssh-keygen -t rsa -C &quot;adres-email&quot;</code></p>
 </li>
-<li><p>następnie, muszę przejść do katalogu użytkowniak <code>/.ssh</code>. Z poziomu<br>terminala w Linux’ie do katalogu użytkownika przechodzimy za pomocą<br>polecenia <code>cd ~</code> - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o<br>nazwie: <code>id_rsa.pub</code> –&gt; wchodzę do niego i kopiuję całą jego zawartość.</p>
+<li><p>następnie, muszę przejść do katalogu użytkowniak <code>/.ssh</code>. Z poziomu terminala w Linux’ie do katalogu użytkownika przechodzimy za pomocą<br>polecenia <code>cd ~</code> - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o nazwie: <code>id_rsa.pub</code> –&gt; wchodzę do niego i kopiuję całą jego zawartość.</p>
 </li>
 </ul>
-<p>Zawartość pliku <code>id_rsa.pub</code> jest moim kluczem publiczny, którą to wklejam<br>na koncie <code>GitHub w zakładce</code>Settings<code>--&gt;</code>SSH and GPG keys`.</p>
+<p>Zawartość pliku <code>id_rsa.pub</code> jest moim kluczem publiczny, którą to wklejam na koncie <code>GitHub w zakładce</code>Settings<code>--&gt;</code>SSH and GPG keys`.</p>
 <p>Następnie w konsoli wydaję polecenie:<br>    <code>git init</code>,<br>    <code>git add .</code> ( . - kropka oznacza, że chce dodać wszystkie pliki)<br>            Jeśli chciałbym dodać tylko jeden plik to wydam polecenie<br>            <code>git add index.html</code>, gdzie plik <code>index.html</code> jest moim<br>            plikiem, który chce wysłać na serwer</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status (opcjonalnie)</span><br><span class="line">git commit -m &quot;commit-message&quot;</span><br><span class="line">git remote add origin git@github.com:NAZWA_UŻYTKOWNIKA_GITHUB/NAZWA_REPOZYTORIUM.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
 <p>I pliki są już na <a href="http://www.github.com" target="_blank" rel="noopener">GiTHub</a>.</p>
@@ -114,7 +114,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cezarytworzewski.github.io/2018/05/30/git-ssh/" data-id="cjht7domt0000ewamwya66ywk" class="article-share-link">Share</a>
+      <a data-url="http://cezarytworzewski.github.io/2018/05/30/git-ssh/" data-id="cjht7vh7h0000piamkb42y64c" class="article-share-link">Share</a>
       
       
     </footer>
