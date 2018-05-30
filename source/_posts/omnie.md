@@ -1,5 +1,5 @@
 ----
--title: O mnie słów kilka...
+title: O mnie słów kilka...
 ----
 
 # Kim jestem? O czym będzie mój blog?
