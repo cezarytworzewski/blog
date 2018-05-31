@@ -5,19 +5,19 @@
   
 
   
-  <title>Czym jest GIT? Klucze SSH - jak to zrozumieć? | Blog programistyczny</title>
+  <title>Czym jest Git? Klucze SSH - jak to zrozumieć? | Blog programistyczny</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lub wystepowały inne błędy.Postanowiłem napisać ws">
+  <meta name="description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji Git&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w Git lub wystepowały inne błędy.Postanowiłem napisać ws">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Czym jest GIT? Klucze SSH - jak to zrozumieć?">
-<meta property="og:url" content="http://cezarytworzewski.github.io/2018/05/30/git-ssh/index.html">
+<meta property="og:title" content="Czym jest Git? Klucze SSH - jak to zrozumieć?">
+<meta property="og:url" content="http://cezarytworzewski.github.io/2018/06/01/git-ssh/index.html">
 <meta property="og:site_name" content="Blog programistyczny">
-<meta property="og:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lub wystepowały inne błędy.Postanowiłem napisać ws">
+<meta property="og:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji Git&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w Git lub wystepowały inne błędy.Postanowiłem napisać ws">
 <meta property="og:locale" content="polish">
-<meta property="og:updated_time" content="2018-05-30T15:16:13.597Z">
+<meta property="og:updated_time" content="2018-05-31T22:10:45.506Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Czym jest GIT? Klucze SSH - jak to zrozumieć?">
-<meta name="twitter:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji GIT&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w GIT lub wystepowały inne błędy.Postanowiłem napisać ws">
+<meta name="twitter:title" content="Czym jest Git? Klucze SSH - jak to zrozumieć?">
+<meta name="twitter:description" content="Drugi post postanowiłem, że będzie poświęcony konfiguracji Git&amp;#39;a krok pokroku.Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w Git lub wystepowały inne błędy.Postanowiłem napisać ws">
   
     <link rel="alternate" href="/blog/atom.xml" title="Blog programistyczny" type="application/atom+xml">
   
@@ -66,8 +66,8 @@
       <div class="outer">
         <section id="main"><article id="post-git-ssh" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/blog/2018/05/30/git-ssh/" class="article-date">
-  <time datetime="2018-05-30T15:16:13.597Z" itemprop="datePublished">2018-05-30</time>
+    <a href="/blog/2018/06/01/git-ssh/" class="article-date">
+  <time datetime="2018-05-31T22:10:45.510Z" itemprop="datePublished">2018-06-01</time>
 </a>
     
   </div>
@@ -78,7 +78,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Czym jest GIT? Klucze SSH - jak to zrozumieć?
+      Czym jest Git? Klucze SSH - jak to zrozumieć?
     </h1>
   
 
@@ -86,14 +86,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Drugi post postanowiłem, że będzie poświęcony konfiguracji <code>GIT&#39;a</code> krok po<br>kroku.<br>Sam wiele razy miałem sytuację, że posypały mi się <code>klucze SSH</code> w <code>GIT</code> lub wystepowały inne błędy.<br>Postanowiłem napisać wszystko kroku po kroku, bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,<br>męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu. Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie dla Was pożyteczny.</p>
+        <p>Drugi post postanowiłem, że będzie poświęcony konfiguracji <code>Git&#39;a</code> krok po<br>kroku.<br>Sam wiele razy miałem sytuację, że posypały mi się <code>klucze SSH</code> w <code>Git</code> lub wystepowały inne błędy.<br>Postanowiłem napisać wszystko kroku po kroku, bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,<br>męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu. Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie dla Was pożyteczny.</p>
 <p>Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.</p>
-<h4 id="W-skrocie-czym-jest-GIT"><a href="#W-skrocie-czym-jest-GIT" class="headerlink" title="W skrócie, czym jest GIT?"></a>W skrócie, czym jest <code>GIT</code>?</h4><ul>
+<h4 id="W-skrocie-czym-jest-Git"><a href="#W-skrocie-czym-jest-Git" class="headerlink" title="W skrócie, czym jest Git?"></a>W skrócie, czym jest <code>Git</code>?</h4><ul>
 <li>to system kontroli wersji</li>
 <li>system kontroli wersji śledzi wszystkie zmiany jakie zostały dokonane<br>na pliku, plikach, bądź całym katalogu</li>
 <li>umożliwia przywrócenie wcześniejszej wersji projektu</li>
 </ul>
-<h4 id="Jak-skonfigurowac-GIT’a-z-GitHub’em"><a href="#Jak-skonfigurowac-GIT’a-z-GitHub’em" class="headerlink" title="Jak skonfigurować GIT’a z GitHub’em?"></a>Jak skonfigurować GIT’a z GitHub’em?</h4><ol>
+<h4 id="Jak-skonfigurowac-Git’a-z-GitHub’em"><a href="#Jak-skonfigurowac-Git’a-z-GitHub’em" class="headerlink" title="Jak skonfigurować Git’a z GitHub’em?"></a>Jak skonfigurować Git’a z GitHub’em?</h4><ol>
 <li><p>Jesli nie posiadamy konta na <code>GitHub</code> musimy je założyć.<br>Tutaj założymy konto: <a href="https://github.com/join?source=header-home" target="_blank" rel="noopener">https://github.com/join?source=header-home</a></p>
 <p> Jeśli posiadamy konto to wszystko jak na razie jest dobrze. :-)</p>
 </li>
@@ -117,7 +117,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cezarytworzewski.github.io/2018/05/30/git-ssh/" data-id="cjhv35ymt0000zzamq7k2g3vk" class="article-share-link">Share</a>
+      <a data-url="http://cezarytworzewski.github.io/2018/06/01/git-ssh/" data-id="cjhv3h6c1000095amut2gxdv6" class="article-share-link">Share</a>
       
       
     </footer>
@@ -126,19 +126,10 @@
     
 <nav id="article-nav">
   
-    <a href="/blog/2018/06/01/linux-vs-windows/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Linux vs. Windows dla Front-end&#39;owca?
-        
-      </div>
-    </a>
   
-  
-    <a href="/blog/2018/05/30/omnie/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/blog/2018/06/01/linux-vs-windows/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Kim jestem? O czym będzie mój blog?</div>
+      <div class="article-nav-title">Linux vs. Windows dla Front-end&#39;owca?</div>
     </a>
   
 </nav>
@@ -175,11 +166,11 @@
       <ul>
         
           <li>
-            <a href="/blog/2018/06/01/linux-vs-windows/">Linux vs. Windows dla Front-end&#39;owca?</a>
+            <a href="/blog/2018/06/01/git-ssh/">Czym jest Git? Klucze SSH - jak to zrozumieć?</a>
           </li>
         
           <li>
-            <a href="/blog/2018/05/30/git-ssh/">Czym jest GIT? Klucze SSH - jak to zrozumieć?</a>
+            <a href="/blog/2018/06/01/linux-vs-windows/">Linux vs. Windows dla Front-end&#39;owca?</a>
           </li>
         
           <li>

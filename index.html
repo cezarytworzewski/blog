@@ -62,6 +62,69 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-git-ssh" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/2018/06/01/git-ssh/" class="article-date">
+  <time datetime="2018-05-31T22:10:45.510Z" itemprop="datePublished">2018-06-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/blog/2018/06/01/git-ssh/">Czym jest Git? Klucze SSH - jak to zrozumieć?</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Drugi post postanowiłem, że będzie poświęcony konfiguracji <code>Git&#39;a</code> krok po<br>kroku.<br>Sam wiele razy miałem sytuację, że posypały mi się <code>klucze SSH</code> w <code>Git</code> lub wystepowały inne błędy.<br>Postanowiłem napisać wszystko kroku po kroku, bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,<br>męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu. Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie dla Was pożyteczny.</p>
+<p>Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.</p>
+<h4 id="W-skrocie-czym-jest-Git"><a href="#W-skrocie-czym-jest-Git" class="headerlink" title="W skrócie, czym jest Git?"></a>W skrócie, czym jest <code>Git</code>?</h4><ul>
+<li>to system kontroli wersji</li>
+<li>system kontroli wersji śledzi wszystkie zmiany jakie zostały dokonane<br>na pliku, plikach, bądź całym katalogu</li>
+<li>umożliwia przywrócenie wcześniejszej wersji projektu</li>
+</ul>
+<h4 id="Jak-skonfigurowac-Git’a-z-GitHub’em"><a href="#Jak-skonfigurowac-Git’a-z-GitHub’em" class="headerlink" title="Jak skonfigurować Git’a z GitHub’em?"></a>Jak skonfigurować Git’a z GitHub’em?</h4><ol>
+<li><p>Jesli nie posiadamy konta na <code>GitHub</code> musimy je założyć.<br>Tutaj założymy konto: <a href="https://github.com/join?source=header-home" target="_blank" rel="noopener">https://github.com/join?source=header-home</a></p>
+<p> Jeśli posiadamy konto to wszystko jak na razie jest dobrze. :-)</p>
+</li>
+<li><p>Na komputerze lokalnym tworzę folder o nazwie np.:  <code>Pliki</code> oraz tworzę plik <code>index.html</code><br>dalej… muszę połączyć git’a lokalnie z kontem <code>GitHub</code> na serwerze:</p>
+</li>
+</ol>
+<ul>
+<li><p>muszę utworzyć klucz SSH, wykonując polecenie: <code>ssh-keygen -t rsa -C &quot;adres-email&quot;</code></p>
+</li>
+<li><p>następnie, muszę przejść do katalogu użytkownika <code>/.ssh</code>. Z poziomu terminala w Linux’ie do katalogu użytkownika przechodzimy za pomocą<br>polecenia <code>cd ~</code> - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o nazwie: <code>id_rsa.pub</code> –&gt; wchodzę do niego i kopiuję całą jego zawartość.</p>
+</li>
+</ul>
+<p>Zawartość pliku <code>id_rsa.pub</code> jest moim kluczem publiczny, którą to wklejam na koncie <code>GitHub</code> w zakładce <code>Settings</code> –&gt; <code>SSH and GPG keys</code>.</p>
+<p>Następnie w konsoli wydaję polecenie:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br></pre></td></tr></table></figure>
+<p>znak <code>.</code> - kropka oznacza, że chce dodać wszystkie pliki. Jeśli chciałbym dodać tylko jeden plik to wydam polecenie</p>
+<p><code>git add index.html</code>, gdzie plik <code>index.html</code> jest moim plikiem, który chce wysłać na serwer.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status (opcjonalnie)</span><br><span class="line">git commit -m &quot;commit-message&quot;</span><br><span class="line">git remote add origin git@github.com:NAZWA_UŻYTKOWNIKA_GITHUB/NAZWA_REPOZYTORIUM.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+<p>I pliki są już na <a href="http://www.github.com" target="_blank" rel="noopener">GitHub</a>.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://cezarytworzewski.github.io/2018/06/01/git-ssh/" data-id="cjhv3h6c1000095amut2gxdv6" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-linux-vs-windows" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/blog/2018/06/01/linux-vs-windows/" class="article-date">
@@ -95,70 +158,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/" data-id="cjhv35yn70001zzampt6apq7p" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-git-ssh" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/blog/2018/05/30/git-ssh/" class="article-date">
-  <time datetime="2018-05-30T15:16:13.597Z" itemprop="datePublished">2018-05-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/blog/2018/05/30/git-ssh/">Czym jest GIT? Klucze SSH - jak to zrozumieć?</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Drugi post postanowiłem, że będzie poświęcony konfiguracji <code>GIT&#39;a</code> krok po<br>kroku.<br>Sam wiele razy miałem sytuację, że posypały mi się <code>klucze SSH</code> w <code>GIT</code> lub wystepowały inne błędy.<br>Postanowiłem napisać wszystko kroku po kroku, bynajmniej mam taką nadzieję, żebym na przyszłośc nie musiał szukać,<br>męczyć się jak to skonfigurować. Wszystko będę miał w jednym miejscu. Mam również nadzieję, że spodoba Wam się mój wpis, mój blog i bdzie dla Was pożyteczny.</p>
-<p>Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.</p>
-<h4 id="W-skrocie-czym-jest-GIT"><a href="#W-skrocie-czym-jest-GIT" class="headerlink" title="W skrócie, czym jest GIT?"></a>W skrócie, czym jest <code>GIT</code>?</h4><ul>
-<li>to system kontroli wersji</li>
-<li>system kontroli wersji śledzi wszystkie zmiany jakie zostały dokonane<br>na pliku, plikach, bądź całym katalogu</li>
-<li>umożliwia przywrócenie wcześniejszej wersji projektu</li>
-</ul>
-<h4 id="Jak-skonfigurowac-GIT’a-z-GitHub’em"><a href="#Jak-skonfigurowac-GIT’a-z-GitHub’em" class="headerlink" title="Jak skonfigurować GIT’a z GitHub’em?"></a>Jak skonfigurować GIT’a z GitHub’em?</h4><ol>
-<li><p>Jesli nie posiadamy konta na <code>GitHub</code> musimy je założyć.<br>Tutaj założymy konto: <a href="https://github.com/join?source=header-home" target="_blank" rel="noopener">https://github.com/join?source=header-home</a></p>
-<p> Jeśli posiadamy konto to wszystko jak na razie jest dobrze. :-)</p>
-</li>
-<li><p>Na komputerze lokalnym tworzę folder o nazwie np.:  <code>Pliki</code> oraz tworzę plik <code>index.html</code><br>dalej… muszę połączyć git’a lokalnie z kontem <code>GitHub</code> na serwerze:</p>
-</li>
-</ol>
-<ul>
-<li><p>muszę utworzyć klucz SSH, wykonując polecenie: <code>ssh-keygen -t rsa -C &quot;adres-email&quot;</code></p>
-</li>
-<li><p>następnie, muszę przejść do katalogu użytkownika <code>/.ssh</code>. Z poziomu terminala w Linux’ie do katalogu użytkownika przechodzimy za pomocą<br>polecenia <code>cd ~</code> - znak TYLDA. Są tam dwa pliki, interesuje mnie plik o nazwie: <code>id_rsa.pub</code> –&gt; wchodzę do niego i kopiuję całą jego zawartość.</p>
-</li>
-</ul>
-<p>Zawartość pliku <code>id_rsa.pub</code> jest moim kluczem publiczny, którą to wklejam na koncie <code>GitHub</code> w zakładce <code>Settings</code> –&gt; <code>SSH and GPG keys</code>.</p>
-<p>Następnie w konsoli wydaję polecenie:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br></pre></td></tr></table></figure>
-<p>znak <code>.</code> - kropka oznacza, że chce dodać wszystkie pliki. Jeśli chciałbym dodać tylko jeden plik to wydam polecenie</p>
-<p><code>git add index.html</code>, gdzie plik <code>index.html</code> jest moim plikiem, który chce wysłać na serwer.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status (opcjonalnie)</span><br><span class="line">git commit -m &quot;commit-message&quot;</span><br><span class="line">git remote add origin git@github.com:NAZWA_UŻYTKOWNIKA_GITHUB/NAZWA_REPOZYTORIUM.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
-<p>I pliki są już na <a href="http://www.github.com" target="_blank" rel="noopener">GitHub</a>.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://cezarytworzewski.github.io/2018/05/30/git-ssh/" data-id="cjhv35ymt0000zzamq7k2g3vk" class="article-share-link">Share</a>
+      <a data-url="http://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/" data-id="cjhv3h6cd000195amba3kuqop" class="article-share-link">Share</a>
       
       
     </footer>
@@ -195,7 +195,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cezarytworzewski.github.io/2018/05/30/omnie/" data-id="cjhv35ync0002zzamfpi8xr5x" class="article-share-link">Share</a>
+      <a data-url="http://cezarytworzewski.github.io/2018/05/30/omnie/" data-id="cjhv3h6ci000295amsu0f6t02" class="article-share-link">Share</a>
       
       
     </footer>
@@ -236,11 +236,11 @@
       <ul>
         
           <li>
-            <a href="/blog/2018/06/01/linux-vs-windows/">Linux vs. Windows dla Front-end&#39;owca?</a>
+            <a href="/blog/2018/06/01/git-ssh/">Czym jest Git? Klucze SSH - jak to zrozumieć?</a>
           </li>
         
           <li>
-            <a href="/blog/2018/05/30/git-ssh/">Czym jest GIT? Klucze SSH - jak to zrozumieć?</a>
+            <a href="/blog/2018/06/01/linux-vs-windows/">Linux vs. Windows dla Front-end&#39;owca?</a>
           </li>
         
           <li>
