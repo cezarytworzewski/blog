@@ -15,6 +15,6 @@ Jak na razie myslę, że największa trudność sprawia mi nadawanie wyżej wspo
 Na systemie Ubuntu mam zainstalowanego `VirtualBox'a`, a na nim inna dystrybucja `CentOS v6.9`, gdzie na niej też w wolnych chwilach pogłębiam swoją wiedzę.
 Ostatnio uczyłem się z pomocą `CentOS` co to jest `macierz RAID`. Mimo, że skończyłem Informatykę, to teraz zrozumiałem co to jest, po co się stosuje i jaka jest różnica pomięddzy `RAID 0` i `RAID 1`. Ogólnie proces tworzenia macierzy jest dla mnie zrozumiały z pomocą `VirtualBox`. Nie wiem jakby to było jakbym musiał na prawdę zrobić je fizycznie. Może kiedyś to zrobie.
 
-Oczywiście na Ubuntu mam potrzebne mi oprogrmaowania tj.: `GIT` i `WebStorm`. Co do edytora `WebStorm` to przed zmianą systemu z Windows na Linux. Sprawdziałem czy `WebStorm` jest dostępny na Linuxa. I wtedy podjąłem tą decyzję.
+Oczywiście na Ubuntu mam potrzebne mi oprogrmaowania tj.: `GIT` i `WebStorm`. Co do edytora `WebStorm` to przed zmianą systemu z Windows na Linux, sprawdziałem czy `WebStorm` jest dostępny na Linuxa. I wtedy podjąłem tą decyzję.
 
 Na szczęście nie gram w gry - bo wtedy chyba bez Windowsa by się nie obyło.
