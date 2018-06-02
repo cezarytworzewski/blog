@@ -7,7 +7,7 @@ Ostatnio kupiłem sobie napój firmy `OSHEE`. Spodobał mi się cytat z butelki 
 Brzmi motywujaco i pozytywnie. Na mojej twarzy poczulem zadowolenie ale tylko przez chwile... bo od razu przypomniałem sobie ile to już miesięcy próbuje się tego nauczyć - co mi niestety nie wychodzi. :-(
 
 Mimo tylu porażek i nie powodzeń nie poddaję się!!!
-W najbliższym czasie postanowiłem wzmorzyć naukę programowania. Uściślając, jak wiecie chce zostac `Front-end developerem` dlatego około w połowie czerwca razem z kolegą panuję zacząć kilkudniowe - intensywne szkolenie,
+W najbliższym czasie postanowiłem wzmorzyć naukę programowania. Uściślając, jak wiecie chce zostac `Front-end developerem` dlatego około w połowie czerwca razem z kolegą planuję zacząć kilkudniowe - intensywne szkolenie,
 które przybliży mnie do zostania *ekspertem* `Front-end` lub `JavaScript`.
 
 Sam nie wiem jak to wyjdzie wszystko. Nie wiem czy to zrozumiem - ale się nie poddaję i nie poddam. To jest moje marzenie do którego dążę.
@@ -19,7 +19,7 @@ Dużo osób mówi, że najlepiej uczyć się na błędach. Tylko, że JA nie pot
 
 ![alt text](http://campusnooz.com/cunooz/wp-content/uploads/sites/4/2016/07/dickwad.jpg)
 
-#
+
 Co więcej u mnie ???
 
 Cały czas też chce poznawać lepiej Linuxa, tak żeby pracować na nim.... może do końca życia???
