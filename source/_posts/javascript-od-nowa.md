@@ -10,7 +10,7 @@ Jutro startuję w kursem [JavaScript - od Podstaw](https://eduweb.pl/kursy/javas
 którego autorem jest `Piotr Palarz`. Kurs trwa około 11 godzin, ale dla mnie potrzeba chyba 10 000 godzin na przerobienie.
 Oczywiście żartuję...
 
-Przerobienie kursu nie jest żadnym problemem dla mnie - problemem jest to, żeby go w pełni zrozumienie go.
+Przerobienie kursu nie jest żadnym problemem dla mnie - problemem jest to, żebym go w pełni zrozumiał.
 
 Kiedyś przerabiałem podobne kursy `JavaScript`.
 
@@ -21,7 +21,7 @@ Plan jest taki:
 * na drugim monitorze w tym samym czasie -równolegle koduję; czyli przepisuje kod razem z `Piotr Palarz` :)
 * dane zagadnienie notuję w moim *NOTATNIKU*. Będę notował takie zagadnienia jak co to: `zmienna`, `pętla`, `intrukcja warunkowa`, co to `obiekt` i `metoda`.
 
-Chociaż te terminy przewijają mi się od kilku lat, że wiem co oznaczają, do czego się stoduję. Ale brak mi umiejętności wykorzystania ich w praktyce.
+Chociaż te terminy przewijają mi się od kilku lat, to wiem co oznaczają, do czego się stosuje. Ale brak mi umiejętności wykorzystania ich w praktyce.
 
 
 Więc, jeśli macie jakieś rady, podzielcie się ze mną, jak powinienem podejść do tego tematu!
