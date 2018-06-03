@@ -16,7 +16,7 @@ Kiedyś przerabiałem podobne kursy `JavaScript`.
 
 ![df](https://avatars0.githubusercontent.com/u/30724303?s=400&v=4)
 
-Plan jest taki:
+###### Plan jest taki:
 * oglądam daną lekcję z kursu na jednym monitorze,
 * na drugim monitorze w tym samym czasie -równolegle koduję; czyli przepisuje kod razem z `Piotr Palarz` :)
 * dane zagadnienie notuję w moim *NOTATNIKU*. Będę notował takie zagadnienia jak co to: `zmienna`, `pętla`, `intrukcja warunkowa`, co to `obiekt` i `metoda`.
