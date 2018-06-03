@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://cezarytworzewski.github.io/"/>
-  <updated>2018-06-03T21:23:15.768Z</updated>
+  <updated>2018-06-03T21:28:05.329Z</updated>
   <id>http://cezarytworzewski.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/"/>
     <id>http://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/</id>
     <published>2018-06-02T22:00:00.000Z</published>
-    <updated>2018-06-03T21:23:15.768Z</updated>
+    <updated>2018-06-03T21:28:05.329Z</updated>
     
-    <content type="html"><![CDATA[<p>Otóż, jak wiecie mam cholerny problem ze zrozumieniem… dobra nie będe owijał w bawełne.</p><p>Jutro startuję w kursem <a href="https://eduweb.pl/kursy/javascript/javascript-podstawy.html" target="_blank" rel="noopener">JavaScript - od Podstaw</a> serwisu <a href="http://www.eduweb.pl" target="_blank" rel="noopener">Eduweb.pl</a>,<br>którego autorem jest <code>Piotr Palarz</code>. Kurs trwa około 11 godzin, ale dla mnie potrzeba chyba 10 000 godzin na przerobienie.<br>Oczywiście żartuję…</p><p>Przerobienie kursu nie jest żadnym problemem dla mnie - problemem jest to, żebym go w pełni zrozumiał.</p><p>Kiedyś przerabiałem podobne kursy <code>JavaScript</code>.</p><p><img src="https://avatars0.githubusercontent.com/u/30724303?s=400&amp;v=4" alt="df"></p><p>Plan jest taki:</p><ul><li>oglądam daną lekcję z kursu na jednym monitorze,</li><li>na drugim monitorze w tym samym czasie -równolegle koduję; czyli przepisuje kod razem z <code>Piotr Palarz</code> :)</li><li>dane zagadnienie notuję w moim <em>NOTATNIKU</em>. Będę notował takie zagadnienia jak co to: <code>zmienna</code>, <code>pętla</code>, <code>intrukcja warunkowa</code>, co to <code>obiekt</code> i <code>metoda</code>.</li></ul><p>Chociaż te terminy przewijają mi się od kilku lat, to wiem co oznaczają, do czego się stosuje. Ale brak mi umiejętności wykorzystania ich w praktyce.</p><p>Więc, jeśli macie jakieś rady, podzielcie się ze mną, jak powinienem podejść do tego tematu!</p><p><em>Pozdrowienia dla wojowników <code>Ninja JS</code>!</em></p>]]></content>
+    <content type="html"><![CDATA[<p>Otóż, jak wiecie mam cholerny problem ze zrozumieniem… dobra nie będe owijał w bawełne.</p><p>Jutro startuję w kursem <a href="https://eduweb.pl/kursy/javascript/javascript-podstawy.html" target="_blank" rel="noopener">JavaScript - od Podstaw</a> serwisu <a href="http://www.eduweb.pl" target="_blank" rel="noopener">Eduweb.pl</a>,<br>którego autorem jest <code>Piotr Palarz</code>. Kurs trwa około 11 godzin, ale dla mnie potrzeba chyba 10 000 godzin na przerobienie.<br>Oczywiście żartuję…</p><p>Przerobienie kursu nie jest żadnym problemem dla mnie - problemem jest to, żebym go w pełni zrozumiał.</p><p>Kiedyś przerabiałem podobne kursy <code>JavaScript</code>.</p><p><img src="https://avatars0.githubusercontent.com/u/30724303?s=400&amp;v=4" alt="df"></p><h6 id="Plan-jest-taki"><a href="#Plan-jest-taki" class="headerlink" title="Plan jest taki:"></a>Plan jest taki:</h6><ul><li>oglądam daną lekcję z kursu na jednym monitorze,</li><li>na drugim monitorze w tym samym czasie -równolegle koduję; czyli przepisuje kod razem z <code>Piotr Palarz</code> :)</li><li>dane zagadnienie notuję w moim <em>NOTATNIKU</em>. Będę notował takie zagadnienia jak co to: <code>zmienna</code>, <code>pętla</code>, <code>intrukcja warunkowa</code>, co to <code>obiekt</code> i <code>metoda</code>.</li></ul><p>Chociaż te terminy przewijają mi się od kilku lat, to wiem co oznaczają, do czego się stosuje. Ale brak mi umiejętności wykorzystania ich w praktyce.</p><p>Więc, jeśli macie jakieś rady, podzielcie się ze mną, jak powinienem podejść do tego tematu!</p><p><em>Pozdrowienia dla wojowników <code>Ninja JS</code>!</em></p>]]></content>
     
     <summary type="html">
     
