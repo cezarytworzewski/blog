@@ -25,7 +25,7 @@ Chociaż te terminy przewijają mi się od kilku lat, to wiem co oznaczają, do 
 
 
 Więc, jeśli macie jakieś rady, podzielcie się ze mną, jak powinienem podejść do tego tematu!
-Jutro podzielę się z Wami jak minął mi pierwszy dzień kursu! Opiszę swoje `*porażki*` i `*sukcesy*` z pierwszego dnia!
+Jutro podzielę się z Wami jak minął mi pierwszy dzień kursu! Opiszę swoje *`porażki`* i *`sukcesy`* z pierwszego dnia!
 
 
 *Pozdrowienia dla wojowników `Ninja JS`!*
