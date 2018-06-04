@@ -77,7 +77,7 @@ pagination_dir: page
 theme: clean-blog
 theme_config:
 	menu_title: Home
-	index_cover: /blog/images/front.jpg
+	index_cover: /blog/source/images/front.jpg
 
 
 # Comments
