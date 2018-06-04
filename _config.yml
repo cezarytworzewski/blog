@@ -79,6 +79,13 @@ theme_config:
 	menu_title: Home
 	index_cover: /blog/images/front.jpg
 
+
+# Comments
+disqus_shortname: myshortnamegoeshere
+
+comments: true
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
