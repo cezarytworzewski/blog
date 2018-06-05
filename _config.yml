@@ -76,17 +76,10 @@ pagination_dir: page
 
 theme: clean-blog
 theme_config:
-	menu_title: Home
+	menu_title: Start
 	index_cover: /blog/source/images/front.jpg
 
 
-# Comments
-disqus_shortname: myshortnamegoeshere
-
-comments: true
-
-
-# Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
