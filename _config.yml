@@ -75,9 +75,10 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 
 theme: clean-blog
+
 theme_config:
-	menu_title: Start
-	index_cover: /blog/source/images/front.jpg
+  menu_title: Home
+  index_cover: /blog/images/workflow.jpg
 
 
 ## Docs: https://hexo.io/docs/deployment.html
