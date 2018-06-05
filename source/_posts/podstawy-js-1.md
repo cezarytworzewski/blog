@@ -32,12 +32,12 @@ Patrząć z perspektywy problemu w zrozumieniu i pojęciu JavaScript-u, może ma
 
 
 # JavaScript poza przeglądarką?
-* `nodeJS` (programy napisane w nim to np. `Gulp`, `Grunt`, `Yeoman`
-* `mongoDB` - zapytania w tej bazie wypisujemy za pomocą poleceń JavaScript.
-* `Adobe Photoshop` - oznacza to, że rozszerzenia do programu zostały napisane własnie w JavaScript.
+* `Node.js` (programy napisane w nim to np. `Gulp`, `Grunt`, `Yeoman`
+* `MongoDB` - zapytania w tej bazie wypisujemy za pomocą poleceń JavaScript.
+* `Adobe Photoshop` - oznacza to, że rozszerzenia do programu zostały napisane własnie w JavaScript. Przykładem będzie `plugin` [Piotra Kowalskiego](https://twitter.com/piecioshka) o nazwie [*`Photoshop Plugin Copy Color After Picking`*](https://github.com/piecioshka/photoshop-plugin-copy-color-after-picking)
 
 # Gdzie umieszczać skrypty JavaScript?
-a) możemy jes umieszczać w elemencie `HEAD:
+a) możemy je umieszczać w elemencie `head`:
 ```
 <script>
     alert('Witaj, Cezary!');
@@ -47,14 +47,14 @@ a) możemy jes umieszczać w elemencie `HEAD:
 
 
 
-b) ... albo będziemy umieszczać w dowolnym miejscu w `BODY`, czyli tak zwane podlinkowanie skryptu:
+b) ... albo będziemy umieszczać w dowolnym miejscu w `body`, czyli tak zwane podlinkowanie skryptu:
 
 Podlinkowanie wygląda następująco: `<script src="js/scripts.js"></script>`
 
 * Dobrą praktyką jest umieszczanie skryptow na końcu, najlepiej przed zamykającym znacznikiem `body`, czyli `</body>`
 
 ### Dlaczego?
-Jeśli umieścimy go w `head` to skryptsie wykonana, a póki co strona www nie zostanie wczytana, wykona się później.
+Jeśli umieścimy go w `head` to skrypt sie wykonana, a póki co strona www nie zostanie wczytana, wykona się później. Obejściem na to może być dodanie atrybutu `async`.
 
 
 # No więc czym jest `ZMIENNA`?
@@ -84,7 +84,7 @@ var imie = 'Cezary`,
 
 ### Co mogą przechowywać zmienne?
 * wartości prymitywne (np. ciąg znaków)
-* referencje do obiketów (np. Date)
+* referencje do obiektów (np. Date)
 * referencje do funkcji
 
 
