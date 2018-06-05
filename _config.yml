@@ -3,7 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Disqus
-disqus_shortname: username
+comments: true
+disqus_shortname: Cezary
 
 # Site
 title: Cezary Tworzewski	
