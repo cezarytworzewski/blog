@@ -78,7 +78,7 @@ theme: clean-blog
 
 theme_config:
   menu_title: Home
-  index_cover: /blog/images/workflow.jpg
+  index_cover: /blog/images/front.jpg
 
 
 ## Docs: https://hexo.io/docs/deployment.html
