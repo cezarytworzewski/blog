@@ -211,18 +211,18 @@ Jak wiecie zaczałem naukę ‘czystego’ JavaScript-u. "/>
 <p>Osobiście spotkałem się z innymi opiniami na ten temat. Sporo osób mi mówiło <code>Czarek, zacznij od jQuery</code> inni zaś <code>Czarek, zacznij od czystego JavaScript, bo to podstawa do zrozumienia wszystkich innych framework&#39;ów</code>.</p>
 <p>Przez to wszystko do tej pory mam jeden wielki mętlik…<br>Patrząć z perspektywy problemu w zrozumieniu i pojęciu JavaScript-u, może ma to sens? Jak myslicie? Dajcie znać o swoich opiniach na ten temat! :-)</p>
 <h1 id="JavaScript-poza-przegladarka"><a href="#JavaScript-poza-przegladarka" class="headerlink" title="JavaScript poza przeglądarką?"></a>JavaScript poza przeglądarką?</h1><ul>
-<li><code>nodeJS</code> (programy napisane w nim to np. <code>Gulp</code>, <code>Grunt</code>, <code>Yeoman</code></li>
-<li><code>mongoDB</code> - zapytania w tej bazie wypisujemy za pomocą poleceń JavaScript.</li>
-<li><code>Adobe Photoshop</code> - oznacza to, że rozszerzenia do programu zostały napisane własnie w JavaScript.</li>
+<li><code>Node.js</code> (programy napisane w nim to np. <code>Gulp</code>, <code>Grunt</code>, <code>Yeoman</code></li>
+<li><code>MongoDB</code> - zapytania w tej bazie wypisujemy za pomocą poleceń JavaScript.</li>
+<li><code>Adobe Photoshop</code> - oznacza to, że rozszerzenia do programu zostały napisane własnie w JavaScript. Przykładem będzie <code>plugin</code> <a href="https://twitter.com/piecioshka" target="_blank" rel="noopener">Piotra Kowalskiego</a> o nazwie <a href="https://github.com/piecioshka/photoshop-plugin-copy-color-after-picking" target="_blank" rel="noopener"><em><code>Photoshop Plugin Copy Color After Picking</code></em></a></li>
 </ul>
-<h1 id="Gdzie-umieszczac-skrypty-JavaScript"><a href="#Gdzie-umieszczac-skrypty-JavaScript" class="headerlink" title="Gdzie umieszczać skrypty JavaScript?"></a>Gdzie umieszczać skrypty JavaScript?</h1><p>a) możemy jes umieszczać w elemencie `HEAD:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    alert(&apos;Witaj, Cezary!&apos;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
+<h1 id="Gdzie-umieszczac-skrypty-JavaScript"><a href="#Gdzie-umieszczac-skrypty-JavaScript" class="headerlink" title="Gdzie umieszczać skrypty JavaScript?"></a>Gdzie umieszczać skrypty JavaScript?</h1><p>a) możemy je umieszczać w elemencie <code>head</code>:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    alert(&apos;Witaj, Cezary!&apos;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
 <p> Powyższy sposób nie powinien być praktykowany, ponieważ podczas otwarcia strony internetowej, pierw wczyta nam się skrypt, a nie reszta strony w postaci tekstu, obrazków</p>
-<p>b) … albo będziemy umieszczać w dowolnym miejscu w <code>BODY</code>, czyli tak zwane podlinkowanie skryptu:</p>
+<p>b) … albo będziemy umieszczać w dowolnym miejscu w <code>body</code>, czyli tak zwane podlinkowanie skryptu:</p>
 <p>Podlinkowanie wygląda następująco: <code>&lt;script src=&quot;js/scripts.js&quot;&gt;&lt;/script&gt;</code></p>
 <ul>
 <li>Dobrą praktyką jest umieszczanie skryptow na końcu, najlepiej przed zamykającym znacznikiem <code>body</code>, czyli <code>&lt;/body&gt;</code></li>
 </ul>
-<h3 id="Dlaczego"><a href="#Dlaczego" class="headerlink" title="Dlaczego?"></a>Dlaczego?</h3><p>Jeśli umieścimy go w <code>head</code> to skryptsie wykonana, a póki co strona www nie zostanie wczytana, wykona się później.</p>
+<h3 id="Dlaczego"><a href="#Dlaczego" class="headerlink" title="Dlaczego?"></a>Dlaczego?</h3><p>Jeśli umieścimy go w <code>head</code> to skrypt sie wykonana, a póki co strona www nie zostanie wczytana, wykona się później. Obejściem na to może być dodanie atrybutu <code>async</code>.</p>
 <h1 id="No-wiec-czym-jest-ZMIENNA"><a href="#No-wiec-czym-jest-ZMIENNA" class="headerlink" title="No więc czym jest ZMIENNA?"></a>No więc czym jest <code>ZMIENNA</code>?</h1><ul>
 <li>zmienne są to podstawowe konstrukcje języka JavaScript - to ABSOLUTNA PODSTAWA!!!</li>
 </ul>
@@ -237,7 +237,7 @@ Jak wiecie zaczałem naukę ‘czystego’ JavaScript-u. "/>
 </ul>
 <h3 id="Co-moga-przechowywac-zmienne"><a href="#Co-moga-przechowywac-zmienne" class="headerlink" title="Co mogą przechowywać zmienne?"></a>Co mogą przechowywać zmienne?</h3><ul>
 <li>wartości prymitywne (np. ciąg znaków)</li>
-<li>referencje do obiketów (np. Date)</li>
+<li>referencje do obiektów (np. Date)</li>
 <li>referencje do funkcji</li>
 </ul>
 <p>Ta lekcja minęła dość łatwo, wszystko z niej rozumiem do tej pory. Nie miałem żadnych trudności z poruszanymi zagadnieniami do tej pory. Bardzo możliwie, że dlatego, że nie raz uczyłem się tego - jest to dla mnie zrozumiałe.<br>Te początkowe lekcje chciałbym przerobić w miarę szybko, ale nie za szybko. Nie chciałbym pominąć żadnych ważnych kwestii, które porusza autor kursu.</p>
@@ -265,7 +265,7 @@ Jak wiecie zaczałem naukę ‘czystego’ JavaScript-u. "/>
     <hr />
 
 <script>
-  var disqus_shortname = 'Cezary';
+  var disqus_shortname = 'cezary.tworzewski';
   
   var disqus_url = 'http://cezarytworzewski.github.io/2018/06/05/podstawy-js-1/';
   
