@@ -3,6 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Disqus
+comments: 
 disqus_shortname: cezarytworzewski
 
 # Site
