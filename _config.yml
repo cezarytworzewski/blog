@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Disqus
-disqus_shortname: cezary-tworzewski
+
 
 # Site
 title: Cezary Tworzewski	
@@ -80,6 +80,8 @@ pagination_dir: page
 theme: clean-blog
 
 theme_config:
+  comments:
+     disqus_shortname: cezarytworzewski
   menu_title: Home
   index_cover: /blog/images/front.jpg
 
