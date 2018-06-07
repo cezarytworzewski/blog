@@ -44,7 +44,8 @@ Najpoluparniejszymi źródłami, z którego możemy czerpać wiedzę i możliwo�
 * `rm` - usunięcie pliku lib niepustego katalogu. Aby usunąć katalog wraz z zawartością wywołujmey polecenie `rm` z parametrem `r` --> `rm -r Dokumenty`.
 * `cp` - kopiuje pliki lub katalogi w różne miejsca
 *  `mv` - przeniesienie pliku lub katalogu (wycinanie). Zmienia też nazwę.
-*  
+
+ 
 # KOPIOWANIE
 
 #### Tworzę dwa foldery:
