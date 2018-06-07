@@ -1,4 +1,3 @@
-
 ----
 title: Nauka Linux'a od podstaw (1)
 date: 2018/06/07
