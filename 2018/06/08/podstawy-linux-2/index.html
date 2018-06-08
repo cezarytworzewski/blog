@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="polish">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="W tym artykule opiszę to czego się nauczyłem, czyli: instalacja oprogramowania, dowiązania w Linux, mechanizm CRON
+Warto wspomnieć, że instalować pacz"/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Cezary Tworzewski"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Nauka Linux&#39;a od podstaw (2)"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="W tym artykule opiszę to czego się nauczyłem, czyli: instalacja oprogramowania, dowiązania w Linux, mechanizm CRON
+Warto wspomnieć, że instalować pacz"/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Cezary Tworzewski"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="http://cezarytworzewski.github.io/blog/images/front.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="http://cezarytworzewski.github.io/blog/images/front.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>Nauka Linux&#39;a od podstaw (2) - Cezary Tworzewski</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/blog/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/blog/">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/blog/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/tags">
+                            
+                                Tags
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/categories">
+                            
+                                Categories
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/blog/images/front.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Nauka Linux'a od podstaw (2)</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2018-06-08
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>W tym artykule opiszę to czego się nauczyłem, czyli: <strong>instalacja oprogramowania</strong>, <strong>dowiązania w Linux</strong>, <strong>mechanizm CRON</strong></p>
+<p>Warto wspomnieć, że instalować paczki <strong>rpm</strong> może jedynie użytkownik z uprawnieniami <strong>roota</strong>!!!</p>
+<h1 id="Instalacja-oprogramowania"><a href="#Instalacja-oprogramowania" class="headerlink" title="Instalacja oprogramowania"></a>Instalacja oprogramowania</h1><ol>
+<li>Na podstawie systemu CentOS do instalacji oprogramowania służą nam dwa narzędzia:</li>
+</ol>
+<ul>
+<li>narzędzia automatyczne: <strong>yum</strong></li>
+<li>narzędzia do paczek: <strong>rpm</strong></li>
+</ul>
+<p><strong>Instalacja z paczki wygląda następująco</strong></p>
+<ul>
+<li>musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą systemu</li>
+<li>wydajemu polecenie:<ul>
+<li><code>rpm -i teamviewer_linux.rpm</code> albo lepszym rozwiązaniem będzie:<ul>
+<li><code>rpm -Uvh teamviewer_linux.rpm</code> =&gt; gdzie poszczególne parametry oznaczają:<ul>
+<li><code>U</code> - jest to inaczej polecenie <code>install</code> ale dodatkowo robi nam <code>update</code> naszej paczki</li>
+<li><code>v</code> - wyświetla nam informacje co aktualnie się wykonuje podczas instalacji</li>
+<li><code>h</code> - wyświetla nam procentoway pasek postępu</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Instalacja z narzędziem autoomatycznym:</strong></p>
+<ul>
+<li><code>yum install cups</code> - gdzie <strong>cups</strong> jest to serwer wydruku</li>
+</ul>
+<h1 id="DOWIAZANIA-W-LINUX’ie"><a href="#DOWIAZANIA-W-LINUX’ie" class="headerlink" title="DOWIĄZANIA W LINUX’ie"></a>DOWIĄZANIA W LINUX’ie</h1><ol>
+<li>Wyrożniamy dwa <code>dowiązania</code> w Linux:</li>
+</ol>
+<ul>
+<li><strong>symboliczne</strong></li>
+<li><strong>twarde</strong></li>
+</ul>
+<h5 id="Dowiazanie-symboliczne"><a href="#Dowiazanie-symboliczne" class="headerlink" title="Dowiązanie symboliczne:"></a>Dowiązanie symboliczne:</h5><ul>
+<li>przechodze do katalogu domowego:<br>  <code>cd ~</code></li>
+<li><p>tworzę folder i przechodze do niego:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir linki</span><br><span class="line">cd linki/</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>utworzę sobie plik tekstowy:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim plik.txt</span><br></pre></td></tr></table></figure>
+<p>  uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM znajdziesz [tutaj])(<a href="https://cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/">https://cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/</a>)</p>
+</li>
+<li>sprawdzam zawartość *<em>plik.txt</em>:<br>  <code>cat plik.txt</code></li>
+<li>teraz chce utworzyć <strong>skrót</strong> do pliku o nazwie <strong>plik.txt</strong>:<ul>
+<li>tworzę folder <strong>dowiazania</strong> w lokalizacji <strong>tmp</strong><br><code>`</code><br>mkdir /tmp/dowiazania/<br>cd /tmp/dowiazania/</li>
+</ul>
+</li>
+<li>teraz tworzę dowiązanie do pliku:<br>  <code>ln -s plik.txt /tmp/dowiazania/</code></li>
+<li><p>przechodzę do katalogu <strong>dowiazania</strong>:</p>
+<p>  <code>cd /tmp/dowiazania/</code></p>
+<p>  <code>ls</code> - wyświetlam zawartość folderu <strong>dowiozania</strong></p>
+<p>  <code>ls -l</code></p>
+</li>
+</ul>
+<h5 id="Dowiazania-twarde"><a href="#Dowiazania-twarde" class="headerlink" title="Dowiązania twarde:"></a>Dowiązania twarde:</h5><ul>
+<li><p>jestem w katalogu <strong>linki/</strong><br>  <code>ln plik.txt plik2.txt</code></p>
+<p>  Jeśli w poleceniu <code>ln</code> nie damy parametru to zostanie utworzone dowiązanie twarde</p>
+<p>  <strong>Wyświetlimy sobie katalog:</strong><br>  <code>cd /linki</code></p>
+<p>  <code>ls</code></p>
+<p>  <code>ls -l</code>  parametr <strong>l</strong> wyświetla wszystko - uprawnienia, data, godzina, user. Pierwsza kolumna oznacza uprawnienia do pliku, natomiast druga to cyfra np: <strong>1</strong>, z każdym dowiązaniem twardym liczba będzie rosnąć.</p>
+</li>
+</ul>
+<h1 id="UWAGA"><a href="#UWAGA" class="headerlink" title="!!! UWAGA !!!"></a>!!! UWAGA !!!</h1><ul>
+<li><strong>dowiązanie symboliczne</strong> mogę tworzyć na innych partycjach</li>
+<li>Natomiast <strong>dowiżania twarde</strong> musi znajdować się na partycji, w którym znajduje się oryginalny plik</li>
+</ul>
+<h1 id="MECHANIZM-CRON"><a href="#MECHANIZM-CRON" class="headerlink" title="MECHANIZM CRON"></a>MECHANIZM CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie uautomatycznych logów w systemie.</p>
+<p>Mechanizm CRON posiada <strong>7pozycji:</strong>:</p>
+<p><code>* * * * * root touch /tmp/plik.txt</code></p>
+<p><strong>Co oznaczają poszczególne pozycje:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>Pozycja</strong></th>
+<th style="text-align:center"><strong>Odpowiednik</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">minuta</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">godzina</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">miesiąc</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">dzień miesiąca</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">dzień tygodnia</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">użytkownik</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">zadanie do wykonania</td>
+</tr>
+</tbody>
+</table>
+<p>Mechanizmu CRON używa się do uruchamiania zadań (programów, komend, skryptów) o konkretnej godzinie, dniu…</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>Comments:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2018 Cezary Tworzewski<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'cezarytworzewski';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+
+</html>
