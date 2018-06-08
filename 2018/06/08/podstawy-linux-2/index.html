@@ -207,7 +207,7 @@ Warto wspomnieć, że instalować pacz"/>
 <p><strong>Instalacja z paczki wygląda następująco</strong></p>
 <ul>
 <li>musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą systemu</li>
-<li>wydajemu polecenie:<ul>
+<li>wydajemy polecenie:<ul>
 <li><code>rpm -i teamviewer_linux.rpm</code> albo lepszym rozwiązaniem będzie:<ul>
 <li><code>rpm -Uvh teamviewer_linux.rpm</code> =&gt; gdzie poszczególne parametry oznaczają:<ul>
 <li><code>U</code> - jest to inaczej polecenie <code>install</code> ale dodatkowo robi nam <code>update</code> naszej paczki</li>
@@ -238,14 +238,17 @@ Warto wspomnieć, że instalować pacz"/>
 </li>
 <li><p>utworzę sobie plik tekstowy:</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim plik.txt</span><br></pre></td></tr></table></figure>
-<p>  uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM znajdziesz [tutaj])(<a href="https://cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/">https://cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/</a>)</p>
+<p>  uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM znajdziesz <a href="https://www.cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/" target="_blank" rel="noopener">tutaj</a></p>
 </li>
-<li>sprawdzam zawartość *<em>plik.txt</em>:<br>  <code>cat plik.txt</code></li>
-<li>teraz chce utworzyć <strong>skrót</strong> do pliku o nazwie <strong>plik.txt</strong>:<ul>
-<li>tworzę folder <strong>dowiazania</strong> w lokalizacji <strong>tmp</strong><br><code>`</code><br>mkdir /tmp/dowiazania/<br>cd /tmp/dowiazania/</li>
+<li>sprawdzam zawartość <strong>plik.txt</strong>:<br>  <code>cat plik.txt</code></li>
+<li><p>teraz chce utworzyć <strong>skrót</strong> do pliku o nazwie <strong>plik.txt</strong>:</p>
+<ul>
+<li>tworzę folder <strong>dowiazania</strong> w lokalizacji <strong>tmp</strong><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /tmp/dowiazania/</span><br><span class="line">cd /tmp/dowiazania/</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 </li>
-<li>teraz tworzę dowiązanie do pliku:<br>  <code>ln -s plik.txt /tmp/dowiazania/</code></li>
+<li><p>teraz tworzę dowiązanie do pliku:<br>  <code>ln -s plik.txt /tmp/dowiazania/</code> - parametr <strong>s</strong> oznacza, że symboliczne</p>
+</li>
 <li><p>przechodzę do katalogu <strong>dowiazania</strong>:</p>
 <p>  <code>cd /tmp/dowiazania/</code></p>
 <p>  <code>ls</code> - wyświetlam zawartość folderu <strong>dowiozania</strong></p>
@@ -262,10 +265,10 @@ Warto wspomnieć, że instalować pacz"/>
 </ul>
 <h1 id="UWAGA"><a href="#UWAGA" class="headerlink" title="!!! UWAGA !!!"></a>!!! UWAGA !!!</h1><ul>
 <li><strong>dowiązanie symboliczne</strong> mogę tworzyć na innych partycjach</li>
-<li>Natomiast <strong>dowiżania twarde</strong> musi znajdować się na partycji, w którym znajduje się oryginalny plik</li>
+<li>Natomiast <strong>dowiąznia twarde</strong> musi znajdować się na partycji, w którym znajduje się oryginalny plik</li>
 </ul>
-<h1 id="MECHANIZM-CRON"><a href="#MECHANIZM-CRON" class="headerlink" title="MECHANIZM CRON"></a>MECHANIZM CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie uautomatycznych logów w systemie.</p>
-<p>Mechanizm CRON posiada <strong>7pozycji:</strong>:</p>
+<h1 id="MECHANIZM-CRON"><a href="#MECHANIZM-CRON" class="headerlink" title="MECHANIZM CRON"></a>MECHANIZM CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie automatycznych logów w systemie.</p>
+<p>Mechanizm CRON posiada <strong>7 pozycji:</strong>:</p>
 <p><code>* * * * * root touch /tmp/plik.txt</code></p>
 <p><strong>Co oznaczają poszczególne pozycje:</strong></p>
 <table>
