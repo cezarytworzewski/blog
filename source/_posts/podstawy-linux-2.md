@@ -14,7 +14,7 @@ Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z upr
 
 **Instalacja z paczki wygląda następująco**
 * musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą systemu
-* wydajemu polecenie:
+* wydajemy polecenie:
   * `rpm -i teamviewer_linux.rpm` albo lepszym rozwiązaniem będzie:
     * `rpm -Uvh teamviewer_linux.rpm` => gdzie poszczególne parametry oznaczają:
         - `U` - jest to inaczej polecenie `install` ale dodatkowo robi nam `update` naszej paczki
@@ -43,16 +43,17 @@ Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z upr
     ```
     vim plik.txt
     ```
-    uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM znajdziesz [tutaj])(https://cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/)
-* sprawdzam zawartość **plik.txt*:
+    uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM znajdziesz [tutaj](https://www.cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/)
+* sprawdzam zawartość **plik.txt**:
     `cat plik.txt`
 * teraz chce utworzyć **skrót** do pliku o nazwie **plik.txt**:
     * tworzę folder **dowiazania** w lokalizacji **tmp**
     ```
     mkdir /tmp/dowiazania/
     cd /tmp/dowiazania/
+    ```
 * teraz tworzę dowiązanie do pliku:
-    `ln -s plik.txt /tmp/dowiazania/`
+    `ln -s plik.txt /tmp/dowiazania/` - parametr **s** oznacza, że symboliczne
 * przechodzę do katalogu **dowiazania**:
 
     `cd /tmp/dowiazania/`
@@ -78,14 +79,14 @@ Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z upr
 # !!! UWAGA !!!
 
 * **dowiązanie symboliczne** mogę tworzyć na innych partycjach
-* Natomiast **dowiżania twarde** musi znajdować się na partycji, w którym znajduje się oryginalny plik
+* Natomiast **dowiąznia twarde** musi znajdować się na partycji, w którym znajduje się oryginalny plik
 
 
 # MECHANIZM CRON
 
-**Mechanizm CRON** jest to odpowienik **Menadżera zadań** w **Windows**. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie uautomatycznych logów w systemie.
+**Mechanizm CRON** jest to odpowienik **Menadżera zadań** w **Windows**. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie automatycznych logów w systemie.
 
-Mechanizm CRON posiada **7pozycji:**:
+Mechanizm CRON posiada **7 pozycji:**:
 
 `* * * * * root touch /tmp/plik.txt`
 
@@ -103,3 +104,5 @@ Mechanizm CRON posiada **7pozycji:**:
 
 
 Mechanizmu CRON używa się do uruchamiania zadań (programów, komend, skryptów) o konkretnej godzinie, dniu...
+
+
