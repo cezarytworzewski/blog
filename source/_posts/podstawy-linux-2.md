@@ -26,12 +26,12 @@ Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z upr
 * `yum install cups` - gdzie **cups** jest to serwer wydruku
 
 
-# DOWIĄZANIA W LINUX'ie
+# Dowiązania w Linux'ie
 1. Wyrożniamy dwa `dowiązania` w Linux:
 * **symboliczne**
 * **twarde**
 
-##### Dowiązanie symboliczne:
+#### Dowiązanie symboliczne:
 * przechodze do katalogu domowego:
     `cd ~`
 * tworzę folder i przechodze do niego:
@@ -62,7 +62,7 @@ Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z upr
 
     `ls -l`
 
-##### Dowiązania twarde:
+#### Dowiązania twarde:
 * jestem w katalogu **linki/**
     `ln plik.txt plik2.txt`
 
@@ -82,7 +82,7 @@ Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z upr
 * Natomiast **dowiąznia twarde** musi znajdować się na partycji, w którym znajduje się oryginalny plik
 
 
-# MECHANIZM CRON
+# Mechanizm CRON
 
 **Mechanizm CRON** jest to odpowienik **Menadżera zadań** w **Windows**. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie automatycznych logów w systemie.
 
