@@ -224,14 +224,14 @@ Warto wspomnieć, że instalować pacz"/>
 <ul>
 <li><code>yum install cups</code> - gdzie <strong>cups</strong> jest to serwer wydruku</li>
 </ul>
-<h1 id="DOWIAZANIA-W-LINUX’ie"><a href="#DOWIAZANIA-W-LINUX’ie" class="headerlink" title="DOWIĄZANIA W LINUX’ie"></a>DOWIĄZANIA W LINUX’ie</h1><ol>
+<h1 id="Dowiazania-w-Linux’ie"><a href="#Dowiazania-w-Linux’ie" class="headerlink" title="Dowiązania w Linux’ie"></a>Dowiązania w Linux’ie</h1><ol>
 <li>Wyrożniamy dwa <code>dowiązania</code> w Linux:</li>
 </ol>
 <ul>
 <li><strong>symboliczne</strong></li>
 <li><strong>twarde</strong></li>
 </ul>
-<h5 id="Dowiazanie-symboliczne"><a href="#Dowiazanie-symboliczne" class="headerlink" title="Dowiązanie symboliczne:"></a>Dowiązanie symboliczne:</h5><ul>
+<h4 id="Dowiazanie-symboliczne"><a href="#Dowiazanie-symboliczne" class="headerlink" title="Dowiązanie symboliczne:"></a>Dowiązanie symboliczne:</h4><ul>
 <li>przechodze do katalogu domowego:<br>  <code>cd ~</code></li>
 <li><p>tworzę folder i przechodze do niego:</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir linki</span><br><span class="line">cd linki/</span><br></pre></td></tr></table></figure>
@@ -255,7 +255,7 @@ Warto wspomnieć, że instalować pacz"/>
 <p>  <code>ls -l</code></p>
 </li>
 </ul>
-<h5 id="Dowiazania-twarde"><a href="#Dowiazania-twarde" class="headerlink" title="Dowiązania twarde:"></a>Dowiązania twarde:</h5><ul>
+<h4 id="Dowiazania-twarde"><a href="#Dowiazania-twarde" class="headerlink" title="Dowiązania twarde:"></a>Dowiązania twarde:</h4><ul>
 <li><p>jestem w katalogu <strong>linki/</strong><br>  <code>ln plik.txt plik2.txt</code></p>
 <p>  Jeśli w poleceniu <code>ln</code> nie damy parametru to zostanie utworzone dowiązanie twarde</p>
 <p>  <strong>Wyświetlimy sobie katalog:</strong><br>  <code>cd /linki</code></p>
@@ -267,7 +267,7 @@ Warto wspomnieć, że instalować pacz"/>
 <li><strong>dowiązanie symboliczne</strong> mogę tworzyć na innych partycjach</li>
 <li>Natomiast <strong>dowiąznia twarde</strong> musi znajdować się na partycji, w którym znajduje się oryginalny plik</li>
 </ul>
-<h1 id="MECHANIZM-CRON"><a href="#MECHANIZM-CRON" class="headerlink" title="MECHANIZM CRON"></a>MECHANIZM CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie automatycznych logów w systemie.</p>
+<h1 id="Mechanizm-CRON"><a href="#Mechanizm-CRON" class="headerlink" title="Mechanizm CRON"></a>Mechanizm CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie automatycznych logów w systemie.</p>
 <p>Mechanizm CRON posiada <strong>7 pozycji:</strong>:</p>
 <p><code>* * * * * root touch /tmp/plik.txt</code></p>
 <p><strong>Co oznaczają poszczególne pozycje:</strong></p>
