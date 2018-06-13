@@ -57,7 +57,7 @@ bookTitle // wywołuję sobie zmienną
 
 
 # Liczbowy typ danych `Number`.
-**Number** to liczbowy typ danych, dzięki nim możemy przechowywac liczby, wartości liczbowe, liczby całkowite czy wartości zmiennoprzecinkowe. Zapisujemy je troszkę inaczej niż `String` tzn. zapisujemy je bez użycia cudzysłowów.
+**Number** to liczbowy typ danych, dzięki nim możemy przechowywać liczby, wartości liczbowe, liczby całkowite czy wartości zmiennoprzecinkowe. Zapisujemy je troszkę inaczej niż `String` tzn. zapisujemy je bez użycia cudzysłowów.
 - liczba całkowita:
     ```
     let number = 20;
@@ -93,8 +93,8 @@ if(isLoggedIn) {
 }
 ```
 
-to jest bardzo istotna linia: `if(isLoggedIn)` w środku nawiasu **zawsze** jest prawda. To nie musi być zmienna `isLoggedIn`, może to byc dowolna inna zmienna.
-Zgodnie z wartością zmiennej `isLoggedIn` zmienna tak ma wartość `true`, póżniej w **instrukcji warunkowej** sprawdzam czy `isLogged` jest prawdziwe. Jesli prawdziwe to wykonam kod `console.log('Zalogowano');`
+to jest bardzo istotna linia: `if(isLoggedIn)` w środku nawiasu **zawsze** jest prawda. To nie musi być zmienna `isLoggedIn`, może to być dowolna inna zmienna.
+Zgodnie z wartością zmiennej `isLoggedIn` zmienna ta ma wartość `true`, póżniej w **instrukcji warunkowej** sprawdzam czy `isLoggedIn` jest prawdziwe. Jeśli prawdziwe to wykonam kod `console.log('Zalogowano');`
 
 #### Wartości fałszywe to:
 
@@ -130,7 +130,7 @@ Jedno `undefined` posiada cydzysłowy a drugie nie w powyższym opisie. Musimy p
 
 
 Jeśli utworzymy zmienną, ale nie przypiszemy do niej żadnej wartości, to ma ona wartość `undefined`:
-* `let yourName;` - wartośc zmiennej to *`undefined`*
+* `let yourName;` - wartość zmiennej to *`undefined`*
 
 
 Jeśli, chcemy **z góry**, aby zadeklarowana zmienna miała wartośc pustą to przypiszemy do niej wartość **null**:
@@ -147,7 +147,7 @@ Sprawdźmy jedną rzecz:
 
 Dlaczego tak jest???
 
-`Ponieważ próbujemy się odwołać do czegoś, czego nie ma. W tym wypadku próbujemy sie odwołać do właściwości **name** obiektu **person**`
+`Ponieważ próbujemy się odwołać do czegoś, czego nie ma. W tym wypadku próbujemy sie odwołać do właściwości name obiektu person`
 
 Jeśli chcem, aby ta właściwość była pusta to możemy zrobić to tak:
 ```
@@ -158,13 +158,13 @@ let person = {
 
 Teraz `typeof person.name` będzie miał wartość `object`.
 
-Jesli wynikiem kiedyś będzie `null`, to muszę pamiętać, że zmienna została już zadeklarowana, ale nic nie zostało do niej pzypisane. Przy `undefined` wartość nigdy nie została ustawiona.
+Jeśli wynikiem kiedyś będzie `null`, to muszę pamiętać, że zmienna została już zadeklarowana, ale nic nie zostało do niej pzypisane. Przy `undefined` wartość nigdy nie została ustawiona.
 
 
 ##### Podsumowując
 
 Lekcja ta, też nie była dla mnie skomplikowana. Wydaje mi się, że rozumiem o co w niej chodzi. Wykonałem parę ćwiczeń wraz z **Piotr Palarz** i jestem zadowolony :-)
 
-Jeżeli popełniłem jakieś błędy w opisie lekcji, albo uważacie, że nie bardoz jednak to rozumie, to proszę  dajcie znam w komantarzach!
+Jeżeli popełniłem jakieś błędy w opisie lekcji, albo uważacie, że nie bardzo jednak to rozumiem, to proszę  dajcie znać w komentarzach!
 
 ***Pozdrawiam! :-)***
