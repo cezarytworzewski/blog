@@ -54,7 +54,7 @@ W pliku np. `style/main.css` odwołujemy się do reguły `background-image` po t
 
 ### Wszystko ładnie, pięknie - ale kiedy stosować jedno albo drugie?
 
-Podchodząc do tworzenia projektu trzeba najpierw się zastanowić nad tym, czy dae tło ma być takie samo na wszystkich podstronach czy nie. **Musimy wiedzieć dlaczego chcemy użyć tej właściwości**
+Podchodząc do tworzenia projektu trzeba najpierw się zastanowić nad tym, czy dane tło ma być takie samo na wszystkich podstronach czy nie. **Musimy wiedzieć dlaczego chcemy użyć tej właściwości**
 
 Jeśli dodamy plik za pomocą `CSS` to muszę pamiętać, że:
 * będę mógł zmienić tryb wyświetlania w `background-image`, czyli ustawić `position` albo `repeat` || `no-repat`
