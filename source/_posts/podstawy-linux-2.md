@@ -7,7 +7,7 @@ W tym artykule opiszę to czego się nauczyłem, czyli:
 **instalacja oprogramowania**, **dowiązania w Linux**, **mechanizm CRON**
 
 Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z
-uprawnieniami **roota**!!!
+uprawnieniami **roota**!
 
 ## Instalacja oprogramowania
 

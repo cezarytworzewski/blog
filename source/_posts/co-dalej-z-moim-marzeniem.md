@@ -10,7 +10,7 @@ Brzmi motywujaco i pozytywnie. Na mojej twarzy poczulem zadowolenie ale
 tylko przez chwile... bo od razu przypomniałem sobie ile to już miesięcy
 próbuje się tego nauczyć - co mi niestety nie wychodzi. :-(
 
-Mimo tylu porażek i nie powodzeń nie poddaję się!!!
+Mimo tylu porażek i niepowodzeń nie poddaję się!
 W najbliższym czasie postanowiłem wzmorzyć naukę programowania.
 Uściślając, jak wiecie chce zostac `Front-end developerem` dlatego około
 w połowie czerwca razem z kolegą panuję zacząć kilkudniowe - intensywne

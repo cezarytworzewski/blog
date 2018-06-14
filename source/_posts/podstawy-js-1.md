@@ -139,4 +139,4 @@ tematem. Szukam jakiegoś ratunku już dla siebie.
 
 Wiem jedno - muszę baaaardzo dużo pracować / uczyć się!
 
-Blogowanie dopiero zaczynam więc... bardzo dziękuje za doczytanie mnie do końca!!!
+Blogowanie dopiero zaczynam więc... bardzo dziękuje za doczytanie mnie do końca!

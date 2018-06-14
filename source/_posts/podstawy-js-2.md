@@ -140,7 +140,7 @@ Przykład:
 
 ## null vs. undefined
 
-Są to wartości fałszywe!!! - ale nie oto teraz chodzi.
+Są to wartości fałszywe! - ale nie oto teraz chodzi.
 
 `let yourName;` Sprawdzam swoją zmienną za pomocą `typeof`, czyli
 `typeof yourName`. Wynikiem jest `"undefined"`. Jeśli się dwołamy
