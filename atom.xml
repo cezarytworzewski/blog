@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://cezarytworzewski.github.io/"/>
-  <updated>2018-06-14T18:11:55.484Z</updated>
+  <updated>2018-06-14T18:14:47.908Z</updated>
   <id>https://cezarytworzewski.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux vs. Windows dla Front-end&#39;owca?</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/14/linux-vs-windows/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/14/linux-vs-windows/</id>
+    <published>2018-06-14T18:14:47.912Z</published>
+    <updated>2018-06-14T18:14:47.908Z</updated>
+    
+    <content type="html"><![CDATA[<p>Około 3 tyogodnie temu zdecydowałem. To już KONIEC. Tak, koniec, ale<br>pracy na Windows’ie. Zainstaowałem <code>Ubuntu</code>. System, który moim zdaniem<br>każdy specjalista z branży IT powinien znać.<br>Więc zaczynam programować na <code>Linux&#39;ie</code>. Poznaje jego mechanizmy,<br>instalacje programów z <code>paczek</code> i <code>repozytoriów</code>. Dodawanie użytkowników,<br>zmiana haseł, nadawanie uprawnień <code>chmod</code>. Albo jak wyszukiwać pliki lub<br>foldery za pomocą polecenia <code>find</code>.</p><p>Wszystko staram się robić za pomocą <code>TERMINALA</code>. </p><p>W terminalu oczywiście pracuję z <code>Git&#39;em</code> - gdzie jest to niezbędnik<br>każdego programisty <code>Front-end</code> i <code>Back-end</code> Zacząłem pracować z edytorem<br><code>VIM</code> - który około 3 miesiące wcześniej chwilkę pracowałem na Windows -<br>było to zupełnie dla mnie nie zrozumiałe. Teraz jest mały progress.<br>Ogólnie jest mi trochę cięzko jeszcze pracować na Linux’ie, bo całe życie<br>pracowałem na systemie z rodziny <code>Windows</code>.<br>W porównaniu z <code>Windows&#39;em</code> zauważyłem, że moje <code>Ubuntu</code> uruchamia się<br>zdecydowanie szybciej. Na pewno plusem jest, że posiadam dysk SSD.</p><p>Jak na razie myslę, że największa trudność sprawia mi nadawanie wyżej<br>wspomnianych uprawnień <code>chmod</code>. Nauczyłem się na razie podstaw<br>programowania w <code>BASH</code>. Niestety nauka w tym idzie mi kiepsko - jak całe<br>programowanie dotychczas.</p><p>Na systemie Ubuntu mam zainstalowanego <code>VirtualBox&#39;a</code>, a na nim inna<br>dystrybucja <code>CentOS v6.9</code>, gdzie na niej też w wolnych chwilach pogłębiam<br>swoją wiedzę.</p><p>Ostatnio uczyłem się z pomocą <code>CentOS</code> co to jest <code>macierz RAID</code>.<br>Mimo, że skończyłem Informatykę, to teraz zrozumiałem co to jest, po co<br>się stosuje i jaka jest różnica pomięddzy <code>RAID 0</code> i <code>RAID 1</code>. Ogólnie<br>proces tworzenia macierzy jest dla mnie zrozumiały z pomocą <code>VirtualBox</code>.<br>Nie wiem jakby to było jakbym musiał na prawdę zrobić je fizycznie.<br>Może kiedyś to zrobie.</p><p>Oczywiście na Ubuntu mam potrzebne mi oprogrmaowania tj.: <code>Git</code> i<br><code>WebStorm</code>. Co do edytora <code>WebStorm</code> to przed zmianą systemu z Windows<br>na Linux. Sprawdziałem czy <code>WebStorm</code> jest dostępny na Linuxa. I wtedy<br>podjąłem tą decyzję.</p><p>Na szczęście nie gram w gry - bo wtedy chyba bez Windowsa by się nie obyło.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Około 3 tyogodnie temu zdecydowałem. To już KONIEC. Tak, koniec, ale&lt;br&gt;pracy na Windows’ie. Zainstaowałem &lt;code&gt;Ubuntu&lt;/code&gt;. System, k
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Kim jestem? O czym będzie mój blog?</title>
@@ -180,27 +201,6 @@
       
       
         &lt;p&gt;Ostatnio kupiłem sobie napój firmy &lt;code&gt;OSHEE&lt;/code&gt;. Spodobał mi się cytat z&lt;br&gt;butelki &lt;em&gt;Ograniczenia istnieją tylko w głowie&lt;/em&gt;. 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Linux vs. Windows dla Front-end&#39;owca?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/</id>
-    <published>2018-05-31T22:01:59.820Z</published>
-    <updated>2018-05-31T22:01:59.816Z</updated>
-    
-    <content type="html"><![CDATA[<p>Około 3 tyogodnie temu zdecydowałem. To już KONIEC. Tak, koniec, ale pracy na Windows’ie. Zainstaowałem <code>Ubuntu</code>. System, który moim zdaniem każdy specjalista z branży IT powinien znać.<br>Więc zaczynam programować na <code>Linux&#39;ie</code>. Poznaje jego mechanizmy, instalacje programów z <code>paczek</code> i <code>repozytoriów</code>. Dodawanie użytkowników, zmiana haseł, nadawanie uprawnień <code>chmod</code>. Albo jak wyszukiwać pliki lub foldery za pomocą polecenia <code>find</code>.</p><p>Wszystko staram się robić za pomocą <code>TERMINALA</code>. </p><p>W terminalu oczywiście pracuję z <code>Git&#39;em</code> - gdzie jest to niezbędnik każdego programisty <code>Front-end</code> i <code>Back-end</code> Zacząłem pracować z edytorem <code>VIM</code> - który około 3 miesiące wcześniej chwilkę pracowałem na Windows - było to zupełnie dla mnie nie zrozumiałe. Teraz jest mały progress. Ogólnie jest mi trochę cięzko jeszcze pracować na Linux’ie, bo całe życie pracowałem na systemie z rodziny <code>Windows</code>.<br>W porównaniu z <code>Windows&#39;em</code> zauważyłem, że moje <code>Ubuntu</code> uruchamia się zdecydowanie szybciej. Na pewno plusem jest, że posiadam dysk SSD.</p><p>Jak na razie myslę, że największa trudność sprawia mi nadawanie wyżej wspomnianych uprawnień <code>chmod</code>. Nauczyłem się na razie podstaw programowania w <code>BASH</code>. Niestety nauka w tym idzie mi kiepsko - jak całe programowanie dotychczas.</p><p>Na systemie Ubuntu mam zainstalowanego <code>VirtualBox&#39;a</code>, a na nim inna dystrybucja <code>CentOS v6.9</code>, gdzie na niej też w wolnych chwilach pogłębiam swoją wiedzę.<br>Ostatnio uczyłem się z pomocą <code>CentOS</code> co to jest <code>macierz RAID</code>. Mimo, że skończyłem Informatykę, to teraz zrozumiałem co to jest, po co się stosuje i jaka jest różnica pomięddzy <code>RAID 0</code> i <code>RAID 1</code>. Ogólnie proces tworzenia macierzy jest dla mnie zrozumiały z pomocą <code>VirtualBox</code>. Nie wiem jakby to było jakbym musiał na prawdę zrobić je fizycznie. Może kiedyś to zrobie.</p><p>Oczywiście na Ubuntu mam potrzebne mi oprogrmaowania tj.: <code>Git</code> i <code>WebStorm</code>. Co do edytora <code>WebStorm</code> to przed zmianą systemu z Windows na Linux. Sprawdziałem czy <code>WebStorm</code> jest dostępny na Linuxa. I wtedy podjąłem tą decyzję.</p><p>Na szczęście nie gram w gry - bo wtedy chyba bez Windowsa by się nie obyło.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Około 3 tyogodnie temu zdecydowałem. To już KONIEC. Tak, koniec, ale pracy na Windows’ie. Zainstaowałem &lt;code&gt;Ubuntu&lt;/code&gt;. System, któr
       
     
     </summary>
