@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://cezarytworzewski.github.io/"/>
-  <updated>2018-06-14T18:17:21.036Z</updated>
+  <updated>2018-06-14T19:46:22.977Z</updated>
   <id>https://cezarytworzewski.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kim jestem? O czym będzie mój blog?</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/14/omnie/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/14/omnie/</id>
+    <published>2018-06-14T19:46:22.981Z</published>
+    <updated>2018-06-14T19:46:22.977Z</updated>
+    
+    <content type="html"><![CDATA[<p>Witam wszystkich <code>FRONT-ów</code> :-)<br>Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),<br>ale obecnie mieszkam w Kielcach. Z zawodu? To skomplikowane.<br>Ukończyłem studia inżynierskie na kierunku INFORMATYKA na UJK Kielce.<br>Natomiast pracuję jako ratownik wodny na jednym z Kieleckich basenów.<br>Chce zostać PROGRAMISTĄ, a dokładniej FRONT-END DEVELOPEREM. Miewam<br>mnóstwo porażek w zdobywaniu odpowiednich szczebli w tej dziedzinie,<br>ale się nie poddaję.</p><p>Moją <code>piętą Achillesową</code> jest zdecydowanie <code>must have</code> każdego<br>programisty, czyli <code>JavaScript</code>. Wierzę, a raczej jestem pewny, że<br>prędzej czy później uda mi się osiągnąć mój cel.</p><p>Na stworzenie bloga, namówił mnie kolega - programista Piotr Kowalski <a href="https://piecioshka.pl/" target="_blank" rel="noopener">https://piecioshka.pl/</a></p><h2 id="Ten-blog-powstal-chyba-dopiero-za-4-krotnym-konfigurowaniu-HEXO"><a href="#Ten-blog-powstal-chyba-dopiero-za-4-krotnym-konfigurowaniu-HEXO" class="headerlink" title="Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu HEXO."></a>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu HEXO.</h2><p><em>Do zobaczenia</em></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Witam wszystkich &lt;code&gt;FRONT-ów&lt;/code&gt; :-)&lt;br&gt;Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),&lt;br&gt;ale obecnie
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Linux vs. Windows dla Front-end&#39;owca?</title>
@@ -30,27 +51,6 @@
       
       
         &lt;p&gt;Około 3 tyogodnie temu zdecydowałem. To już KONIEC. Tak, koniec, ale&lt;br&gt;pracy na Windows’ie. Zainstaowałem &lt;code&gt;Ubuntu&lt;/code&gt;. System, k
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Kim jestem? O czym będzie mój blog?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/14/omnie/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/14/omnie/</id>
-    <published>2018-06-14T18:11:55.488Z</published>
-    <updated>2018-06-14T18:11:55.484Z</updated>
-    
-    <content type="html"><![CDATA[<p>Witam wszystkich <code>FRONT-ów</code>!!!<br>Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),<br>ale obecnie mieszkam w Kielcach. Z zawodu? To skomplikowane.<br>Ukończyłem studia inżynierskie na kierunku INFORMATYKA na UJK Kielce.<br>Natomiast pracuję jako ratownik wodny na jednym z Kieleckich basenów.<br>Chce zostać PROGRAMISTĄ, a dokładniej FRONT-END DEVELOPEREM. Miejwam<br>mnóstwo porażek w zdobywaniu odpowiednich szczebli w tej dziedzinie,<br>ale się nie poddaję.<br>Moją <code>piętą Achillesową</code> jest zdecydowanie <code>must have</code> każdego<br>programisty, czyli <code>JavaScript</code>. Wierzę, a raczej jestem pewny, że<br>prędziej czy później uda mi się osiągnąć mój cel.<br>Na stworzenie bloga, namówił mnie kolega - programista Piotr Kowalski <a href="https://piecioshka.pl/" target="_blank" rel="noopener">https://piecioshka.pl/</a></p><h2 id="Ten-blog-powstal-chyba-dopiero-za-4-krotnym-konfigurowaniu-wdrazaniu-go"><a href="#Ten-blog-powstal-chyba-dopiero-za-4-krotnym-konfigurowaniu-wdrazaniu-go" class="headerlink" title="Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu, wdrażaniu go."></a>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu, wdrażaniu go.</h2><p>###s Do zobaczenia!</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Witam wszystkich &lt;code&gt;FRONT-ów&lt;/code&gt;!!!&lt;br&gt;Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),&lt;br&gt;ale obecnie 
       
     
     </summary>
@@ -106,7 +106,7 @@
     <link href="https://cezarytworzewski.github.io/2018/06/08/podstawy-linux-2/"/>
     <id>https://cezarytworzewski.github.io/2018/06/08/podstawy-linux-2/</id>
     <published>2018-06-07T22:00:00.000Z</published>
-    <updated>2018-06-14T18:25:14.333Z</updated>
+    <updated>2018-06-14T18:33:01.337Z</updated>
     
     <content type="html"><![CDATA[<p>W tym artykule opiszę to czego się nauczyłem, czyli:<br><strong>instalacja oprogramowania</strong>, <strong>dowiązania w Linux</strong>, <strong>mechanizm CRON</strong></p><p>Warto wspomnieć, że instalować paczki <strong>rpm</strong> może jedynie użytkownik z<br>uprawnieniami <strong>roota</strong>!!!</p><h2 id="Instalacja-oprogramowania"><a href="#Instalacja-oprogramowania" class="headerlink" title="Instalacja oprogramowania"></a>Instalacja oprogramowania</h2><ol><li>Na podstawie systemu CentOS do instalacji oprogramowania służą nam<br> dwa narzędzia:</li></ol><ul><li>narzędzia automatyczne: <strong>yum</strong></li><li>narzędzia do paczek: <strong>rpm</strong></li></ul><p><strong>Instalacja z paczki wygląda następująco</strong></p><ul><li>musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą<br>  systemu</li><li>wydajemy polecenie:<ul><li><code>rpm -i teamviewer_linux.rpm</code> albo lepszym rozwiązaniem będzie:<ul><li><code>rpm -Uvh teamviewer_linux.rpm</code> =&gt; gdzie poszczególne parametry<br>  oznaczają:<pre><code>- `U` - jest to inaczej polecenie `install` ale dodatkowo    robi nam `update` naszej paczki- `v` - wyświetla nam informacje co aktualnie się wykonuje    podczas instalacji- `h` - wyświetla nam procentoway pasek postępu</code></pre></li></ul></li></ul></li></ul><p><strong>Instalacja z narzędziem autoomatycznym:</strong><br><code>yum install cups</code> - gdzie <strong>cups</strong> jest to serwer wydruku</p><h2 id="Dowiazania-w-Linux’ie"><a href="#Dowiazania-w-Linux’ie" class="headerlink" title="Dowiązania w Linux’ie"></a>Dowiązania w Linux’ie</h2><ol><li>Wyrożniamy dwa <code>dowiązania</code> w Linux:</li></ol><ul><li><strong>symboliczne</strong></li><li><strong>twarde</strong></li></ul><h3 id="Dowiazanie-symboliczne"><a href="#Dowiazanie-symboliczne" class="headerlink" title="Dowiązanie symboliczne:"></a>Dowiązanie symboliczne:</h3><ul><li>przechodze do katalogu domowego:<br>  <code>cd ~</code></li><li><p>tworzę folder i przechodze do niego:</p>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir linki</span><br><span class="line">cd linki/</span><br></pre></td></tr></table></figure></li><li><p>utworzę sobie plik tekstowy:</p>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim plik.txt</span><br></pre></td></tr></table></figure><p>  uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM<br>  znajdziesz <a href="https://www.cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/" target="_blank" rel="noopener">tutaj</a></p></li><li>sprawdzam zawartość <strong>plik.txt</strong>:<br>  <code>cat plik.txt</code></li><li><p>teraz chce utworzyć <strong>skrót</strong> do pliku o nazwie <strong>plik.txt</strong>:</p><ul><li><p>tworzę folder <strong>dowiazania</strong> w lokalizacji <strong>tmp</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /tmp/dowiazania/</span><br><span class="line">cd /tmp/dowiazania/</span><br></pre></td></tr></table></figure></li></ul></li><li><p>teraz tworzę dowiązanie do pliku:<br>  <code>ln -s plik.txt /tmp/dowiazania/</code> - parametr <strong>s</strong> oznacza, że symboliczne</p></li><li>przechodzę do katalogu <strong>dowiazania</strong>:<br>  <code>cd /tmp/dowiazania/</code><br>  <code>ls</code> - wyświetlam zawartość folderu <strong>dowiozania</strong><br>  <code>ls -l</code></li></ul><h3 id="Dowiazania-twarde"><a href="#Dowiazania-twarde" class="headerlink" title="Dowiązania twarde:"></a>Dowiązania twarde:</h3><ul><li><p>jestem w katalogu <strong>linki/</strong><br>  <code>ln plik.txt plik2.txt</code></p><p>  Jeśli w poleceniu <code>ln</code> nie damy parametru to zostanie utworzone<br>  dowiązanie twarde</p><p>  <strong>Wyświetlimy sobie katalog:</strong><br>  <code>cd /linki</code><br>  <code>ls</code><br>  <code>ls -l</code> - parametr <strong>l</strong> wyświetla wszystko - uprawnienia, data,</p><pre><code>godzina, user. Pierwsza kolumna oznacza uprawnienia do pliku,natomiast druga to cyfra np: **1**, z każdym dowiązaniem twardymliczba będzie rosnąć.</code></pre></li></ul><h3 id="UWAGA"><a href="#UWAGA" class="headerlink" title="UWAGA"></a>UWAGA</h3><ul><li><strong>dowiązanie symboliczne</strong> mogę tworzyć na innych partycjach</li><li>Natomiast <strong>dowiąznia twarde</strong> musi znajdować się na partycji, w którym<br>  znajduje się oryginalny plik</li></ul><h1 id="Mechanizm-CRON"><a href="#Mechanizm-CRON" class="headerlink" title="Mechanizm CRON"></a>Mechanizm CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>.<br>Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze<br>a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie<br>automatycznych logów w systemie.</p><p>Mechanizm CRON posiada <strong>7 pozycji:</strong>:<br><code>* * * * * root touch /tmp/plik.txt</code></p><p><strong>Co oznaczają poszczególne pozycje:</strong></p><table><thead><tr><th style="text-align:center"><strong>Pozycja</strong></th><th style="text-align:center"><strong>Odpowiednik</strong></th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">minuta</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">godzina</td></tr><tr><td style="text-align:center">3</td><td style="text-align:center">miesiąc</td></tr><tr><td style="text-align:center">4</td><td style="text-align:center">dzień miesiąca</td></tr><tr><td style="text-align:center">5</td><td style="text-align:center">dzień tygodnia</td></tr><tr><td style="text-align:center">6</td><td style="text-align:center">użytkownik</td></tr><tr><td style="text-align:center">7</td><td style="text-align:center">zadanie do wykonania</td></tr></tbody></table><p>Mechanizmu CRON używa się do uruchamiania zadań (programów, komend,<br>skryptów) o konkretnej godzinie, dniu…</p>]]></content>
     
@@ -192,7 +192,7 @@
     <link href="https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/"/>
     <id>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</id>
     <published>2018-06-01T22:00:00.000Z</published>
-    <updated>2018-06-14T17:33:51.566Z</updated>
+    <updated>2018-06-14T18:35:41.989Z</updated>
     
     <content type="html"><![CDATA[<p>Ostatnio kupiłem sobie napój firmy <code>OSHEE</code>. Spodobał mi się cytat z<br>butelki <em>Ograniczenia istnieją tylko w głowie</em>. Pierwsze skojarzenie<br>jakie wpadło mi do głowy to: <code>programista Front-end</code> i <code>JavaScript</code>.<br>Brzmi motywujaco i pozytywnie. Na mojej twarzy poczulem zadowolenie ale<br>tylko przez chwile… bo od razu przypomniałem sobie ile to już miesięcy<br>próbuje się tego nauczyć - co mi niestety nie wychodzi. :-(</p><p>Mimo tylu porażek i nie powodzeń nie poddaję się!!!<br>W najbliższym czasie postanowiłem wzmorzyć naukę programowania.<br>Uściślając, jak wiecie chce zostac <code>Front-end developerem</code> dlatego około<br>w połowie czerwca razem z kolegą panuję zacząć kilkudniowe - intensywne<br>szkolenie, które przybliży mnie do zostania <em>ekspertem</em> <code>Front-end</code> lub<br><code>JavaScript</code>.</p><p>Sam nie wiem jak to wyjdzie wszystko. Nie wiem czy to zrozumiem - ale<br>się nie poddaję i nie poddam. To jest moje marzenie do którego dążę.</p><p>Chciałbym widzieć jakiś efekt. Zobaczyć, że zaczynam myśleć jako<br>programista. Zobaczyć, że coś zaczyna mi w końcu wychodzić. To na pewno<br>by zadziałało ze zdwojoną siłą. Więc w najbliższym czasie wiecej <code>JS</code>.</p><p>Dużo osób mówi, że najlepiej uczyć się na błędach. Tylko, że JA nie<br>potrafię. Nie umiem wyciągnąć wniosków dlaczego nie umiem tego zrozumieć.</p><p><img src="http://campusnooz.com/cunooz/wp-content/uploads/sites/4/2016/07/dickwad.jpg" alt="alt text" title="http://campusnooz.com/cunooz/wp-content/uploads/sites/4/2016/07/dickwad.jpg"></p><p>Co więcej u mnie ??? Cały czas też chce poznawać lepiej Linuxa, tak żeby<br>pracować na nim…. może do końca życia??? Chyba, że w drogę wejdzie mi<br><code>MacBook</code> firmy <code>Apple</code> - słyszałem o nim pozytywne opinie.</p>]]></content>
     
