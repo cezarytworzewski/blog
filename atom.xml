@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://cezarytworzewski.github.io/"/>
-  <updated>2018-06-14T17:25:29.342Z</updated>
+  <updated>2018-06-14T18:11:55.484Z</updated>
   <id>https://cezarytworzewski.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kim jestem? O czym będzie mój blog?</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/14/omnie/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/14/omnie/</id>
+    <published>2018-06-14T18:11:55.488Z</published>
+    <updated>2018-06-14T18:11:55.484Z</updated>
+    
+    <content type="html"><![CDATA[<p>Witam wszystkich <code>FRONT-ów</code>!!!<br>Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),<br>ale obecnie mieszkam w Kielcach. Z zawodu? To skomplikowane.<br>Ukończyłem studia inżynierskie na kierunku INFORMATYKA na UJK Kielce.<br>Natomiast pracuję jako ratownik wodny na jednym z Kieleckich basenów.<br>Chce zostać PROGRAMISTĄ, a dokładniej FRONT-END DEVELOPEREM. Miejwam<br>mnóstwo porażek w zdobywaniu odpowiednich szczebli w tej dziedzinie,<br>ale się nie poddaję.<br>Moją <code>piętą Achillesową</code> jest zdecydowanie <code>must have</code> każdego<br>programisty, czyli <code>JavaScript</code>. Wierzę, a raczej jestem pewny, że<br>prędziej czy później uda mi się osiągnąć mój cel.<br>Na stworzenie bloga, namówił mnie kolega - programista Piotr Kowalski <a href="https://piecioshka.pl/" target="_blank" rel="noopener">https://piecioshka.pl/</a></p><h2 id="Ten-blog-powstal-chyba-dopiero-za-4-krotnym-konfigurowaniu-wdrazaniu-go"><a href="#Ten-blog-powstal-chyba-dopiero-za-4-krotnym-konfigurowaniu-wdrazaniu-go" class="headerlink" title="Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu, wdrażaniu go."></a>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu, wdrażaniu go.</h2><p>###s Do zobaczenia!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Witam wszystkich &lt;code&gt;FRONT-ów&lt;/code&gt;!!!&lt;br&gt;Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),&lt;br&gt;ale obecnie 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Jaka jest różnica pomiędzy znacznikiem img &amp; background-image?</title>
@@ -201,27 +222,6 @@
       
       
         &lt;p&gt;Drugi post postanowiłem, że będzie poświęcony konfiguracji &lt;code&gt;Git&amp;#39;a&lt;/code&gt; krok po&lt;br&gt;kroku.&lt;br&gt;Sam wiele razy miałem sytuację, że
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Kim jestem? O czym będzie mój blog?</title>
-    <link href="https://cezarytworzewski.github.io/2018/05/30/omnie/"/>
-    <id>https://cezarytworzewski.github.io/2018/05/30/omnie/</id>
-    <published>2018-05-30T13:52:18.313Z</published>
-    <updated>2018-05-30T13:52:18.309Z</updated>
-    
-    <content type="html"><![CDATA[<p>Witam wszystkich <code>FRONT-ów</code>!!!<br>Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie), ale obecnie mieszkam w Kielcach. Z zawodu? To skomplikowane. Ukończyłem studia inżynierskie na kierunku INFORMATYKA na UJK Kielce. Natomiast pracuję jako ratownik wodny na jednym z Kieleckich basenów.<br>Chce zostać PROGRAMISTĄ, a dokładniej FRONT-END DEVELOPEREM. Miejwam mnóstwo porażek w zdobywaniu odpowiednich szczebli w tej dziedzinie, ale się nie poddaję.<br>Moją <code>piętą Achillesową</code> jest zdecydowanie <code>must have</code> każdego programisty, czyli <code>JavaScript</code>. Wierzę, a raczej jestem pewny, że prędziej czy później uda mi się osiągnąć mój cel.<br>Na stworzenie bloga, namówił mnie kolega - programista Piotr Kowalski <a href="https://piecioshka.pl/" target="_blank" rel="noopener">https://piecioshka.pl/</a></p><h5 id="Ten-blog-powstal-chyba-dopiero-za-4-krotnym-konfigurowaniu-wdrazaniu-go"><a href="#Ten-blog-powstal-chyba-dopiero-za-4-krotnym-konfigurowaniu-wdrazaniu-go" class="headerlink" title="Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu, wdrażaniu go."></a>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu, wdrażaniu go.</h5><h2 id="Do-zobaczenia"><a href="#Do-zobaczenia" class="headerlink" title="Do zobaczenia!"></a>Do zobaczenia!</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Witam wszystkich &lt;code&gt;FRONT-ów&lt;/code&gt;!!!&lt;br&gt;Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie), ale obecnie mie
       
     
     </summary>
