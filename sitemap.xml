@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
+    
+    <lastmod>2018-06-14T18:23:01.121Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/14/linux-vs-windows/</loc>
     
     <lastmod>2018-06-14T18:17:21.036Z</lastmod>
@@ -68,13 +75,6 @@
     <loc>https://cezarytworzewski.github.io/kontakt/index.html</loc>
     
     <lastmod>2018-06-03T09:52:49.002Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
-    
-    <lastmod>2018-06-01T07:35:32.684Z</lastmod>
     
   </url>
   
