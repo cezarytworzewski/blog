@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://cezarytworzewski.github.io/"/>
-  <updated>2018-06-14T18:14:47.908Z</updated>
+  <updated>2018-06-14T18:17:21.036Z</updated>
   <id>https://cezarytworzewski.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Linux vs. Windows dla Front-end&#39;owca?</title>
     <link href="https://cezarytworzewski.github.io/2018/06/14/linux-vs-windows/"/>
     <id>https://cezarytworzewski.github.io/2018/06/14/linux-vs-windows/</id>
-    <published>2018-06-14T18:14:47.912Z</published>
-    <updated>2018-06-14T18:14:47.908Z</updated>
+    <published>2018-06-14T18:17:21.036Z</published>
+    <updated>2018-06-14T18:17:21.036Z</updated>
     
     <content type="html"><![CDATA[<p>Około 3 tyogodnie temu zdecydowałem. To już KONIEC. Tak, koniec, ale<br>pracy na Windows’ie. Zainstaowałem <code>Ubuntu</code>. System, który moim zdaniem<br>każdy specjalista z branży IT powinien znać.<br>Więc zaczynam programować na <code>Linux&#39;ie</code>. Poznaje jego mechanizmy,<br>instalacje programów z <code>paczek</code> i <code>repozytoriów</code>. Dodawanie użytkowników,<br>zmiana haseł, nadawanie uprawnień <code>chmod</code>. Albo jak wyszukiwać pliki lub<br>foldery za pomocą polecenia <code>find</code>.</p><p>Wszystko staram się robić za pomocą <code>TERMINALA</code>. </p><p>W terminalu oczywiście pracuję z <code>Git&#39;em</code> - gdzie jest to niezbędnik<br>każdego programisty <code>Front-end</code> i <code>Back-end</code> Zacząłem pracować z edytorem<br><code>VIM</code> - który około 3 miesiące wcześniej chwilkę pracowałem na Windows -<br>było to zupełnie dla mnie nie zrozumiałe. Teraz jest mały progress.<br>Ogólnie jest mi trochę cięzko jeszcze pracować na Linux’ie, bo całe życie<br>pracowałem na systemie z rodziny <code>Windows</code>.<br>W porównaniu z <code>Windows&#39;em</code> zauważyłem, że moje <code>Ubuntu</code> uruchamia się<br>zdecydowanie szybciej. Na pewno plusem jest, że posiadam dysk SSD.</p><p>Jak na razie myslę, że największa trudność sprawia mi nadawanie wyżej<br>wspomnianych uprawnień <code>chmod</code>. Nauczyłem się na razie podstaw<br>programowania w <code>BASH</code>. Niestety nauka w tym idzie mi kiepsko - jak całe<br>programowanie dotychczas.</p><p>Na systemie Ubuntu mam zainstalowanego <code>VirtualBox&#39;a</code>, a na nim inna<br>dystrybucja <code>CentOS v6.9</code>, gdzie na niej też w wolnych chwilach pogłębiam<br>swoją wiedzę.</p><p>Ostatnio uczyłem się z pomocą <code>CentOS</code> co to jest <code>macierz RAID</code>.<br>Mimo, że skończyłem Informatykę, to teraz zrozumiałem co to jest, po co<br>się stosuje i jaka jest różnica pomięddzy <code>RAID 0</code> i <code>RAID 1</code>. Ogólnie<br>proces tworzenia macierzy jest dla mnie zrozumiały z pomocą <code>VirtualBox</code>.<br>Nie wiem jakby to było jakbym musiał na prawdę zrobić je fizycznie.<br>Może kiedyś to zrobie.</p><p>Oczywiście na Ubuntu mam potrzebne mi oprogrmaowania tj.: <code>Git</code> i<br><code>WebStorm</code>. Co do edytora <code>WebStorm</code> to przed zmianą systemu z Windows<br>na Linux. Sprawdziałem czy <code>WebStorm</code> jest dostępny na Linuxa. I wtedy<br>podjąłem tą decyzję.</p><p>Na szczęście nie gram w gry - bo wtedy chyba bez Windowsa by się nie obyło.</p>]]></content>
     
@@ -170,16 +170,16 @@
     <link href="https://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/"/>
     <id>https://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/</id>
     <published>2018-06-02T22:00:00.000Z</published>
-    <updated>2018-06-03T21:37:15.143Z</updated>
+    <updated>2018-06-14T18:17:21.012Z</updated>
     
-    <content type="html"><![CDATA[<p>Otóż, jak wiecie mam cholerny problem ze zrozumieniem… dobra nie będe owijał w bawełne.</p><p>Jutro startuję w kursem <a href="https://eduweb.pl/kursy/javascript/javascript-podstawy.html" target="_blank" rel="noopener">JavaScript - od Podstaw</a> serwisu <a href="http://www.eduweb.pl" target="_blank" rel="noopener">Eduweb.pl</a>,<br>którego autorem jest <code>Piotr Palarz</code>. Kurs trwa około 11 godzin, ale dla mnie potrzeba chyba 10 000 godzin na przerobienie.<br>Oczywiście żartuję…</p><p>Przerobienie kursu nie jest żadnym problemem dla mnie - problemem jest to, żebym go w pełni zrozumiał.</p><p>Kiedyś przerabiałem podobne kursy <code>JavaScript</code>.</p><p><img src="https://avatars0.githubusercontent.com/u/30724303?s=400&amp;v=4" alt="df"></p><h6 id="Plan-jest-taki"><a href="#Plan-jest-taki" class="headerlink" title="Plan jest taki:"></a>Plan jest taki:</h6><ul><li>oglądam daną lekcję z kursu na jednym monitorze,</li><li>na drugim monitorze w tym samym czasie -równolegle koduję; czyli przepisuje kod razem z <code>Piotr Palarz</code> :)</li><li>dane zagadnienie notuję w moim <em>NOTATNIKU</em>. Będę notował takie zagadnienia jak co to: <code>zmienna</code>, <code>pętla</code>, <code>intrukcja warunkowa</code>, co to <code>obiekt</code> i <code>metoda</code>.</li></ul><p>Chociaż te terminy przewijają mi się od kilku lat, to wiem co oznaczają, do czego się stosuje. Ale brak mi umiejętności wykorzystania ich w praktyce.</p><p>Więc, jeśli macie jakieś rady, podzielcie się ze mną, jak powinienem podejść do tego tematu!<br>Jutro podzielę się z Wami jak minął mi pierwszy dzień kursu! Opiszę swoje <em><code>porażki</code></em> i <em><code>sukcesy</code></em> z pierwszego dnia!</p><p><em>Pozdrowienia dla wojowników <code>Ninja JS</code>!</em></p>]]></content>
+    <content type="html"><![CDATA[<p>Otóż, jak wiecie mam cholerny problem ze zrozumieniem… dobra nie będe<br>owijał w bawełne.</p><p>Jutro startuję w kursem <a href="https://eduweb.pl/kursy/javascript/javascript-podstawy.html" target="_blank" rel="noopener">JavaScript - od Podstaw</a> serwisu <a href="http://www.eduweb.pl" target="_blank" rel="noopener">Eduweb.pl</a>,<br>którego autorem jest <code>Piotr Palarz</code>. Kurs trwa około 11 godzin, ale dla<br>mnie potrzeba chyba 10 000 godzin na przerobienie. Oczywiście żartuję…</p><p>Przerobienie kursu nie jest żadnym problemem dla mnie - problemem jest to,<br>żebym go w pełni zrozumiał.</p><p>Kiedyś przerabiałem podobne kursy <code>JavaScript</code>.</p><p><img src="https://avatars0.githubusercontent.com/u/30724303?s=400&amp;v=4" alt="df"></p><h2 id="Plan-jest-taki"><a href="#Plan-jest-taki" class="headerlink" title="Plan jest taki:"></a>Plan jest taki:</h2><ul><li>oglądam daną lekcję z kursu na jednym monitorze,</li><li>na drugim monitorze w tym samym czasie -równolegle koduję; czyli<br>  przepisuje kod razem z <code>Piotr Palarz</code> :)</li><li>dane zagadnienie notuję w moim <em>NOTATNIKU</em>. Będę notował takie<br>  zagadnienia jak co to: <code>zmienna</code>, <code>pętla</code>, <code>intrukcja warunkowa</code>, co<br>  to <code>obiekt</code> i <code>metoda</code>.</li></ul><p>Chociaż te terminy przewijają mi się od kilku lat, to wiem co oznaczają,<br>do czego się stosuje. Ale brak mi umiejętności wykorzystania ich w praktyce.</p><p>Więc, jeśli macie jakieś rady, podzielcie się ze mną, jak powinienem<br>podejść do tego tematu!</p><p>Jutro podzielę się z Wami jak minął mi pierwszy dzień kursu! Opiszę swoje<br><em><code>porażki</code></em> i <em><code>sukcesy</code></em> z pierwszego dnia!</p><p><em>Pozdrowienia dla wojowników <code>Ninja JS</code>!</em></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Otóż, jak wiecie mam cholerny problem ze zrozumieniem… dobra nie będe owijał w bawełne.&lt;/p&gt;
-&lt;p&gt;Jutro startuję w kursem &lt;a href=&quot;https://e
+        &lt;p&gt;Otóż, jak wiecie mam cholerny problem ze zrozumieniem… dobra nie będe&lt;br&gt;owijał w bawełne.&lt;/p&gt;
+&lt;p&gt;Jutro startuję w kursem &lt;a href=&quot;https:
       
     
     </summary>
