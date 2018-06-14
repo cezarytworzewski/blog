@@ -1,7 +1,6 @@
 ----
 title: Co dalej? Jakie mam plany? Programowanie? JavaScript? Linux?
 date: 2018/06/02
-update: 2018/06/14
 ----
 
 Ostatnio kupiłem sobie napój firmy `OSHEE`. Spodobał mi się cytat z

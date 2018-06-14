@@ -13,7 +13,7 @@ uprawnieniami **roota**!!!
 
 1. Na podstawie systemu CentOS do instalacji oprogramowania służą nam
     dwa narzędzia:
-    
+
 * narzędzia automatyczne: **yum**
 * narzędzia do paczek: **rpm**
 
