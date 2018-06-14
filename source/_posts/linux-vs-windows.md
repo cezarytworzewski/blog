@@ -39,7 +39,7 @@ Może kiedyś to zrobie.
 
 Oczywiście na Ubuntu mam potrzebne mi oprogrmaowania tj.: `Git` i
 `WebStorm`. Co do edytora `WebStorm` to przed zmianą systemu z Windows
-na Linux. Sprawdziałem czy `WebStorm` jest dostępny na Linuxa. I wtedy 
+na Linux. Sprawdziałem czy `WebStorm` jest dostępny na Linuxa. I wtedy
 podjąłem tą decyzję.
 
 Na szczęście nie gram w gry - bo wtedy chyba bez Windowsa by się nie obyło.
