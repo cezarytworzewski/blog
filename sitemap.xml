@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/05/podstawy-js-1/</loc>
+    
+    <lastmod>2018-06-14T18:10:08.717Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/</loc>
     
     <lastmod>2018-06-14T18:01:01.222Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://cezarytworzewski.github.io/2018/06/14/img-vs-background-image/</loc>
     
     <lastmod>2018-06-14T17:25:29.342Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/05/podstawy-js-1/</loc>
-    
-    <lastmod>2018-06-05T21:44:05.501Z</lastmod>
     
   </url>
   
