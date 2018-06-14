@@ -1,5 +1,5 @@
 ----
-title: Jaka jest różnica pomiędzy znacznikiem *`img`* & *`background-image`*?
+title: Jaka jest różnica pomiędzy znacznikiem img & background-image?
 date: 2018/06/14
 ----
 
