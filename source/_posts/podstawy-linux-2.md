@@ -6,17 +6,20 @@ date: 2018/06/08
 W tym artykule opiszę to czego się nauczyłem, czyli:
 **instalacja oprogramowania**, **dowiązania w Linux**, **mechanizm CRON**
 
-Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z uprawnieniami **roota**!!!
+Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z
+uprawnieniami **roota**!!!
 
 ## Instalacja oprogramowania
 
 1. Na podstawie systemu CentOS do instalacji oprogramowania służą nam
     dwa narzędzia:
+    
 * narzędzia automatyczne: **yum**
 * narzędzia do paczek: **rpm**
 
 **Instalacja z paczki wygląda następująco**
-* musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą systemu
+* musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą
+    systemu
 * wydajemy polecenie:
   * `rpm -i teamviewer_linux.rpm` albo lepszym rozwiązaniem będzie:
     * `rpm -Uvh teamviewer_linux.rpm` => gdzie poszczególne parametry
@@ -76,7 +79,8 @@ Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z upr
 * jestem w katalogu **linki/**
     `ln plik.txt plik2.txt`
 
-    Jeśli w poleceniu `ln` nie damy parametru to zostanie utworzone dowiązanie twarde
+    Jeśli w poleceniu `ln` nie damy parametru to zostanie utworzone
+    dowiązanie twarde
 
     **Wyświetlimy sobie katalog:**
     `cd /linki`
@@ -90,12 +94,16 @@ Warto wspomnieć, że instalować paczki **rpm** może jedynie użytkownik z upr
 ### UWAGA
 
 * **dowiązanie symboliczne** mogę tworzyć na innych partycjach
-* Natomiast **dowiąznia twarde** musi znajdować się na partycji, w którym znajduje się oryginalny plik
+* Natomiast **dowiąznia twarde** musi znajdować się na partycji, w którym
+    znajduje się oryginalny plik
 
 
 # Mechanizm CRON
 
-**Mechanizm CRON** jest to odpowienik **Menadżera zadań** w **Windows**. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie automatycznych logów w systemie.
+**Mechanizm CRON** jest to odpowienik **Menadżera zadań** w **Windows**.
+Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze
+a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie
+automatycznych logów w systemie.
 
 Mechanizm CRON posiada **7 pozycji:**:
 `* * * * * root touch /tmp/plik.txt`
