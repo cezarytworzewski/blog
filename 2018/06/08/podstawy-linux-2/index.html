@@ -196,7 +196,7 @@ Warto wspomnieć, że instalować paczk"/>
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <p>W tym artykule opiszę to czego się nauczyłem, czyli:<br><strong>instalacja oprogramowania</strong>, <strong>dowiązania w Linux</strong>, <strong>mechanizm CRON</strong></p>
-<p>Warto wspomnieć, że instalować paczki <strong>rpm</strong> może jedynie użytkownik z uprawnieniami <strong>roota</strong>!!!</p>
+<p>Warto wspomnieć, że instalować paczki <strong>rpm</strong> może jedynie użytkownik z<br>uprawnieniami <strong>roota</strong>!!!</p>
 <h2 id="Instalacja-oprogramowania"><a href="#Instalacja-oprogramowania" class="headerlink" title="Instalacja oprogramowania"></a>Instalacja oprogramowania</h2><ol>
 <li>Na podstawie systemu CentOS do instalacji oprogramowania służą nam<br> dwa narzędzia:</li>
 </ol>
@@ -206,7 +206,7 @@ Warto wspomnieć, że instalować paczk"/>
 </ul>
 <p><strong>Instalacja z paczki wygląda następująco</strong></p>
 <ul>
-<li>musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą systemu</li>
+<li>musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą<br>  systemu</li>
 <li>wydajemy polecenie:<ul>
 <li><code>rpm -i teamviewer_linux.rpm</code> albo lepszym rozwiązaniem będzie:<ul>
 <li><code>rpm -Uvh teamviewer_linux.rpm</code> =&gt; gdzie poszczególne parametry<br>  oznaczają:<pre><code>- `U` - jest to inaczej polecenie `install` ale dodatkowo
@@ -251,7 +251,7 @@ Warto wspomnieć, że instalować paczk"/>
 </ul>
 <h3 id="Dowiazania-twarde"><a href="#Dowiazania-twarde" class="headerlink" title="Dowiązania twarde:"></a>Dowiązania twarde:</h3><ul>
 <li><p>jestem w katalogu <strong>linki/</strong><br>  <code>ln plik.txt plik2.txt</code></p>
-<p>  Jeśli w poleceniu <code>ln</code> nie damy parametru to zostanie utworzone dowiązanie twarde</p>
+<p>  Jeśli w poleceniu <code>ln</code> nie damy parametru to zostanie utworzone<br>  dowiązanie twarde</p>
 <p>  <strong>Wyświetlimy sobie katalog:</strong><br>  <code>cd /linki</code><br>  <code>ls</code><br>  <code>ls -l</code> - parametr <strong>l</strong> wyświetla wszystko - uprawnienia, data,</p>
 <pre><code>godzina, user. Pierwsza kolumna oznacza uprawnienia do pliku,
 natomiast druga to cyfra np: **1**, z każdym dowiązaniem twardym
@@ -260,9 +260,9 @@ liczba będzie rosnąć.
 </ul>
 <h3 id="UWAGA"><a href="#UWAGA" class="headerlink" title="UWAGA"></a>UWAGA</h3><ul>
 <li><strong>dowiązanie symboliczne</strong> mogę tworzyć na innych partycjach</li>
-<li>Natomiast <strong>dowiąznia twarde</strong> musi znajdować się na partycji, w którym znajduje się oryginalny plik</li>
+<li>Natomiast <strong>dowiąznia twarde</strong> musi znajdować się na partycji, w którym<br>  znajduje się oryginalny plik</li>
 </ul>
-<h1 id="Mechanizm-CRON"><a href="#Mechanizm-CRON" class="headerlink" title="Mechanizm CRON"></a>Mechanizm CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>. Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie automatycznych logów w systemie.</p>
+<h1 id="Mechanizm-CRON"><a href="#Mechanizm-CRON" class="headerlink" title="Mechanizm CRON"></a>Mechanizm CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>.<br>Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze<br>a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie<br>automatycznych logów w systemie.</p>
 <p>Mechanizm CRON posiada <strong>7 pozycji:</strong>:<br><code>* * * * * root touch /tmp/plik.txt</code></p>
 <p><strong>Co oznaczają poszczególne pozycje:</strong></p>
 <table>
