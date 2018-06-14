@@ -6,7 +6,6 @@ date: 2018/06/14
 Wszystko zaczęło się od chęci umieszczenia baneru na stronie www.
 Tylko jak to poprawnie zrobić?
 
-
 ## Znacznik `img`
 
 Znacznik `img` służy do dodawania  pliku graficznego do naszej strony
@@ -30,16 +29,21 @@ pojawi się tekst obrazka
     * `width` - szerokość grafiki
 
     Służą one do zmiany rozmiarów wyświetlającego obrazek.
+
 * jeszcze inne atrybut to `align` - służy do wyrównywania obrazków w
 poziomie.
 
 Atrybut `align` posiada dwie wartości:
+
 * `left`
 * `right`
 
-##### Przykładowy kod z użyciem znacznika `img`:
-`<img src="/images/computer.jpg">`
-`<img src="https://piecioshka.pl/assets/images/posts/post-banner-hexo-setup-blog.png"/>`
+Przykładowy kod z użyciem znacznika `img`:
+
+```
+<img src="/images/computer.jpg">
+<img src="https://piecioshka.pl/assets/images/posts/post-banner-hexo-setup-blog.png"/>
+```
 
 ## Reguła `background-image'
 Reguła, ta ustawia obrazek tła dla elementu.
@@ -48,13 +52,16 @@ Wygląda to tak:
 * `background-image: url(ścieżka-do-obrazka)`
 
 Mamy stworzony kod `HTML`:
+
 ```
 <section class="banner">
 
 </section>
 ```
+
 W pliku np. `style/main.css` odwołujemy się do reguły `background-image`
 po to, aby dodać nasz długo oczekiwany baner:
+
 ```
 .banner {
     background-image: url("../images/baner-biblioteka.jpg");
@@ -79,16 +86,19 @@ Jeśli dodamy plik za pomocą `CSS` to muszę pamiętać, że:
 * nie będę mógł zaznaczyć obrazka
 
 Jeśli dodam plik za pomocą znacznika `img` to muszę pamiętać, że:
-* moge zapisać obrazek za pomocą prawego przycisku myszy
+
+* mogę zapisać obrazek za pomocą prawego przycisku myszy
 * mogę zaznaczyć obrazek
 * obrazek mogę dodać do każðej podstrony osobno, a później będę mógł w
 bardzo łatwy sposób podmienić grafikę gdzie chcę
 
 ## Definicja `img` & `backgroung-image`
+
 - `img` - to skrót od `images`
         - `images`(ang. *obrazek*)
 - `background`- (ang. *tło*)
         - `background-images` - mogę przetłumaczyć jako `tło obrazkowe`
+
 
 `img` służy do dodawania zdjęcia, obrazków, natomiast `background-image`
 służy do dodawania tła na stronie
