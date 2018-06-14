@@ -6,7 +6,7 @@
 
 
 # Site
-title: Cezary Tworzewski	
+title: Cezary Tworzewski
 subtitle: Learning Front-end
 description:
 keywords:
@@ -16,7 +16,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cezarytworzewski.github.io/
+url: https://cezarytworzewski.github.io/
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
