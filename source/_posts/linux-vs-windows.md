@@ -1,5 +1,6 @@
 ----
 title: Linux vs. Windows dla Front-end'owca?
+date: 2018/06/01
 ----
 
 Około 3 tyogodnie temu zdecydowałem. To już KONIEC. Tak, koniec, ale

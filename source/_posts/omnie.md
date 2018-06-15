@@ -1,5 +1,6 @@
 ----
 title: Kim jestem? O czym będzie mój blog?
+date: 2018/05/30
 ----
 
 Witam wszystkich `FRONT-ów` :-)
