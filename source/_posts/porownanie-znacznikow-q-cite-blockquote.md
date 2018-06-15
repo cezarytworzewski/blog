@@ -1,5 +1,5 @@
 ----
-title: Porównanie znaczników: q, cite, blockquote.
+title: Porównanie znaczników "q, cite, blockquote".
 date: 2018/06/15
 ----
 
