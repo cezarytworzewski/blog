@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://cezarytworzewski.github.io/"/>
-  <updated>2018-06-15T15:49:33.793Z</updated>
+  <updated>2018-06-15T15:52:04.141Z</updated>
   <id>https://cezarytworzewski.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Dlaczego nie można modyfikować pliku bootstrap.min.css?</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/15/dlaczego%20nie%20mo%C5%BCna%20modyfikowa%C4%87%20pliku%20bootstrap.min.css?/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/15/dlaczego nie można modyfikować pliku bootstrap.min.css?/</id>
+    <published>2018-06-14T22:00:00.000Z</published>
+    <updated>2018-06-15T15:52:04.141Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Czym-jest-Bootstrap"><a href="#Czym-jest-Bootstrap" class="headerlink" title="Czym jest Bootstrap?"></a>Czym jest <em>Bootstrap</em>?</h2><p>Bootstrap jest to framework. Służy on do tworzenia stron internetowych w sposób<br><em>responsywny</em>, czyli taki, gdzie strona będzie się dostosowywać do każdego<br>urządzenia, nie zależnie od wielkości przeglądarki.</p><p>Framework ten można pobrać lokalnie na swój komputer lub z serwera:</p><p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css&quot;</code></p><h3 id="Dlaczego-nie-powinnismy-go-modyfikowac"><a href="#Dlaczego-nie-powinnismy-go-modyfikowac" class="headerlink" title="Dlaczego nie powinniśmy go modyfikowac?"></a>Dlaczego nie powinniśmy go modyfikowac?</h3><p>Chodzi oto, że Bootstrap posiada szereg <em>domyślnie</em> stworzonych elementów,<br>które w sposób “automatyczny” dadzą nam wizualnie świetną stronę internetową.</p><p>Więc, posiada on edytowane już selektory, które możemy zostawić<br>i strona będzie nam się dobrze prezentować.</p><p>Jeśli chcemy zmodyfikować, to robimy to inaczej. Tworzymy <em>nowy</em> plik<br><code>style.css</code> i modyfikujemy dane selektory. Nadpisujemy je.</p><p>Wyobraż sobie, że Bootstrap posiada już stworzony selektor <code>h1</code>, którego<br>nie musimy edytować, ale jednak załóżmy, że chcemy zmienić <code>font-size</code> na<br><code>30px</code>, gdzie domyslnie ta wartość wynosi przykładowo <code>18px</code>.</p><p>Ponadto, nie powinniśmy edytować tego pliku, ponieważ został on poddany<br>procesowi *minifikacji kodu**, o którym mówi mój kolega w swoim <code>vlog&#39;u</code>.<br><a href="https://www.youtube.com/watch?v=8Mhvn2jImwI&amp;t=4s" target="_blank" rel="noopener">Minifikacja </a></p><p><em>Minifikacja kodu</em> jest to usunięcie w całym pliku białych znaków, czyli<br>po prostu spacji.</p><p>Plik, który został poddany minifikacji kodu, byłby - a dokładniej jest trudny<br>do edycji. Jest on nieczytelny, więc edycja go zajęła by nam “setki godzin”.</p><p>Innym powodem według mnie dlaczego nie powinniśmy go edytować, to taka sytuacja<br>gdzie, tą bibliotekę, będziemy chcieli wykorzystać w innym projekcie i od nowa<br>musielibysmy dostosowywać właściwości CSS naszej strony. Dlatego jak wspomniałem<br>wcześniej - najlepiej jak stworzymy drugi plik.</p><p>Albo jeśli edytujemy, to nie powinniśmy sie łudzić, że zostanie ona update’owana<br>przez twórców Twitter’a. Musielibyśmy wprowadzić na prawde bardzo dobre<br><em>nowe</em> funkcjonalności we framework’u.</p><p>To się tyczy nie tylko Bootstrap’a, a także <em>innych</em> framework’ów.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Czym-jest-Bootstrap&quot;&gt;&lt;a href=&quot;#Czym-jest-Bootstrap&quot; class=&quot;headerlink&quot; title=&quot;Czym jest Bootstrap?&quot;&gt;&lt;/a&gt;Czym jest &lt;em&gt;Bootstrap&lt;/em&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Czym się różni reguła od właściwości w CSS?</title>
@@ -31,27 +52,6 @@
       
         &lt;p&gt;Pod lupę wezmę teraz &lt;strong&gt;CSS&lt;/strong&gt;. Opowiem o tym, czym jest właściwość a czym&lt;br&gt;reguła w CSS.&lt;/p&gt;
 &lt;h2 id=&quot;Co-to-jest-regula-CSS&quot;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Dlaczego nie można modyfikować pliku bootstrap.min.css?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/15/dlaczego%20nie%20mo%C5%BCna%20modyfikowa%C4%87%20pliku%20%60bootstrap.min.css%60?/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/15/dlaczego nie można modyfikować pliku `bootstrap.min.css`?/</id>
-    <published>2018-06-14T22:00:00.000Z</published>
-    <updated>2018-06-15T15:52:04.141Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Czym-jest-Bootstrap"><a href="#Czym-jest-Bootstrap" class="headerlink" title="Czym jest Bootstrap?"></a>Czym jest <em>Bootstrap</em>?</h2><p>Bootstrap jest to framework. Służy on do tworzenia stron internetowych w sposób<br><em>responsywny</em>, czyli taki, gdzie strona będzie się dostosowywać do każdego<br>urządzenia, nie zależnie od wielkości przeglądarki.</p><p>Framework ten można pobrać lokalnie na swój komputer lub z serwera:</p><p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css&quot;</code></p><h3 id="Dlaczego-nie-powinnismy-go-modyfikowac"><a href="#Dlaczego-nie-powinnismy-go-modyfikowac" class="headerlink" title="Dlaczego nie powinniśmy go modyfikowac?"></a>Dlaczego nie powinniśmy go modyfikowac?</h3><p>Chodzi oto, że Bootstrap posiada szereg <em>domyślnie</em> stworzonych elementów,<br>które w sposób “automatyczny” dadzą nam wizualnie świetną stronę internetową.</p><p>Więc, posiada on edytowane już selektory, które możemy zostawić<br>i strona będzie nam się dobrze prezentować.</p><p>Jeśli chcemy zmodyfikować, to robimy to inaczej. Tworzymy <em>nowy</em> plik<br><code>style.css</code> i modyfikujemy dane selektory. Nadpisujemy je.</p><p>Wyobraż sobie, że Bootstrap posiada już stworzony selektor <code>h1</code>, którego<br>nie musimy edytować, ale jednak załóżmy, że chcemy zmienić <code>font-size</code> na<br><code>30px</code>, gdzie domyslnie ta wartość wynosi przykładowo <code>18px</code>.</p><p>Ponadto, nie powinniśmy edytować tego pliku, ponieważ został on poddany<br>procesowi *minifikacji kodu**, o którym mówi mój kolega w swoim <code>vlog&#39;u</code>.<br><a href="https://www.youtube.com/watch?v=8Mhvn2jImwI&amp;t=4s" target="_blank" rel="noopener">Minifikacja </a></p><p><em>Minifikacja kodu</em> jest to usunięcie w całym pliku białych znaków, czyli<br>po prostu spacji.</p><p>Plik, który został poddany minifikacji kodu, byłby - a dokładniej jest trudny<br>do edycji. Jest on nieczytelny, więc edycja go zajęła by nam “setki godzin”.</p><p>Innym powodem według mnie dlaczego nie powinniśmy go edytować, to taka sytuacja<br>gdzie, tą bibliotekę, będziemy chcieli wykorzystać w innym projekcie i od nowa<br>musielibysmy dostosowywać właściwości CSS naszej strony. Dlatego jak wspomniałem<br>wcześniej - najlepiej jak stworzymy drugi plik.</p><p>Albo jeśli edytujemy, to nie powinniśmy sie łudzić, że zostanie ona update’owana<br>przez twórców Twitter’a. Musielibyśmy wprowadzić na prawde bardzo dobre<br><em>nowe</em> funkcjonalności we framework’u.</p><p>To się tyczy nie tylko Bootstrap’a, a także <em>innych</em> framework’ów.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Czym-jest-Bootstrap&quot;&gt;&lt;a href=&quot;#Czym-jest-Bootstrap&quot; class=&quot;headerlink&quot; title=&quot;Czym jest Bootstrap?&quot;&gt;&lt;/a&gt;Czym jest &lt;em&gt;Bootstrap&lt;/em&gt;
       
     
     </summary>
