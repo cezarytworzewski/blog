@@ -18,7 +18,7 @@ prędzej czy później uda mi się osiągnąć mój cel.
 
 Na stworzenie bloga, namówił mnie kolega - programista Piotr Kowalski <https://piecioshka.pl/>
 
-## Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu HEXO.
+<mark>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu HEXO.</mark>
 
-<em>Do zobaczenia</em>
+_Do zobaczenia_
 

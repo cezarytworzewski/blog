@@ -137,7 +137,6 @@ Przykład:
         }
    ```
 
-
 ## null vs. undefined
 
 Są to wartości fałszywe! - ale nie oto teraz chodzi.
@@ -161,7 +160,6 @@ to ma ona wartość `undefined`: `let yourName;` - wartość zmiennej to
 
 Jeśli, chcemy **z góry**, aby zadeklarowana zmienna miała wartośc pustą
 to przypiszemy do niej wartość **null**: `let yourName = null;`
-
 
 Sprawdźmy jedną rzecz: `typeof null` - zwróci nam `object`, ale **STOP**
 
@@ -190,7 +188,6 @@ Teraz `typeof person.name` będzie miał wartość `object`.
 Jeśli wynikiem kiedyś będzie `null`, to muszę pamiętać, że zmienna
 została już zadeklarowana, ale nic nie zostało do niej pzypisane. 
 Przy `undefined` wartość nigdy nie została ustawiona.
-
 
 ## Podsumowując
 

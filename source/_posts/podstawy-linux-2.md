@@ -97,7 +97,6 @@ uprawnieniami **roota**!
 * Natomiast **dowiąznia twarde** musi znajdować się na partycji, w którym
     znajduje się oryginalny plik
 
-
 # Mechanizm CRON
 
 **Mechanizm CRON** jest to odpowienik **Menadżera zadań** w **Windows**.

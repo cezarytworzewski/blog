@@ -67,7 +67,7 @@ czyli, chce zmienić element *h3*, nadać mu wielkość czcionki o rozmiarze
 
  Właściwości są niezbędne do poprawnego działania *reguły CSS*.
 
- Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy *regułą* a
+Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy *regułą* a
  *właściwością* CSS.
 
 

@@ -89,7 +89,6 @@ Jeśli umieścimy go w `head` to skrypt sie wykonana, a póki co strona www
 nie zostanie wczytana, wykona się później. Obejściem na to może być
 dodanie atrybutu `async`.
 
-
 ## No więc czym jest `ZMIENNA`?
 Zmienne są to podstawowe konstrukcje języka JavaScript - to ABSOLUTNA
 PODSTAWA!
