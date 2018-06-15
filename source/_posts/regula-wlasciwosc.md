@@ -17,7 +17,7 @@ Reguła CSS określa wygląd dla elementu HTML.
 
 * selektora - selektor jest elementem HTML, który chcemy edytować, może
     to być element zdefiniowany jako klasa, wygląda to mniej więcej tak:
-    Elementowi `h3` nadaję klasę: `<h3 class="size-title"></h3>.
+    Elementowi `h3` nadaję klasę: `<h3 class="size-title"></h3>`.
 * nawiasu klamrowego () - w danym nawiasie umieszczamy swoje parametry.
     Umieszczamy swoje operacje, czyli operacje, które będą coś zmieniać
     na mojej stronie od strony warstwy prezentacji
