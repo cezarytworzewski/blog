@@ -1,5 +1,5 @@
 ----
-title:Czym się różni reguła od właściwości w CSS?
+title: Czym się różni reguła od właściwości w CSS?
 date: 2018/06/15
 ----
 
