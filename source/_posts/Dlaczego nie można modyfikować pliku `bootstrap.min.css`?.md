@@ -1,5 +1,5 @@
 ----
-title: Dlaczego nie można modyfikować pliku `bootstrap.min.css`?
+title: Dlaczego nie można modyfikować pliku bootstrap.min.css?
 date: 2018/06/15
 ----
 
