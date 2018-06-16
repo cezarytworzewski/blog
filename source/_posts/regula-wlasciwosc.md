@@ -24,25 +24,25 @@ Reguła CSS określa wygląd dla elementu HTML.
 * właściwość - za ich pomocą określamy, co chcemy zmienić w naszej stronie
     internetowej, określamy jaki element HTML chcemy zmienić.
     Chcemy np. zmienić tło naszej strony internetowej. Za tło odpowiada
-    właściwość *background-color*
+    właściwość `background-color`
 * wartość - za pomocą wartości, określamy jak chcemy zmienić element, czy
     nadamy mu kolor czerwony.
 
 #### Prosty przepis na stworzenie reguły CSS.
 
-```
-    selektor {
-        właściwość: wartość;
-     }
+```css
+selektor {
+    właściwość: wartość;
+}
 ```
 
-czyli, chce zmienić element *h3*, nadać mu wielkość czcionki o rozmiarze
+czyli, chce zmienić element `h3`, nadać mu wielkość czcionki o rozmiarze
 25px. Gdzie moją **właściwością** jest *wielkość czcionki*:
 
-```
-    h3 {
-        font-size: 25px;
-    }
+```css
+h3 {
+    font-size: 25px;
+}
 ```
 
 > Wyobraź sobie, że przed Tobą znajduje się stos białych, czystych kartek,
@@ -53,23 +53,17 @@ czyli, chce zmienić element *h3*, nadać mu wielkość czcionki o rozmiarze
     wymaga od Ciebie odszukania danej kartki, czyli selekcji spośród danej
     grupy kartek.
 
- no więc:
+no więc:
 
- **regułą** - są tutaj kartki papieru,
-
- **właściwością** - jest tu informacja, że chcemy pokolorować, czyli
+* **regułą** - są tutaj kartki papieru,
+* **właściwością** - jest tu informacja, że chcemy pokolorować, czyli
     właściwość *color*
+* **wartość** - to już jest określony kolor, np. czerwony, zielony
 
- **wartość** - to już jest określony kolor, np. czerwony, zielony
+Dlatego właściwość CSS, zawiera się w regule CSS, jest czymś podrzędnym,
+bez czego selektor (reguła) CSS nie będzie działać.
 
- Dlatego właściwość CSS, zawiera się w regule CSS, jest czymś podrzędnym,
- bez czego selektor (reguła) CSS nie będzie działać.
+Właściwości są niezbędne do poprawnego działania *reguły CSS*.
 
- Właściwości są niezbędne do poprawnego działania *reguły CSS*.
-
-Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy *regułą* a
- *właściwością* CSS.
-
-
-
-
+Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy *regułą*
+a *właściwością* CSS.
