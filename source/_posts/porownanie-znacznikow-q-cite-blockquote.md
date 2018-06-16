@@ -3,7 +3,7 @@ title: Porównanie znaczników "q, cite, blockquote".
 date: 2018/06/15
 ----
 
-Postaram się teraz zrozumieć co łączy znaczniki `q`, `cite` oraz `blockquote`*.
+Postaram się teraz zrozumieć co łączy znaczniki `q`, `cite` oraz `blockquote`.
 
 Jedyne co ich _łączy_ to to, że wszystkie służą do **CYTOWANIA**.
 
