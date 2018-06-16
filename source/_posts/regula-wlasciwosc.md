@@ -21,8 +21,8 @@ Reguła CSS określa wygląd dla elementu HTML.
 * nawiasu klamrowego {} - w danym nawiasie umieszczamy swoje parametry.
     Umieszczamy swoje operacje, czyli operacje, które będą coś zmieniać
     na mojej stronie od strony warstwy prezentacji
-* właściwość - za ich pomocą okreslamy, co chcemy zmienić w naszej stronie
-    internetowej, okreslamy jaki element HTML chcemy zmienić.
+* właściwość - za ich pomocą określamy, co chcemy zmienić w naszej stronie
+    internetowej, określamy jaki element HTML chcemy zmienić.
     Chcemy np. zmienić tło naszej strony internetowej. Za tło odpowiada
     właściwość *background-color*
 * wartość - za pomocą wartości, określamy jak chcemy zmienić element, czy
