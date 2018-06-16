@@ -13,8 +13,8 @@
     
 
     
-        <meta name="description" content="Ogólnie rzecz biorąc, zaczynam od początku JavaScript, ale mnóstworzeczy wiem - tak czuję, albo wydaję mi się! :)
-Dzisiaj skupie się na tekstowym typi"/>
+        <meta name="description" content="Ogólnie rzecz biorąc, zaczynam od początku JavaScript, ale mnóstworzeczy wiem - tak czuję, albo wydaję mi się!
+Dzisiaj skupie się na tekstowym typie d"/>
     
 
     <!--Author-->
@@ -29,8 +29,8 @@ Dzisiaj skupie się na tekstowym typi"/>
 
     <!--Open Graph Description-->
     
-        <meta property="og:description" content="Ogólnie rzecz biorąc, zaczynam od początku JavaScript, ale mnóstworzeczy wiem - tak czuję, albo wydaję mi się! :)
-Dzisiaj skupie się na tekstowym typi"/>
+        <meta property="og:description" content="Ogólnie rzecz biorąc, zaczynam od początku JavaScript, ale mnóstworzeczy wiem - tak czuję, albo wydaję mi się!
+Dzisiaj skupie się na tekstowym typie d"/>
     
 
     <!--Open Graph Site Name-->
@@ -203,8 +203,8 @@ Dzisiaj skupie się na tekstowym typi"/>
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Ogólnie rzecz biorąc, zaczynam od początku <em>JavaScript</em>, ale mnóstwo<br>rzeczy wiem - <em>tak czuję, albo wydaję mi się</em>! :)</p>
-<p>Dzisiaj skupie się na tekstowym typie danych <strong>String</strong>,<br>typie liczbowym <strong>Number</strong>, <strong>true</strong>, <strong>false</strong> i wartości<br><strong>true &amp; false</strong>. A dzisiejsza przygodę zakończę z <strong>null vs. undefined</strong>.</p>
+                <p>Ogólnie rzecz biorąc, zaczynam od początku <strong>JavaScript</strong>, ale mnóstwo<br>rzeczy wiem - <em>tak czuję, albo wydaję mi się!</em></p>
+<p>Dzisiaj skupie się na tekstowym typie danych <code>String</code>,<br>typie liczbowym <code>Number</code>, <code>true</code>, <code>false</code> i wartości<br><code>true</code> &amp; <code>false</code>. A dzisiejsza przygodę zakończę z <code>null</code> vs. <code>undefined</code>.</p>
 <h2 id="Tekstowy-typ-danych-String"><a href="#Tekstowy-typ-danych-String" class="headerlink" title="Tekstowy typ danych String."></a>Tekstowy typ danych <code>String</code>.</h2><p>Warto powiedzieć, że tekstowy typ danych zapisujemy za pomocą apostrofów<br> <code>&#39; &#39;</code> albo cudzysłowów <code>&quot; &quot;</code>. Jest to obojętne jaką konwencje użyjemy,<br>ale zawsze powinniśmy stosować tylko jedną. Między innymi po to,<br>aby nasz kod był czytelny dla nas, ale również dla naszych kolegów po fachu.</p>
 <p>Zadeklarujemy sobie zmienną <code>firstName</code>:</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> firstName = <span class="string">'Jan'</span>;</span><br></pre></td></tr></table></figure>
@@ -231,7 +231,7 @@ Dzisiaj skupie się na tekstowym typi"/>
 </li>
 <li><p>liczba zmiennoprzecinkowa:</p>
   <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> number = <span class="number">20.5</span>;</span><br></pre></td></tr></table></figure>
-<p>  Do tworzenia liczb zmiennoprzecinkowych używamy <em>kropki</em></p>
+<p>  Do tworzenia liczb zmiennoprzecinkowych używamy <strong>kropki</strong>.</p>
 </li>
 </ul>
 <p>W JavaScript mamy też zmienne (stałe), czyli <strong>Infinity</strong> i <strong>-Infinity</strong>:</p>
@@ -239,10 +239,10 @@ Dzisiaj skupie się na tekstowym typi"/>
 <li><code>Infinity</code> =&gt; 1.797693134862315E+308</li>
 <li><code>-Infinity</code> =&gt; 1.797693134862316E+308</li>
 </ul>
-<p>Posiadamy również taką wartość jak <strong>NaN</strong> (<em>Not a Number</em>):</p>
+<p>Posiadamy również taką wartość jak <code>NaN</code> (<em>Not a Number</em>):</p>
 <ul>
 <li>to nie jest wartość liczbowa, jest tylko skojarzona jako typ liczbowy</li>
-<li>jeśli będziemy robić jakieś obliczenia, a wynikiem nie będzie nowa liczba,<br>  to zostanie zwrócona wartość <strong>Nan</strong></li>
+<li>jeśli będziemy robić jakieś obliczenia, a wynikiem nie będzie nowa liczba,<br>  to zostanie zwrócona wartość <code>NaN</code>.</li>
 </ul>
 <h2 id="Prawda-falsz-wartosci-true-amp-false"><a href="#Prawda-falsz-wartosci-true-amp-false" class="headerlink" title="Prawda, fałsz, wartości true &amp; false"></a>Prawda, fałsz, wartości true &amp; false</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> isLoggedIn = <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (isLoggedIn) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Zalogowano'</span>);</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Nie zalogowano'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>to jest bardzo istotna linia: <code>if (isLoggedIn)</code> w środku nawiasu<br><strong>zawsze</strong> jest prawda. To nie musi być zmienna <code>isLoggedIn</code>, może to<br>być dowolna inna zmienna. Zgodnie z wartością zmiennej <code>isLoggedIn</code><br>zmienna ta ma wartość <code>true</code>, później w <strong>instrukcji warunkowej</strong><br>sprawdzam czy <code>isLoggedIn</code> jest prawdziwe. Jeśli prawdziwe to wykonam<br>kod <code>console.log(&#39;Zalogowano&#39;);</code></p>
@@ -259,7 +259,7 @@ Dzisiaj skupie się na tekstowym typi"/>
 <h2 id="null-vs-undefined"><a href="#null-vs-undefined" class="headerlink" title="null vs. undefined"></a>null vs. undefined</h2><p>Są to wartości fałszywe! - ale nie oto teraz chodzi.</p>
 <p><code>let yourName;</code> Sprawdzam swoją zmienną za pomocą <code>typeof</code>, czyli<br><code>typeof yourName</code>. Wynikiem jest <code>&quot;undefined&quot;</code>. Jeśli się odwołamy<br>bezpośrednio do zmiennej w konsoli, czyli wpiszemy: <code>yourName;</code> to wynik<br>również wskazuje na <code>undefined</code></p>
 <p>Jedno <code>undefined</code> posiada cudzysłowy a drugie nie w powyższym opisie.<br>Musimy pamiętać, że:</p>
-<p>Operator <code>typeof</code> <strong>zawsze</strong> zwraca <code>String</code>, ale wartość tego String<br>jest <code>undefined</code>.</p>
+<p>Operator <code>typeof</code> <em>zawsze</em> zwraca <code>String</code>, ale wartość tego String<br>jest <code>undefined</code>.</p>
 <p>Jeśli utworzymy zmienną, ale nie przypiszemy do niej żadnej wartości,<br>to ma ona wartość <code>undefined</code>: <code>let yourName;</code> - wartość zmiennej to<br><em><code>undefined</code></em></p>
 <p>Jeśli, chcemy <strong>z góry</strong>, aby zadeklarowana zmienna miała wartość pustą<br>to przypiszemy do niej wartość <strong>null</strong>: <code>let yourName = null;</code></p>
 <p>Sprawdźmy jedną rzecz: <code>typeof null</code> - zwróci nam <code>object</code>, ale <strong>STOP</strong></p>

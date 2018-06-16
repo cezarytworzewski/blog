@@ -245,7 +245,7 @@ Warto wspomnieć, że instalować paczk"/>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim plik.txt</span><br></pre></td></tr></table></figure>
 <p>  uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM<br>  znajdziesz <a href="https://www.cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/" target="_blank" rel="noopener">tutaj</a></p>
 </li>
-<li><p>sprawdzam zawartość <strong>plik.txt</strong>:</p>
+<li><p>sprawdzam zawartość <code>plik.txt</code>:</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat plik.txt</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>teraz chce utworzyć <strong>skrót</strong> do pliku o nazwie <strong>plik.txt</strong>:</p>
@@ -265,7 +265,7 @@ Warto wspomnieć, że instalować paczk"/>
 <p>Jeśli w poleceniu <code>ln</code> nie damy parametru to zostanie utworzone<br>dowiązanie twarde</p>
 <p>Wyświetlimy sobie katalog:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /linki</span><br><span class="line">ls</span><br><span class="line">ls -l</span><br></pre></td></tr></table></figure>
-<p>Parametr <strong>l</strong> wyświetla wszystko - uprawnienia, data,<br>godzina, user. Pierwsza kolumna oznacza uprawnienia do pliku,<br>natomiast druga to cyfra np: <strong>1</strong>, z każdym dowiązaniem twardym<br>liczba będzie rosnąć.</p>
+<p>Parametr <code>-l</code> wyświetla wszystko - uprawnienia, data,<br>godzina, user. Pierwsza kolumna oznacza uprawnienia do pliku,<br>natomiast druga to cyfra np: <strong>1</strong>, z każdym dowiązaniem twardym<br>liczba będzie rosnąć.</p>
 <h3 id="Uwaga-na-dowiazania"><a href="#Uwaga-na-dowiazania" class="headerlink" title="Uwaga na dowiązania"></a>Uwaga na dowiązania</h3><ul>
 <li><strong>dowiązanie symboliczne</strong> mogę tworzyć na innych partycjach</li>
 <li>Natomiast <strong>dowiązania twarde</strong> musi znajdować się na partycji, w którym<br>  znajduje się oryginalny plik</li>
