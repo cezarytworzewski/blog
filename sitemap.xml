@@ -2,35 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/16/test2-1/</loc>
-    
-    <lastmod>2018-06-16T10:41:34.717Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/16/test2/</loc>
-    
-    <lastmod>2018-06-16T10:39:26.629Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/16/test/</loc>
-    
-    <lastmod>2018-06-16T10:37:09.542Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
-    
-    <lastmod>2018-06-16T10:17:12.018Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/</loc>
     
     <lastmod>2018-06-16T10:17:12.018Z</lastmod>
     
@@ -44,9 +16,9 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/</loc>
     
-    <lastmod>2018-06-16T10:17:12.014Z</lastmod>
+    <lastmod>2018-06-16T10:17:12.018Z</lastmod>
     
   </url>
   
@@ -58,7 +30,7 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</loc>
     
     <lastmod>2018-06-16T10:17:12.014Z</lastmod>
     
@@ -72,7 +44,14 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/</loc>
+    
+    <lastmod>2018-06-16T10:17:12.014Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/</loc>
     
     <lastmod>2018-06-16T10:17:12.014Z</lastmod>
     
