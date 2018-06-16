@@ -1,7 +1,7 @@
-----
+---
 title: Czym się różni reguła od właściwości w CSS?
 date: 2018/06/15
-----
+---
 
 Pod lupę wezmę teraz `CSS`. Opowiem o tym, czym jest właściwość a czym
 reguła w CSS.

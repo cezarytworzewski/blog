@@ -1,7 +1,7 @@
-----
+---
 title: Nauka Linux'a od podstaw (2)
 date: 2018/06/08
-----
+---
 
 W tym artykule opiszę to czego się nauczyłem, czyli:
 **instalacja oprogramowania**, **dowiązania w Linux**, **mechanizm CRON**

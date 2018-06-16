@@ -1,7 +1,7 @@
-----
+---
 title: Porównanie znaczników "q, cite, blockquote".
 date: 2018/06/15
-----
+---
 
 Postaram się teraz zrozumieć co łączy znaczniki `q`, `cite` oraz `blockquote`.
 

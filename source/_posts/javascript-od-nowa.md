@@ -1,8 +1,8 @@
-----
+---
 title: Jutro startuję z JavaScript od nowa!
 date: 2018/06/03
 update: 2018/06/03
-----
+---
 
 Otóż, jak wiecie mam cholerny problem ze zrozumieniem... dobra nie będę
 owijał w bawełnę.

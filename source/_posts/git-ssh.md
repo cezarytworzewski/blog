@@ -1,8 +1,8 @@
-----
+---
 title: Czym jest Git? Klucze SSH - jak to zrozumieć?
 date: 2018/05/31
 update: 2018/06/01
-----
+---
 
 Drugi post postanowiłem, że będzie poświęcony konfiguracji `Git'a` krok
 po kroku.

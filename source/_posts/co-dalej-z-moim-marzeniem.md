@@ -1,7 +1,7 @@
-----
+---
 title: Co dalej? Jakie mam plany? Programowanie? JavaScript? Linux?
 date: 2018/06/02
-----
+---
 
 Ostatnio kupiłem sobie napój firmy `OSHEE`. Spodobał mi się cytat z
 butelki _"Ograniczenia istnieją tylko w głowie"_. Pierwsze skojarzenie

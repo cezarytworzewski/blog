@@ -1,7 +1,7 @@
-----
+---
 title: Jaka jest różnica pomiędzy znacznikiem img & background-image?
 date: 2018/06/14
-----
+---
 
 Wszystko zaczęło się od _chęci_ umieszczenia baneru na stronie www.
 Tylko jak to poprawnie zrobić?

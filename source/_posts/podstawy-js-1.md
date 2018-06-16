@@ -1,7 +1,7 @@
-----
+---
 title: Nauka JavaScript od podstaw (1)
 date: 2018/06/05
-----
+---
 
 Małe opóźnienie z wpisem na blogu, ale z braku czasu nie dałem rady.
 Przepraszam za opóźnienia! :)

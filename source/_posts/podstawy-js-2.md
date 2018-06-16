@@ -1,7 +1,7 @@
-----
+---
 title: Nauka JavaScript od podstaw (2)
 date: 2018/06/13
-----
+---
 
 Ogólnie rzecz biorąc, zaczynam od początku **JavaScript**, ale mnóstwo
 rzeczy wiem - _tak czuję, albo wydaję mi się!_

@@ -1,7 +1,7 @@
-----
+---
 title: Linux vs. Windows dla Front-end'owca?
 date: 2018/06/01
-----
+---
 
 Około 3 tygodnie temu zdecydowałem. To już KONIEC. Tak, koniec, ale
 pracy na Windows'ie. Zainstalowałem `Ubuntu`. System, który moim zdaniem
