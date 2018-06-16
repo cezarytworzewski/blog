@@ -89,3 +89,13 @@ theme_config:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+
+# Header
+menu:
+  Github: 
+	url: https://github.com/cezarytworzewski
+	icon: github
+  Twitter:
+	url: http://twitter.com/ctworzewski
+	icon: twitter
