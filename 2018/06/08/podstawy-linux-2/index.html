@@ -94,6 +94,7 @@ Warto wspomnieć, że instalować paczk"/>
     gtag('config', 'UA-120895796-1');
 </script>
 
+
     <!-- favicon -->
     
 
@@ -225,12 +226,12 @@ Warto wspomnieć, że instalować paczk"/>
 <li>musimy pobrać odpowiednią paczkę, która jest zgodna z naszą architekturą OS</li>
 <li>wydajemy polecenie:<ul>
 <li><code>rpm -i teamviewer_linux.rpm</code> albo lepszym rozwiązaniem będzie:<ul>
-<li><code>rpm -Uvh teamviewer_linux.rpm</code> =&gt; gdzie poszczególne parametry<br>  oznaczają:<pre><code>- `U` - jest to inaczej polecenie `install` ale dodatkowo
-    robi nam `update` naszej paczki
-- `v` - wyświetla nam informacje co aktualnie się wykonuje
-    podczas instalacji
-- `h` - wyświetla nam procentoway pasek postępu
-</code></pre></li>
+<li><code>rpm -Uvh teamviewer_linux.rpm</code> =&gt; gdzie poszczególne parametry<br>  oznaczają:<ul>
+<li><code>U</code> - jest to inaczej polecenie <code>install</code> ale dodatkowo<br>  robi nam <code>update</code> naszej paczki</li>
+<li><code>v</code> - wyświetla nam informacje co aktualnie się wykonuje<br>  podczas instalacji</li>
+<li><code>h</code> - wyświetla nam procentoway pasek postępu</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -244,7 +245,7 @@ Warto wspomnieć, że instalować paczk"/>
 <li><strong>symboliczne</strong></li>
 <li><strong>twarde</strong></li>
 </ul>
-<h3 id="Dowiazanie-symboliczne"><a href="#Dowiazanie-symboliczne" class="headerlink" title="Dowiązanie symboliczne:"></a>Dowiązanie symboliczne:</h3><ul>
+<h3 id="Dowiazanie-symboliczne"><a href="#Dowiazanie-symboliczne" class="headerlink" title="Dowiązanie symboliczne"></a>Dowiązanie symboliczne</h3><ul>
 <li><p>przechodzę do katalogu domowego:</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure>
 </li>
@@ -267,7 +268,7 @@ Warto wspomnieć, że instalować paczk"/>
 <p>  Parametr <strong>s</strong> oznacza, że symboliczne.</p>
 </li>
 <li><p>przechodzę do katalogu <strong>dowiazania</strong>:</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /tmp/dowiazania/</span><br><span class="line">ls                  # wyświetlam zawartość folderu **dowiazania**</span><br><span class="line">ls -l</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /tmp/dowiazania/</span><br><span class="line">ls //wyświetlam zawartość folderu **dowiazania**</span><br><span class="line">ls -l</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h3 id="Dowiazania-twarde"><a href="#Dowiazania-twarde" class="headerlink" title="Dowiązania twarde"></a>Dowiązania twarde</h3><p>Jestem w katalogu <strong>linki/</strong></p>
