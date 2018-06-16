@@ -5,14 +5,14 @@ date: 2018/06/15
 
 Postaram się teraz zrozumieć co łączy znaczniki `q`, `cite` oraz `blockquote`*.
 
-Jedyne co ich _łączy_ to to, że wszystkie słuszą do **CYTOWANIA**.
+Jedyne co ich _łączy_ to to, że wszystkie służą do **CYTOWANIA**.
 
 Ale pamiętajmy możemy cytować zdanie, kogoś, wiersz fragment z książki ale który
 będzie odpowiedni w danym kontekście? Dlatego zacznę od znacznika `q`.
 
 Znaczniki `q`, `cite` & `blockquote`:
 
-* znacznik **q** - służy co cytowania któszej wypowiedzi. Może być cytowane
+* znacznik **q** - służy co cytowania krótszej wypowiedzi. Może być cytowane
     zdanie wypowiedziane przez kogoś np.
 
         `<p>Programiści powiadają, że <q>Każdy może nauczyć się programowania</q>. Zgadzam się z tym</p>`
@@ -23,7 +23,7 @@ Znaczniki `q`, `cite` & `blockquote`:
 
 * znacznik **cite** - również służy do cytowania, ale cytowania w których
     odwołujemy się do innych źródeł. Mogą to być odwołania do pracy twórczej
-    różnych autorów ksiązek, profesorów, poetów np.
+    różnych autorów książek, profesorów, poetów np.
 
         `<p>Prawdą jest to, że <cite>Adam Mickiewicz</cite> wers <q>Litwo, Ojczyzno moja! ty jesteś jak zdrowie;</q></p>`
 
