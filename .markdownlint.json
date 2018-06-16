@@ -1,6 +1,7 @@
 {
     "default": true,
     "no-bare-urls": false,
+    "no-alt-text": false,
     "MD002": {
         "level": 2
     },
@@ -18,7 +19,8 @@
         "list_item_empty_lines": 4
     },
     "MD013": {
-        "code_blocks": false
+        "code_blocks": false,
+        "headings": false
     },
     "MD026": {
         "punctuation": ".,;:"
@@ -35,8 +37,5 @@
             "small",
             "abbr"
         ]
-    },
-    "MD045": {
-        "style": false
     }
 }

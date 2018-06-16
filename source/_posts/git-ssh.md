@@ -30,14 +30,14 @@ Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.
 
     Jeśli posiadamy konto to wszystko jak na razie jest dobrze. :-)
 
-2. Na komputerze lokalnym tworzę folder o nazwie np.:  `Pliki` oraz tworzę
-plik `index.html` dalej... muszę połączyć `git`-a lokalnie z kontem
-`GitHub` na serwerze:
+2. Na komputerze lokalnym tworzę folder o nazwie np.: `Pliki` oraz tworzę
+    plik `index.html` dalej... muszę połączyć `git`-a lokalnie z kontem
+    `GitHub` na serwerze:
 
 * tworzę parę kluczy SSH (publiczny i prywatny), wykonując polecenie:
 
-    ```
-    ssh-keygen -t rsa -C "adres-email"
+    ```text
+        ssh-keygen -t rsa -C "adres-email"
     ```
 
 * następnie, muszę przejść do katalogu użytkownika `~/.ssh`.
@@ -52,20 +52,20 @@ plik `index.html` dalej... muszę połączyć `git`-a lokalnie z kontem
 
 * następnie w konsoli wydaję polecenie:
     
-    ```
-    git init
-    git add .
+    ```text
+        git init
+        git add .
     ```
     
     znak `.` - kropka oznacza, że chce dodać wszystkie pliki. Jeśli chciałbym
     dodać tylko jeden plik to wydam polecenie: `git add index.html`, gdzie
     plik `index.html` jest moim plikiem, który chce wysłać na serwer.
     
-    ```
-    git status (opcjonalnie)
-    git commit -m "commit-message"
-    git remote add origin git@github.com:NAZWA_UŻYTKOWNIKA_GITHUB/NAZWA_REPOZYTORIUM.git
-    git push -u origin master
+    ```bash
+        git status (opcjonalnie)
+        git commit -m "commit-message"
+        git remote add origin git@github.com:NAZWA_UŻYTKOWNIKA_GITHUB/NAZWA_REPOZYTORIUM.git
+        git push -u origin master
     ```
 
 Pliki powinny być już dostępne w projekcie na [GitHub](http://www.github.com).

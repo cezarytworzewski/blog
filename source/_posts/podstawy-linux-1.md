@@ -7,7 +7,7 @@ update: 2018/06/14
 Jak wiecie, dodatkiem do mojej nauki `Front-end'u` jest nauka `Linux'a`.
 Fizycznie posiadam `Ubuntu` i na maszynie wirtualnej `CentOS`.
 
-## Podstawowe polecenie:
+## Podstawowe polecenie
 
 * `pwd` - wskazuje bieżącą lokalizację (ścieżkę) w jakiej się znajdujemy
 * `cd ..` - zejście do katalogu wcześniej
@@ -124,9 +124,9 @@ Wyszukają nam się wyrazy o tej wartości w całym naszym pliku.
 
 ### Jak zmienić słowo w `VIM`?
 
-Jeśli chce zmienić wszystkie słowa`pająk` na `kot` to uruchamiam: 
+Jeśli chce zmienić wszystkie słowa`pająk` na `kot` to uruchamiam:
 
-```
+```text
 :%s/pająk/kot
 ```
 

@@ -3,11 +3,9 @@ title: Dlaczego nie można modyfikować pliku bootstrap.min.css?
 date: 2018/06/15
 ---
 
-## Czym jest Bootstrap?
-
-Bootstrap jest to framework. Służy on do tworzenia stron internetowych w sposób
-*responsywny*, czyli taki, gdzie strona będzie się dostosowywać do każdego
-urządzenia, nie zależnie od wielkości przeglądarki.
+Czym jest **Bootstrap**? Bootstrap jest to framework. Służy on do tworzenia
+stron internetowych w sposób *responsywny*, czyli taki, gdzie strona będzie
+się dostosowywać do każdego urządzenia, nie zależnie od wielkości przeglądarki.
 
 Framework ten można pobrać lokalnie na swój komputer lub z serwera:
 
@@ -15,7 +13,7 @@ Framework ten można pobrać lokalnie na swój komputer lub z serwera:
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
 ```
 
-### Dlaczego nie powinniśmy go modyfikować?
+## Dlaczego nie powinniśmy go modyfikować?
 
 Chodzi oto, że Bootstrap posiada szereg _domyślnie_ stworzonych elementów,
 które w sposób "automatyczny" dadzą nam wizualnie świetną stronę internetową.

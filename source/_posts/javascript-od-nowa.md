@@ -9,7 +9,7 @@ owijał w bawełnę.
 
 Jutro startuję w kursem [JavaScript - od Podstaw](https://eduweb.pl/kursy/javascript/javascript-podstawy.html)
 serwisu [Eduweb.pl](http://www.eduweb.pl), którego autorem jest `Piotr Palarz`.
-Kurs trwa około 11 godzin, ale dla mnie potrzeba chyba 10 000 godzin na 
+Kurs trwa około 11 godzin, ale dla mnie potrzeba chyba 10 000 godzin na
 przerobienie. Oczywiście żartuję...
 
 Przerobienie kursu nie jest żadnym problemem dla mnie - problemem jest to,
@@ -19,7 +19,7 @@ Kiedyś przerabiałem podobne kursy `JavaScript`.
 
 ![df](https://avatars0.githubusercontent.com/u/30724303?s=400&v=4)
 
-## Plan jest taki:
+## Plan jest taki
 
 * oglądam daną lekcję z kursu na jednym monitorze,
 * na drugim monitorze w tym samym czasie -równolegle koduję; czyli

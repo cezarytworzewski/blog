@@ -11,7 +11,7 @@ uprawnieniami **roota**!
 
 ## Instalacja oprogramowania
 
-Na podstawie systemu CentOS do instalacji oprogramowania służą nam dwa 
+Na podstawie systemu CentOS do instalacji oprogramowania służą nam dwa
 narzędzia:
 
 * narzędzia automatyczne: **yum**
@@ -21,15 +21,14 @@ Instalacja z paczki wygląda następująco:
 
 * musimy pobrać odpowiednią paczkę, która jest zgodna z naszą architekturą OS
 * wydajemy polecenie:
-  * `rpm -i teamviewer_linux.rpm` albo lepszym rozwiązaniem będzie:
-    * `rpm -Uvh teamviewer_linux.rpm` => gdzie poszczególne parametry
-        oznaczają:
-            - `U` - jest to inaczej polecenie `install` ale dodatkowo
+    + `rpm -i teamviewer_linux.rpm` albo lepszym rozwiązaniem będzie:
+        - `rpm -Uvh teamviewer_linux.rpm` => gdzie poszczególne parametry
+            oznaczają:
+            + `U` - jest to inaczej polecenie `install` ale dodatkowo
                 robi nam `update` naszej paczki
-            - `v` - wyświetla nam informacje co aktualnie się wykonuje
+            + `v` - wyświetla nam informacje co aktualnie się wykonuje
                 podczas instalacji
-            - `h` - wyświetla nam procentoway pasek postępu
-
+            + `h` - wyświetla nam procentoway pasek postępu
 
 **Instalacja z narzędziem autoomatycznym:**
 `yum install cups` - gdzie **cups** jest to serwer wydruku
@@ -41,7 +40,7 @@ Instalacja z paczki wygląda następująco:
 * **symboliczne**
 * **twarde**
 
-### Dowiązanie symboliczne:
+### Dowiązanie symboliczne
 
 * przechodzę do katalogu domowego:
 
@@ -76,24 +75,24 @@ Instalacja z paczki wygląda następująco:
     Tworzę folder **dowiązania** w lokalizacji **tmp**:
 
     ```bash
-    mkdir /tmp/dowiazania/
-    cd /tmp/dowiazania/
+        mkdir /tmp/dowiazania/
+        cd /tmp/dowiazania/
     ```
 
 * teraz tworzę dowiązanie do pliku:
 
     ```bash
-    ln -s plik.txt /tmp/dowiazania/
+        ln -s plik.txt /tmp/dowiazania/
     ```
 
     Parametr **s** oznacza, że symboliczne.
 
 * przechodzę do katalogu **dowiazania**:
 
-    ```
-    cd /tmp/dowiazania/
-    ls                  # wyświetlam zawartość folderu **dowiazania**
-    ls -l
+    ```text
+      cd /tmp/dowiazania/
+      ls //wyświetlam zawartość folderu **dowiazania**
+      ls -l
     ```
 
 ### Dowiązania twarde
@@ -135,7 +134,7 @@ automatycznych logów w systemie.
 
 Mechanizm CRON posiada **7 pozycji:**:
 
-```
+```text
 * * * * * root touch /tmp/plik.txt
 ```
 

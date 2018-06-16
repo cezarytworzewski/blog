@@ -25,24 +25,24 @@ Znacznik ten posiada również atrybuty:
 * atrybut `title` - jeśli najedziemy kursorem myszy na zdjęcie to
     pojawi się tekst obrazka
 * kolejne atrybuty to `height` oraz `width`:
-    * `height` - wysokość grafiki
-    * `width` - szerokość grafiki
+    + `height` - wysokość grafiki
+    + `width` - szerokość grafiki
 
-    Służą one do zmiany rozmiarów wyświetlającego obrazek.
+ Służą one do zmiany rozmiarów wyświetlającego obrazek.
 
 * jeszcze inny atrybut to `align` - służy do wyrównywania obrazków w
     poziomie.
 
-    Atrybut `align` posiada dwie wartości:
+    + Atrybut `align` posiada dwie wartości:
 
-    * `left`
-    * `right`
+        - `left`
+        - `right`
 
 Przykładowy kod z użyciem znacznika `img`:
 
 ```html
-<img src="/images/computer.jpg"/>
-<img src="https://piecioshka.pl/assets/images/posts/post-banner-hexo-setup-blog.png"/>
+    <img src="/images/computer.jpg"/>
+    <img src="https://piecioshka.pl/assets/images/posts/post-banner-hexo-setup-blog.png"/>
 ```
 
 ## Reguła `background-image`
@@ -93,9 +93,9 @@ Jeśli dodam plik za pomocą znacznika `img` to muszę pamiętać, że:
 
 ## Definicja `img` & `backgroung-image`
 
-- `img` - to skrót od `images` (ang. _obrazek_)
-- `background` (ang. _tło_)
-    - `background-image` - mogę przetłumaczyć jako `tło obrazkowe`
+* `img` - to skrót od `images` (ang. _obrazek_)
+* `background` (ang. _tło_)
+* `background-image` - mogę przetłumaczyć jako `tło obrazkowe`
 
 `img` służy do dodawania zdjęcia, obrazków, natomiast `background-image`
 służy do dodawania tła na stronie

@@ -12,7 +12,7 @@ instalacje programów z `paczek` i `repozytoriów`. Dodawanie użytkowników,
 zmiana haseł, nadawanie uprawnień `chmod`. Albo jak wyszukiwać pliki lub
 foldery za pomocą polecenia `find`.
 
-Wszystko staram się robić za pomocą `TERMINALA`. 
+Wszystko staram się robić za pomocą `TERMINALA`.
 
 W terminalu oczywiście pracuję z `Git'em` - gdzie jest to niezbędnik
 każdego programisty `Front-end` i `Back-end` Zacząłem pracować z edytorem

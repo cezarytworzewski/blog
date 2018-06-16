@@ -15,7 +15,7 @@ Znaczniki `q`, `cite` & `blockquote`:
 * znacznik **q** - służy co cytowania krótszej wypowiedzi. Może być cytowane
     zdanie wypowiedziane przez kogoś np.
 
-    ```
+    ```html
     <p>
         Programiści powiadają, że <q>Każdy może nauczyć się programowania</q>.
         Zgadzam się z tym
@@ -24,7 +24,7 @@ Znaczniki `q`, `cite` & `blockquote`:
 
     lub
 
-    ```
+    ```html
     <p>
         Pani powiedziała, że <q>Dopilnuję, żeby nikt z Was nie zdał matury</q>.
         Nie powinna tak mówić.
@@ -34,7 +34,7 @@ Znaczniki `q`, `cite` & `blockquote`:
     odwołujemy się do innych źródeł. Mogą to być odwołania do pracy twórczej
     różnych autorów książek, profesorów, poetów np.
 
-    ```
+    ```html
     <p>
         Prawdą jest to, że <cite>Adam Mickiewicz</cite> wers
         <q>Litwo, Ojczyzno moja! ty jesteś jak zdrowie;</q>
@@ -44,7 +44,7 @@ Znaczniki `q`, `cite` & `blockquote`:
 * znacznik **blockquote** - za pomocą tego znacznika zacytujemy dłuższy
     fragment tekstu, może to być artykuł z gazety, wiersz np.
 
-    ```
+    ```html
     <blockquote>
     Litwo, Ojczyzno moja! ty jesteś jak zdrowie;
     Ile cię trzeba cenić, ten tylko się dowie,
@@ -73,6 +73,7 @@ Znaczniki `q`, `cite` & `blockquote`:
 
     czego wynikiem będzie:
 
+```html
 <blockquote>
     Litwo, Ojczyzno moja! ty jesteś jak zdrowie;
     Ile cię trzeba cenić, ten tylko się dowie,
@@ -97,6 +98,7 @@ Znaczniki `q`, `cite` & `blockquote`:
     A wszystko przepasane jakby wstęgą, miedzą
     Zieloną, na niej zrzadka ciche grusze siedzą.
 </blockquote>
+```
 
 Dlatego myślę, że wiem już w jakim kontekście powinienem stosować
 powyższe znaczniki. Ale zdaję sobie sprawę, że zanim w pełni zacznę

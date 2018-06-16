@@ -10,7 +10,7 @@ Dzisiaj skupie się na tekstowym typie danych `String`,
 typie liczbowym `Number`, `true`, `false` i wartości
 `true` & `false`. A dzisiejsza przygodę zakończę z `null` vs. `undefined`.
 
-## Tekstowy typ danych `String`.
+## Tekstowy typ danych `String`
 
 Warto powiedzieć, że tekstowy typ danych zapisujemy za pomocą apostrofów
  `' '` albo cudzysłowów `" "`. Jest to obojętne jaką konwencje użyjemy,
@@ -35,30 +35,30 @@ Dlatego jeśli wartość naszej zmiennej posiada `'  '` albo `"  "` to wiem,
 
 Tekstowy typ danych to *String*.
 
-### Przykłady:
+## Przykłady
 
-```js
+```javascript
 let firstName = 'Jan';
 let lastName = "Kowalski";
 ```
 
-Załóżmy, że mamy tytuł książki albo cytat. Zazwyczaj umieszczamy je w `" "`. 
+Załóżmy, że mamy tytuł książki albo cytat. Zazwyczaj umieszczamy je w `" "`.
 Jak to zrobić w JavaScript?
 
-```js
+```javascript
 let bookTitle = "Władca pierścieni"
 ```
 
 Wywołuję sobie to w konsoli przeglądarki. Wynik to:
 
-```
-bookTitle // wywołuję sobie zmienną
-"Władca Pierścieni" // jest to wynik, posiada cudzysłowy, ale są to cudzysłowy informujące, że wartośc jest String,
+```text
+    bookTitle // wywołuję sobie zmienną
+    "Władca Pierścieni" // jest to wynik, posiada cudzysłowy, ale są to cudzysłowy informujące, że wartośc jest String,
 ```
 
 Żeby zrobić cudzysłów określający tytuł książki to robię to tak:
 
-```js
+```javascript
 let bookTitle = "'Władca Pierścieni'";
 ```
 
@@ -74,7 +74,7 @@ inny sposób to:
 let bookTitle = "\"Władca Pierścieni\"";
 ```
 
-##  Liczbowy typ danych `Number`.
+## Liczbowy typ danych Number
 
 **Number** to liczbowy typ danych, dzięki nim możemy przechowywać liczby,
 wartości liczbowe, liczby całkowite czy wartości zmiennoprzecinkowe.
@@ -125,7 +125,7 @@ zmienna ta ma wartość `true`, później w **instrukcji warunkowej**
 sprawdzam czy `isLoggedIn` jest prawdziwe. Jeśli prawdziwe to wykonam
 kod `console.log('Zalogowano');`
 
-## Wartości fałszywe to:
+## Wartości fałszywe to
 
 * false
 * 0
@@ -172,7 +172,7 @@ Sprawdźmy jedną rzecz: `typeof null` - zwróci nam `object`, ale **STOP**
 
 ***null* NIE JEST OBIEKTEM**
 
-### Jak to ma się do obiektów ?
+### Jak to ma się do obiektów?
 
 `let person = {};`, sprawdźmy za pomocą `typeof person.name` =>
 Wynik to: `"undefined"`
@@ -193,7 +193,7 @@ let person = {
 Teraz `typeof person.name` będzie miał wartość `object`.
 
 Jeśli wynikiem kiedyś będzie `null`, to muszę pamiętać, że zmienna
-została już zadeklarowana, ale nic nie zostało do niej przypisane. 
+została już zadeklarowana, ale nic nie zostało do niej przypisane.
 Przy `undefined` wartość nigdy nie została ustawiona.
 
 ## Podsumowując

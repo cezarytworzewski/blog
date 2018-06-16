@@ -18,7 +18,7 @@ który nie jest kompilowany, jedynie zostanie  zinterpretowany przez
 program np. przez przeglądarkę i zostanie on wykonany jako np. odtwarzacz
 video albo galeria zdjęć.
 
-## Co możemy stworzyć za pomocą JavaScriptu:
+## Co możemy stworzyć za pomocą JavaScriptu
 
 * odtwarzacz video
 * kalkulator
@@ -140,7 +140,6 @@ tematem. Szukam jakiegoś ratunku już dla siebie.
 Wiem jedno - muszę baaaardzo dużo pracować / uczyć się!
 
 Blogowanie dopiero zaczynam więc... bardzo dziękuje za doczytanie mnie do końca!
-
 
 [piecioshka]: https://twitter.com/piecioshka
 [plugin]: https://github.com/piecioshka/photoshop-plugin-copy-color-after-picking

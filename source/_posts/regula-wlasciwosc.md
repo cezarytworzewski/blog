@@ -30,7 +30,7 @@ Reguła CSS składa się z:
 * wartość - za pomocą wartości, określamy jak chcemy zmienić element, czy
     nadamy mu kolor czerwony.
 
-#### Prosty przepis na stworzenie reguły CSS.
+#### Prosty przepis na stworzenie reguły CSS
 
 ```css
 selektor {

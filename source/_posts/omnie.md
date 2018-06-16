@@ -8,8 +8,8 @@ Witam wszystkich `FRONT-ów` :-)
 Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),
 ale obecnie mieszkam w Kielcach.
 
-Z zawodu? To skomplikowane. Ukończyłem studia inżynierskie na kierunku 
-INFORMATYKA na UJK Kielce. Natomiast pracuję jako ratownik wodny na jednym z 
+Z zawodu? To skomplikowane. Ukończyłem studia inżynierskie na kierunku
+INFORMATYKA na UJK Kielce. Natomiast pracuję jako ratownik wodny na jednym z
 Kieleckich basenów.
 
 Chce zostać PROGRAMISTĄ, a dokładniej FRONT-END DEVELOPEREM. Miewam
@@ -24,4 +24,4 @@ Na stworzenie bloga, namówił mnie kolega - programista Piotr Kowalski <https:/
 
 <mark>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu HEXO.</mark>
 
-_Do zobaczenia_
+    _Do zobaczenia_
