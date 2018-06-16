@@ -4,12 +4,12 @@
   <url>
     <loc>https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/</loc>
     
-    <lastmod>2018-06-16T12:36:49.293Z</lastmod>
+    <lastmod>2018-06-16T12:40:15.957Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/</loc>
     
     <lastmod>2018-06-16T10:17:12.018Z</lastmod>
     
@@ -23,16 +23,9 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
     
     <lastmod>2018-06-16T10:17:12.018Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/05/podstawy-js-1/</loc>
-    
-    <lastmod>2018-06-16T10:17:12.014Z</lastmod>
     
   </url>
   
@@ -58,6 +51,13 @@
   </url>
   
   <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/05/podstawy-js-1/</loc>
+    
+    <lastmod>2018-06-16T10:17:12.014Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/</loc>
     
     <lastmod>2018-06-16T10:17:12.014Z</lastmod>
@@ -72,13 +72,6 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/05/30/omnie/</loc>
-    
-    <lastmod>2018-06-16T09:55:45.746Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/</loc>
     
     <lastmod>2018-06-16T09:55:45.746Z</lastmod>
@@ -86,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/05/30/omnie/</loc>
     
     <lastmod>2018-06-16T09:55:45.746Z</lastmod>
     
@@ -94,6 +87,13 @@
   
   <url>
     <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
+    
+    <lastmod>2018-06-16T09:55:45.746Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/</loc>
     
     <lastmod>2018-06-16T09:55:45.746Z</lastmod>
     
