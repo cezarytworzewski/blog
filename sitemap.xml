@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/16/nowy/</loc>
+    
+    <lastmod>2018-06-16T11:28:03.697Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/16/nowy-plik/</loc>
     
     <lastmod>2018-06-16T11:02:48.669Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
+    
+    <lastmod>2018-06-16T10:17:12.018Z</lastmod>
     
   </url>
   
@@ -23,21 +37,21 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
-    
-    <lastmod>2018-06-16T10:17:12.018Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/14/img-vs-background-image/</loc>
     
     <lastmod>2018-06-16T10:17:12.014Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/14/img-vs-background-image/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/</loc>
+    
+    <lastmod>2018-06-16T10:17:12.014Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</loc>
     
     <lastmod>2018-06-16T10:17:12.014Z</lastmod>
     
@@ -58,23 +72,9 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/</loc>
-    
-    <lastmod>2018-06-16T10:17:12.014Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/15/porownanie-znacznikow-q-cite-blockquote/</loc>
     
     <lastmod>2018-06-16T10:03:21.622Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
-    
-    <lastmod>2018-06-16T09:55:45.746Z</lastmod>
     
   </url>
   
@@ -94,6 +94,13 @@
   
   <url>
     <loc>https://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/</loc>
+    
+    <lastmod>2018-06-16T09:55:45.746Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
     
     <lastmod>2018-06-16T09:55:45.746Z</lastmod>
     
