@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://cezarytworzewski.github.io/"/>
-  <updated>2018-06-16T10:17:12.018Z</updated>
+  <updated>2018-06-16T10:41:34.717Z</updated>
   <id>https://cezarytworzewski.github.io/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test2</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/16/test2-1/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/16/test2-1/</id>
+    <published>2018-06-16T10:41:34.000Z</published>
+    <updated>2018-06-16T10:41:34.717Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test2</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/16/test2/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/16/test2/</id>
+    <published>2018-06-16T10:38:53.000Z</published>
+    <updated>2018-06-16T10:39:26.629Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Test-hexo-draft"><a href="#Test-hexo-draft" class="headerlink" title="Test hexo draft"></a>Test hexo draft</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Test-hexo-draft&quot;&gt;&lt;a href=&quot;#Test-hexo-draft&quot; class=&quot;headerlink&quot; title=&quot;Test hexo draft&quot;&gt;&lt;/a&gt;Test hexo draft&lt;/h1&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/16/test/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/16/test/</id>
+    <published>2018-06-16T10:37:09.000Z</published>
+    <updated>2018-06-16T10:37:09.542Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Czym się różni reguła od właściwości w CSS?</title>
