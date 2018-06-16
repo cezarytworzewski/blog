@@ -12,38 +12,40 @@ typie liczbowym **Number**, **true**, **false** i wartości
 
 ## Tekstowy typ danych `String`.
 
-Warto powiedzieć, że tekstwoy typ danych zapisujemy za pomocą apostrofów
+Warto powiedzieć, że tekstowy typ danych zapisujemy za pomocą apostrofów
  `' '` albo cudzysłowów `" "`. Jest to obojętne jaką konwencje użyjemy,
- ale zawsze powinniśmy stosować tylko jedną. Między innymi po to, aby nasz kod był czytelny dla nas, ale również dla naszych kolegów po fachu.
+ale zawsze powinniśmy stosować tylko jedną. Między innymi po to,
+aby nasz kod był czytelny dla nas, ale również dla naszych kolegów po fachu.
 
 Zadeklarujemy sobie zmienną `firstName`:
 
-```
+```js
 let firstName = 'Jan';
 ```
 
-Stworzyliśmy własnie zmienną `firstName` i przypisaliśmy do niej wartość `Jan`.
+Stworzyliśmy właśnie zmienną `firstName` i przypisaliśmy do niej wartość `Jan`.
 
-Żeby sprawdzić jaki typ danych ma nasza zmienna używamy to takich działań operatora `typeof`.
+Żeby sprawdzić jaki typ danych ma nasza zmienna używamy to takich działań
+operatora `typeof`.
 
 `typeof firstName` => Wynikiem jest: ***String***
 
-Dlatego jeśli wartość naszej zmiennej posiada `'  '` albo `"  "` to wiem, że jest to typ ***String***.
+Dlatego jeśli wartość naszej zmiennej posiada `'  '` albo `"  "` to wiem,
+że jest to typ ***String***.
 
 Tekstowy typ danych to *String*.
 
 ### Przykłady:
 
-```
+```js
 let firstName = 'Jan';
 let lastName = "Kowalski";
 ```
 
+Załóżmy, że mamy tytuł książki albo cytat. Zazwyczaj umieszczamy je w `" "`. 
+Jak to zrobić w JavaScript?
 
-
- Załóżmy, że mamy tytuł ksiązki albo cytat. Zazwyczaj umieszczamy je w `" "`. Jak to zrobić w JavaScript?
-
-```
+```js
 let bookTitle = "Władca pierścieni"
 ```
 
@@ -51,21 +53,26 @@ Wywołuję sobie to w konsoli przeglądarki. Wynik to:
 
 ```
 bookTitle // wywołuję sobie zmienną
- "Władca Pierścieni" // jest to wynik, posiada cudzysłowy, ale są to cudzysłowy informujące, że wartośc jest String,
+"Władca Pierścieni" // jest to wynik, posiada cudzysłowy, ale są to cudzysłowy informujące, że wartośc jest String,
 ```
 
-Żeby zrobić cydzysłów okreslający tytuł książk to robię to tak:
+Żeby zrobić cudzysłów określający tytuł książki to robię to tak:
 
-`let bookTitle = "'Władca Pierścieni'";`
+```js
+let bookTitle = "'Władca Pierścieni'";
+```
 
-*albo:*
+albo:
 
-`let bookTitle = '"Władca Pierścieni"';`
+```js
+let bookTitle = '"Władca Pierścieni"';
+```
 
-*inny sposób to:*
+inny sposób to:
 
-`let bookTitle = "\"Władca Pierścieni\"";`
-
+```js
+let bookTitle = "\"Władca Pierścieni\"";
+```
 
 ##  Liczbowy typ danych `Number`.
 
@@ -73,92 +80,92 @@ bookTitle // wywołuję sobie zmienną
 wartości liczbowe, liczby całkowite czy wartości zmiennoprzecinkowe.
 Zapisujemy je troszkę inaczej niż `String` tzn. zapisujemy je bez użycia
 cudzysłowów.
-- liczba całkowita:
 
-    ```
+* liczba całkowita:
+
+    ```js
     let number = 20;
     ```
 
-- liczba zmiennoprzecinkowa:
+* liczba zmiennoprzecinkowa:
 
-     ```
-        let number = 20.5;
-     ```
+    ```js
+    let number = 20.5;
+    ```
 
-     Do tworzenia liczb zmiennoprzecinkowych używamy *kropki*
+    Do tworzenia liczb zmiennoprzecinkowych używamy *kropki*
 
 W JavaScript mamy też zmienne (stałe), czyli **Infinity** i **-Infinity**:
+
 * `Infinity` => 1.797693134862315E+308
 * `-Infinity` => 1.797693134862316E+308
 
 Posiadamy również taką wartość jak **NaN** (*Not a Number*):
-* to nie jest wartość liczbowa, jest tylko skojarzona jako typ liczbowy
-* jeśli będziemy robić jakieś obliczenia, a wnikiem nie będzie nowa liczba,
-    to zostanie zwrócona wartość **Nan**
 
+* to nie jest wartość liczbowa, jest tylko skojarzona jako typ liczbowy
+* jeśli będziemy robić jakieś obliczenia, a wynikiem nie będzie nowa liczba,
+    to zostanie zwrócona wartość **Nan**
 
 ## Prawda, fałsz, wartości true & false
 
-```
+```js
 let isLoggedIn = true;
 
-if(isLoggedIn) {
+if (isLoggedIn) {
     console.log('Zalogowano');
 } else {
     console.log('Nie zalogowano');
 }
 ```
 
-to jest bardzo istotna linia: `if(isLoggedIn)` w środku nawiasu
+to jest bardzo istotna linia: `if (isLoggedIn)` w środku nawiasu
 **zawsze** jest prawda. To nie musi być zmienna `isLoggedIn`, może to
 być dowolna inna zmienna. Zgodnie z wartością zmiennej `isLoggedIn`
-zmienna ta ma wartość `true`, póżniej w **instrukcji warunkowej**
+zmienna ta ma wartość `true`, później w **instrukcji warunkowej**
 sprawdzam czy `isLoggedIn` jest prawdziwe. Jeśli prawdziwe to wykonam
 kod `console.log('Zalogowano');`
 
 ## Wartości fałszywe to:
 
- * false
- * 0
- * " "
- * null
- * undefined
- * NaN
+* false
+* 0
+* " "
+* null
+* undefined
+* NaN
 
 Przykład:
 
-  ```
-        let value = 0;
+```js
+let value = 0;
 
-        if(value) {
-            console.log('Ta wartość nie jest fałszywa');
-        } else {
-            console.log('Wartość jest fałszywa');
-        }
-   ```
+if(value) {
+    console.log('Ta wartość nie jest fałszywa');
+} else {
+    console.log('Wartość jest fałszywa');
+}
+```
 
 ## null vs. undefined
 
 Są to wartości fałszywe! - ale nie oto teraz chodzi.
 
 `let yourName;` Sprawdzam swoją zmienną za pomocą `typeof`, czyli
-`typeof yourName`. Wynikiem jest `"undefined"`. Jeśli się dwołamy
+`typeof yourName`. Wynikiem jest `"undefined"`. Jeśli się odwołamy
 bezpośrednio do zmiennej w konsoli, czyli wpiszemy: `yourName;` to wynik
 również wskazuje na `undefined`
 
-Jedno `undefined` posiada cydzysłowy a drugie nie w powyższym opisie.
+Jedno `undefined` posiada cudzysłowy a drugie nie w powyższym opisie.
 Musimy pamiętać, że:
 
 Operator `typeof` **zawsze** zwraca `String`, ale wartość tego String
 jest `undefined`.
 
-
 Jeśli utworzymy zmienną, ale nie przypiszemy do niej żadnej wartości,
 to ma ona wartość `undefined`: `let yourName;` - wartość zmiennej to
 *`undefined`*
 
-
-Jeśli, chcemy **z góry**, aby zadeklarowana zmienna miała wartośc pustą
+Jeśli, chcemy **z góry**, aby zadeklarowana zmienna miała wartość pustą
 to przypiszemy do niej wartość **null**: `let yourName = null;`
 
 Sprawdźmy jedną rzecz: `typeof null` - zwróci nam `object`, ale **STOP**
@@ -170,14 +177,14 @@ Sprawdźmy jedną rzecz: `typeof null` - zwróci nam `object`, ale **STOP**
 `let person = {};`, sprawdźmy za pomocą `typeof person.name` =>
 Wynik to: `"undefined"`
 
-Dlaczego tak jest???
+Dlaczego tak jest?
 
 Ponieważ próbujemy się odwołać do czegoś, czego nie ma. W tym wypadku
 próbujemy sie odwołać do właściwości name obiektu person`
 
-Jeśli chcem, aby ta właściwość była pusta to możemy zrobić to tak:
+Jeśli chcę, aby ta właściwość była pusta to możemy zrobić to tak:
 
-```
+```js
 let person = {
     name: null
 };
@@ -186,7 +193,7 @@ let person = {
 Teraz `typeof person.name` będzie miał wartość `object`.
 
 Jeśli wynikiem kiedyś będzie `null`, to muszę pamiętać, że zmienna
-została już zadeklarowana, ale nic nie zostało do niej pzypisane. 
+została już zadeklarowana, ale nic nie zostało do niej przypisane. 
 Przy `undefined` wartość nigdy nie została ustawiona.
 
 ## Podsumowując

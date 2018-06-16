@@ -11,9 +11,11 @@ urządzenia, nie zależnie od wielkości przeglądarki.
 
 Framework ten można pobrać lokalnie na swój komputer lub z serwera:
 
-`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"`
+```html
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
+```
 
-### Dlaczego nie powinniśmy go modyfikowac?
+### Dlaczego nie powinniśmy go modyfikować?
 
 Chodzi oto, że Bootstrap posiada szereg *domyślnie* stworzonych elementów,
 które w sposób "automatyczny" dadzą nam wizualnie świetną stronę internetową.
@@ -24,27 +26,27 @@ i strona będzie nam się dobrze prezentować.
 Jeśli chcemy zmodyfikować, to robimy to inaczej. Tworzymy *nowy* plik
 `style.css` i modyfikujemy dane selektory. Nadpisujemy je.
 
-Wyobraż sobie, że Bootstrap posiada już stworzony selektor `h1`, którego
+Wyobraź sobie, że Bootstrap posiada już stworzony selektor `h1`, którego
 nie musimy edytować, ale jednak załóżmy, że chcemy zmienić `font-size` na
-`30px`, gdzie domyslnie ta wartość wynosi przykładowo `18px`.
+`30px`, gdzie domyślnie ta wartość wynosi przykładowo `18px`.
 
 Ponadto, nie powinniśmy edytować tego pliku, ponieważ został on poddany
-procesowi *minifikacji kodu**, o którym mówi mój kolega w swoim `vlog'u`.
-[Minifikacja ](https://www.youtube.com/watch?v=8Mhvn2jImwI&t=4s)
+procesowi *minifikacji kodu**, o którym mówi mój kolega w swoim `vlog'u`:
 
-*Minifikacja kodu* jest to usunięcie w całym pliku białych znaków, czyli
-po prostu spacji.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Mhvn2jImwI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+*Minifikacja kodu* jest to usunięcie w całym pliku białych znaków.
 
 Plik, który został poddany minifikacji kodu, byłby - a dokładniej jest trudny
 do edycji. Jest on nieczytelny, więc edycja go zajęła by nam "setki godzin".
 
 Innym powodem według mnie dlaczego nie powinniśmy go edytować, to taka sytuacja
 gdzie, tą bibliotekę, będziemy chcieli wykorzystać w innym projekcie i od nowa
-musielibysmy dostosowywać właściwości CSS naszej strony. Dlatego jak wspomniałem
+musielibyśmy dostosowywać właściwości CSS naszej strony. Dlatego jak wspomniałem
 wcześniej - najlepiej jak stworzymy drugi plik.
 
 Albo jeśli edytujemy, to nie powinniśmy sie łudzić, że zostanie ona update'owana
-przez twórców Twitter'a. Musielibyśmy wprowadzić na prawde bardzo dobre
+przez twórców Twitter'a. Musielibyśmy wprowadzić na prawdę bardzo dobre
 *nowe* funkcjonalności we framework'u.
 
 To się tyczy nie tylko Bootstrap'a, a także *innych* framework'ów.

@@ -41,7 +41,7 @@ Znacznik ten posiada również atrybuty:
 Przykładowy kod z użyciem znacznika `img`:
 
 ```html
-<img src="/images/computer.jpg">
+<img src="/images/computer.jpg"/>
 <img src="https://piecioshka.pl/assets/images/posts/post-banner-hexo-setup-blog.png"/>
 ```
 
@@ -98,7 +98,5 @@ Jeśli dodam plik za pomocą znacznika `img` to muszę pamiętać, że:
 - `background`- (ang. *tło*)
         - `background-images` - mogę przetłumaczyć jako `tło obrazkowe`
 
-
 `img` służy do dodawania zdjęcia, obrazków, natomiast `background-image`
 służy do dodawania tła na stronie
-
