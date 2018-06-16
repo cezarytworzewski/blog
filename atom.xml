@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://cezarytworzewski.github.io/"/>
-  <updated>2018-06-16T11:28:03.697Z</updated>
+  <updated>2018-06-16T11:46:21.898Z</updated>
   <id>https://cezarytworzewski.github.io/</id>
   
   <author>
@@ -17,20 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>nowy</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/16/nowy/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/16/nowy/</id>
-    <published>2018-06-16T11:27:42.000Z</published>
-    <updated>2018-06-16T11:28:03.697Z</updated>
+    <title>Jak łatwiej tworzyć artykuły na bloga?</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/</id>
+    <published>2018-06-15T22:00:00.000Z</published>
+    <updated>2018-06-16T11:46:21.898Z</updated>
     
-    <content type="html"><![CDATA[<p>Now yplik przed public</p>]]></content>
+    <content type="html"><![CDATA[<p>Odnalazłem nowy sposób na tworzenie artykułów  w oparciu o <strong>Hexo</strong>.</p><p>Do tej pory utrudniałem sobie pracę podczas tworzenia artykułów. Tworzyłem nowy<br>plik, pisałem artykuł a później dodawałem<br>go z użyciem programu <code>git</code>. To wszystko trwało o wiele dłużej. Na szczęście udało<br>mi się znaleść na to sposób.</p><p>Zaraz napiszę co to za sposób.</p><h2 id="Tworzenie-artykulow-na-Hexo"><a href="#Tworzenie-artykulow-na-Hexo" class="headerlink" title="Tworzenie artykułów na Hexo"></a>Tworzenie artykułów na Hexo</h2><p>1) Jestem w katalogu projektu, moja ścieżka wygląda tak:</p><pre><code>`cezary@cezary-LIFEBOOK-AH531:~/Dokumenty/KURS/Projects/blog$ `</code></pre><p>2) Teraz żeby dodać nowy artykuł muszę wydać w katalogu projektu polecenie:</p><pre><code>    `hexo new nowy-pliku`Stworzy mi się automatycznie plik. Rozszerzenie `md` jest również dodawane automatycznie do pliku.Skąd wiem, że plik się poprawnie dodał? Otóż po wydaniu wcześniejszegopolecenia otrzymam komunikat, informację o dodaniu poprawnie pliku.    `INFO  Created: ~/Dokumenty/KURS/Projects/blog/source/_posts/nowy-plik.md`</code></pre><p>3) Teraz wystarczy, że przejdę do mojego pliku. Tzn. otworzę go abym mógł go<br>    swobodnie edytować.</p><p>4) Wydam kolejno polecenia:</p><pre><code>* `hexo clean`* `hexo deploy`* `npm run deploy`</code></pre><p>Artykuł własnie został dodany. :)</p><h2 id="Tworzenie-artykulow-roboczych"><a href="#Tworzenie-artykulow-roboczych" class="headerlink" title="Tworzenie artykułów roboczych"></a>Tworzenie artykułów roboczych</h2><p>Możesz napisać kilka artykułów ale w wersji roboczej. Załóżmy, że napisałeś artykuł,<br>ale chcesz opublikować go jutro. Z Hexo masz taką możliwość.</p><p>Opiszę teraz krok po kroku jak tworzyć artykuł w wersji roboczej:</p><ul><li><p>będąc w głównym katalogu mojego bloga, czyli tutaj:</p><p> <code>cezary@cezary-LIFEBOOK-AH531:~/Dokumenty/KURS/Projects/blog$</code></p><p> wydaję polecenie:</p><pre><code>`hexo new draft plik-roboczy`</code></pre><p> Informację o poprawnym dodaniu pliku roboczego znajdziesz poniżej:</p><pre><code>`INFO  Created: ~/Dokumenty/KURS/Projects/blog/source/_drafts/plik-roboczy.md`</code></pre></li></ul><p>   Za pewne zauważyłeś, że w katalogu projektu, dodał się nowy folder o nazwie:  <code>/_draft/</code></p><p>   Tworzy on się automatycznie. Także wszystko działa poprawnie.</p><ul><li><p>jeśli już edytowałeś swój plik roboczy, teraz pora żeby go wrzucić na bloga.</p><p>  Wystarczy, że wydasz polecenie: </p><pre><code>`hexo publish plik-roboczy`</code></pre><p>  I twój artykuł został dodany i posiada status opublikowany.</p><p>  Potwierdzeniem jest otrzymanie komunikatu:</p><pre><code>`INFO  Published: ~/Dokumenty/KURS/Projects/blog/source/_posts/roboczy.md</code></pre></li></ul><p>Wszystkie operacje musisz wykonywać będąc w głównym katalogu projektu.</p><p> <em>Good luck!</em></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Now yplik przed public&lt;/p&gt;
-
+        &lt;p&gt;Odnalazłem nowy sposób na tworzenie artykułów  w oparciu o &lt;strong&gt;Hexo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Do tej pory utrudniałem sobie pracę podczas twor
       
     
     </summary>
@@ -39,20 +39,20 @@
   </entry>
   
   <entry>
-    <title>nowy-plik</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/16/nowy-plik/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/16/nowy-plik/</id>
-    <published>2018-06-16T10:58:31.000Z</published>
-    <updated>2018-06-16T11:02:48.669Z</updated>
+    <title>Czym się różni reguła od właściwości w CSS?</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</id>
+    <published>2018-06-14T22:00:00.000Z</published>
+    <updated>2018-06-16T10:17:12.018Z</updated>
     
-    <content type="html"><![CDATA[<p>Test tworzenia pliku</p>]]></content>
+    <content type="html"><![CDATA[<p>Pod lupę wezmę teraz <code>CSS</code>. Opowiem o tym, czym jest właściwość a czym<br>reguła w CSS.</p><h2 id="Co-to-jest-regula-CSS"><a href="#Co-to-jest-regula-CSS" class="headerlink" title="Co to jest reguła CSS?"></a>Co to jest reguła CSS?</h2><p>Dzięki regułą CSS, możemy stworzyć wygląd, tak jakbyśmy chcieli aby nasza<br>strona wyglądała dla jednego, bądź wielu elementów.</p><p>Reguła CSS określa <strong>wygląd</strong> dla elementu HTML.</p><h3 id="Skladnia-reguly"><a href="#Skladnia-reguly" class="headerlink" title="Składnia reguły"></a>Składnia reguły</h3><p>Reguła CSS składa się z:</p><ul><li>selektora - selektor jest elementem HTML, który chcemy edytować, może<br>  to być element zdefiniowany jako klasa, wygląda to mniej więcej tak:<br>  Elementowi <code>h3</code> nadaję klasę: <code>&lt;h3 class=&quot;size-title&quot;&gt;&lt;/h3&gt;</code>.</li><li>nawiasu klamrowego {} - w danym nawiasie umieszczamy swoje parametry.<br>  Umieszczamy swoje operacje, czyli operacje, które będą coś zmieniać<br>  na mojej stronie od strony warstwy prezentacji</li><li>właściwość - za ich pomocą określamy, co chcemy zmienić w naszej stronie<br>  internetowej, określamy jaki element HTML chcemy zmienić.<br>  Chcemy np. zmienić tło naszej strony internetowej. Za tło odpowiada<br>  właściwość <code>background-color</code></li><li>wartość - za pomocą wartości, określamy jak chcemy zmienić element, czy<br>  nadamy mu kolor czerwony.</li></ul><h4 id="Prosty-przepis-na-stworzenie-reguly-CSS"><a href="#Prosty-przepis-na-stworzenie-reguly-CSS" class="headerlink" title="Prosty przepis na stworzenie reguły CSS."></a>Prosty przepis na stworzenie reguły CSS.</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">selektor</span> &#123;</span><br><span class="line">    właściwość: wartość;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>czyli, chce zmienić element <code>h3</code>, nadać mu wielkość czcionki o rozmiarze<br>25px. Gdzie moją <strong>właściwością</strong> jest <em>wielkość czcionki</em>:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h3</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">25px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Wyobraź sobie, że przed Tobą znajduje się stos białych, czystych kartek,<br>a Twoim zadaniem jest pokolorowanie każdej z nich. Dodatkowo każdą<br>kartkę koloru czerwonego musisz przeciąć na pół. Pierwsza czynność,<br>czyli pokolorowanie kartek, oczywiście nie jest niczym trudnym.<br>Druga czynność, czyli przecięcie na pół kartek koloru czerwonego,<br>wymaga od Ciebie odszukania danej kartki, czyli selekcji spośród danej<br>grupy kartek.</p><p>no więc:</p><ul><li><strong>regułą</strong> - są tutaj kartki papieru,</li><li><strong>właściwością</strong> - jest tu informacja, że chcemy pokolorować, czyli<br>  właściwość <em>color</em></li><li><strong>wartość</strong> - to już jest określony kolor, np. czerwony, zielony</li></ul><p>Dlatego właściwość CSS, zawiera się w regule CSS, jest czymś podrzędnym,<br>bez czego selektor (reguła) CSS nie będzie działać.</p><p>Właściwości są niezbędne do poprawnego działania <em>reguły CSS</em>.</p><p>Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy <em>regułą</em><br>a <em>właściwością</em> CSS.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Test tworzenia pliku&lt;/p&gt;
-
+        &lt;p&gt;Pod lupę wezmę teraz &lt;code&gt;CSS&lt;/code&gt;. Opowiem o tym, czym jest właściwość a czym&lt;br&gt;reguła w CSS.&lt;/p&gt;
+&lt;h2 id=&quot;Co-to-jest-regula-CSS&quot;&gt;&lt;a 
       
     
     </summary>
@@ -96,28 +96,6 @@
       
       
         &lt;h2 id=&quot;Czym-jest-Bootstrap&quot;&gt;&lt;a href=&quot;#Czym-jest-Bootstrap&quot; class=&quot;headerlink&quot; title=&quot;Czym jest Bootstrap?&quot;&gt;&lt;/a&gt;Czym jest Bootstrap?&lt;/h2&gt;&lt;p&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Czym się różni reguła od właściwości w CSS?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</id>
-    <published>2018-06-14T22:00:00.000Z</published>
-    <updated>2018-06-16T10:17:12.018Z</updated>
-    
-    <content type="html"><![CDATA[<p>Pod lupę wezmę teraz <code>CSS</code>. Opowiem o tym, czym jest właściwość a czym<br>reguła w CSS.</p><h2 id="Co-to-jest-regula-CSS"><a href="#Co-to-jest-regula-CSS" class="headerlink" title="Co to jest reguła CSS?"></a>Co to jest reguła CSS?</h2><p>Dzięki regułą CSS, możemy stworzyć wygląd, tak jakbyśmy chcieli aby nasza<br>strona wyglądała dla jednego, bądź wielu elementów.</p><p>Reguła CSS określa <strong>wygląd</strong> dla elementu HTML.</p><h3 id="Skladnia-reguly"><a href="#Skladnia-reguly" class="headerlink" title="Składnia reguły"></a>Składnia reguły</h3><p>Reguła CSS składa się z:</p><ul><li>selektora - selektor jest elementem HTML, który chcemy edytować, może<br>  to być element zdefiniowany jako klasa, wygląda to mniej więcej tak:<br>  Elementowi <code>h3</code> nadaję klasę: <code>&lt;h3 class=&quot;size-title&quot;&gt;&lt;/h3&gt;</code>.</li><li>nawiasu klamrowego {} - w danym nawiasie umieszczamy swoje parametry.<br>  Umieszczamy swoje operacje, czyli operacje, które będą coś zmieniać<br>  na mojej stronie od strony warstwy prezentacji</li><li>właściwość - za ich pomocą określamy, co chcemy zmienić w naszej stronie<br>  internetowej, określamy jaki element HTML chcemy zmienić.<br>  Chcemy np. zmienić tło naszej strony internetowej. Za tło odpowiada<br>  właściwość <code>background-color</code></li><li>wartość - za pomocą wartości, określamy jak chcemy zmienić element, czy<br>  nadamy mu kolor czerwony.</li></ul><h4 id="Prosty-przepis-na-stworzenie-reguly-CSS"><a href="#Prosty-przepis-na-stworzenie-reguly-CSS" class="headerlink" title="Prosty przepis na stworzenie reguły CSS."></a>Prosty przepis na stworzenie reguły CSS.</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">selektor</span> &#123;</span><br><span class="line">    właściwość: wartość;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>czyli, chce zmienić element <code>h3</code>, nadać mu wielkość czcionki o rozmiarze<br>25px. Gdzie moją <strong>właściwością</strong> jest <em>wielkość czcionki</em>:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h3</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">25px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Wyobraź sobie, że przed Tobą znajduje się stos białych, czystych kartek,<br>a Twoim zadaniem jest pokolorowanie każdej z nich. Dodatkowo każdą<br>kartkę koloru czerwonego musisz przeciąć na pół. Pierwsza czynność,<br>czyli pokolorowanie kartek, oczywiście nie jest niczym trudnym.<br>Druga czynność, czyli przecięcie na pół kartek koloru czerwonego,<br>wymaga od Ciebie odszukania danej kartki, czyli selekcji spośród danej<br>grupy kartek.</p><p>no więc:</p><ul><li><strong>regułą</strong> - są tutaj kartki papieru,</li><li><strong>właściwością</strong> - jest tu informacja, że chcemy pokolorować, czyli<br>  właściwość <em>color</em></li><li><strong>wartość</strong> - to już jest określony kolor, np. czerwony, zielony</li></ul><p>Dlatego właściwość CSS, zawiera się w regule CSS, jest czymś podrzędnym,<br>bez czego selektor (reguła) CSS nie będzie działać.</p><p>Właściwości są niezbędne do poprawnego działania <em>reguły CSS</em>.</p><p>Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy <em>regułą</em><br>a <em>właściwością</em> CSS.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Pod lupę wezmę teraz &lt;code&gt;CSS&lt;/code&gt;. Opowiem o tym, czym jest właściwość a czym&lt;br&gt;reguła w CSS.&lt;/p&gt;
-&lt;h2 id=&quot;Co-to-jest-regula-CSS&quot;&gt;&lt;a 
       
     
     </summary>
