@@ -197,16 +197,14 @@ Warto wspomnieć, że instalować paczk"/>
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <p>W tym artykule opiszę to czego się nauczyłem, czyli:<br><strong>instalacja oprogramowania</strong>, <strong>dowiązania w Linux</strong>, <strong>mechanizm CRON</strong></p>
 <p>Warto wspomnieć, że instalować paczki <strong>rpm</strong> może jedynie użytkownik z<br>uprawnieniami <strong>roota</strong>!</p>
-<h2 id="Instalacja-oprogramowania"><a href="#Instalacja-oprogramowania" class="headerlink" title="Instalacja oprogramowania"></a>Instalacja oprogramowania</h2><ol>
-<li>Na podstawie systemu CentOS do instalacji oprogramowania służą nam<br> dwa narzędzia:</li>
-</ol>
+<h2 id="Instalacja-oprogramowania"><a href="#Instalacja-oprogramowania" class="headerlink" title="Instalacja oprogramowania"></a>Instalacja oprogramowania</h2><p>Na podstawie systemu CentOS do instalacji oprogramowania służą nam dwa<br>narzędzia:</p>
 <ul>
 <li>narzędzia automatyczne: <strong>yum</strong></li>
 <li>narzędzia do paczek: <strong>rpm</strong></li>
 </ul>
-<p><strong>Instalacja z paczki wygląda następująco</strong></p>
+<p>Instalacja z paczki wygląda następująco:</p>
 <ul>
-<li>musimy pobrać odpowiednią paczkę - która jest zgodna z naszą architekturą<br>  systemu</li>
+<li>musimy pobrać odpowiednią paczkę, która jest zgodna z naszą architekturą OS</li>
 <li>wydajemy polecenie:<ul>
 <li><code>rpm -i teamviewer_linux.rpm</code> albo lepszym rozwiązaniem będzie:<ul>
 <li><code>rpm -Uvh teamviewer_linux.rpm</code> =&gt; gdzie poszczególne parametry<br>  oznaczają:<pre><code>- `U` - jest to inaczej polecenie `install` ale dodatkowo
@@ -222,50 +220,52 @@ Warto wspomnieć, że instalować paczk"/>
 </ul>
 <p><strong>Instalacja z narzędziem autoomatycznym:</strong><br><code>yum install cups</code> - gdzie <strong>cups</strong> jest to serwer wydruku</p>
 <h2 id="Dowiazania-w-Linux’ie"><a href="#Dowiazania-w-Linux’ie" class="headerlink" title="Dowiązania w Linux’ie"></a>Dowiązania w Linux’ie</h2><ol>
-<li>Wyrożniamy dwa <code>dowiązania</code> w Linux:</li>
+<li>Wyróżniamy dwa <code>dowiązania</code> w Linux:</li>
 </ol>
 <ul>
 <li><strong>symboliczne</strong></li>
 <li><strong>twarde</strong></li>
 </ul>
 <h3 id="Dowiazanie-symboliczne"><a href="#Dowiazanie-symboliczne" class="headerlink" title="Dowiązanie symboliczne:"></a>Dowiązanie symboliczne:</h3><ul>
-<li>przechodze do katalogu domowego:<br>  <code>cd ~</code></li>
-<li><p>tworzę folder i przechodze do niego:</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir linki</span><br><span class="line">cd linki/</span><br></pre></td></tr></table></figure>
+<li><p>przechodzę do katalogu domowego:</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>tworzę folder i przechodzę do niego:</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir linki</span><br><span class="line"><span class="built_in">cd</span> linki/</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>utworzę sobie plik tekstowy:</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim plik.txt</span><br></pre></td></tr></table></figure>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim plik.txt</span><br></pre></td></tr></table></figure>
 <p>  uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM<br>  znajdziesz <a href="https://www.cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/" target="_blank" rel="noopener">tutaj</a></p>
 </li>
-<li>sprawdzam zawartość <strong>plik.txt</strong>:<br>  <code>cat plik.txt</code></li>
+<li><p>sprawdzam zawartość <strong>plik.txt</strong>:</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat plik.txt</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>teraz chce utworzyć <strong>skrót</strong> do pliku o nazwie <strong>plik.txt</strong>:</p>
-<ul>
-<li><p>tworzę folder <strong>dowiazania</strong> w lokalizacji <strong>tmp</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /tmp/dowiazania/</span><br><span class="line">cd /tmp/dowiazania/</span><br></pre></td></tr></table></figure>
+<p>  Tworzę folder <strong>dowiązania</strong> w lokalizacji <strong>tmp</strong>:</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /tmp/dowiazania/</span><br><span class="line"><span class="built_in">cd</span> /tmp/dowiazania/</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>teraz tworzę dowiązanie do pliku:</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln -s plik.txt /tmp/dowiazania/</span><br></pre></td></tr></table></figure>
+<p>  Parametr <strong>s</strong> oznacza, że symboliczne.</p>
+</li>
+<li><p>przechodzę do katalogu <strong>dowiazania</strong>:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /tmp/dowiazania/</span><br><span class="line">ls                  # wyświetlam zawartość folderu **dowiazania**</span><br><span class="line">ls -l</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-</li>
-<li><p>teraz tworzę dowiązanie do pliku:<br>  <code>ln -s plik.txt /tmp/dowiazania/</code> - parametr <strong>s</strong> oznacza, że symboliczne</p>
-</li>
-<li>przechodzę do katalogu <strong>dowiazania</strong>:<br>  <code>cd /tmp/dowiazania/</code><br>  <code>ls</code> - wyświetlam zawartość folderu <strong>dowiozania</strong><br>  <code>ls -l</code></li>
-</ul>
-<h3 id="Dowiazania-twarde"><a href="#Dowiazania-twarde" class="headerlink" title="Dowiązania twarde:"></a>Dowiązania twarde:</h3><ul>
-<li><p>jestem w katalogu <strong>linki/</strong><br>  <code>ln plik.txt plik2.txt</code></p>
-<p>  Jeśli w poleceniu <code>ln</code> nie damy parametru to zostanie utworzone<br>  dowiązanie twarde</p>
-<p>  <strong>Wyświetlimy sobie katalog:</strong><br>  <code>cd /linki</code><br>  <code>ls</code><br>  <code>ls -l</code> - parametr <strong>l</strong> wyświetla wszystko - uprawnienia, data,</p>
-<pre><code>godzina, user. Pierwsza kolumna oznacza uprawnienia do pliku,
-natomiast druga to cyfra np: **1**, z każdym dowiązaniem twardym
-liczba będzie rosnąć.
-</code></pre></li>
-</ul>
-<h3 id="UWAGA"><a href="#UWAGA" class="headerlink" title="UWAGA"></a>UWAGA</h3><ul>
+<h3 id="Dowiazania-twarde"><a href="#Dowiazania-twarde" class="headerlink" title="Dowiązania twarde"></a>Dowiązania twarde</h3><p>Jestem w katalogu <strong>linki/</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln bashplik.txt plik2.txt</span><br></pre></td></tr></table></figure>
+<p>Jeśli w poleceniu <code>ln</code> nie damy parametru to zostanie utworzone<br>dowiązanie twarde</p>
+<p>Wyświetlimy sobie katalog:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /linki</span><br><span class="line">ls</span><br><span class="line">ls -l</span><br></pre></td></tr></table></figure>
+<p>Parametr <strong>l</strong> wyświetla wszystko - uprawnienia, data,<br>godzina, user. Pierwsza kolumna oznacza uprawnienia do pliku,<br>natomiast druga to cyfra np: <strong>1</strong>, z każdym dowiązaniem twardym<br>liczba będzie rosnąć.</p>
+<h3 id="Uwaga-na-dowiazania"><a href="#Uwaga-na-dowiazania" class="headerlink" title="Uwaga na dowiązania"></a>Uwaga na dowiązania</h3><ul>
 <li><strong>dowiązanie symboliczne</strong> mogę tworzyć na innych partycjach</li>
-<li>Natomiast <strong>dowiąznia twarde</strong> musi znajdować się na partycji, w którym<br>  znajduje się oryginalny plik</li>
+<li>Natomiast <strong>dowiązania twarde</strong> musi znajdować się na partycji, w którym<br>  znajduje się oryginalny plik</li>
 </ul>
-<h1 id="Mechanizm-CRON"><a href="#Mechanizm-CRON" class="headerlink" title="Mechanizm CRON"></a>Mechanizm CRON</h1><p><strong>Mechanizm CRON</strong> jest to odpowienik <strong>Menadżera zadań</strong> w <strong>Windows</strong>.<br>Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze<br>a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie<br>automatycznych logów w systemie.</p>
-<p>Mechanizm CRON posiada <strong>7 pozycji:</strong>:<br><code>* * * * * root touch /tmp/plik.txt</code></p>
-<p><strong>Co oznaczają poszczególne pozycje:</strong></p>
-<table>
+<h3 id="Mechanizm-CRON"><a href="#Mechanizm-CRON" class="headerlink" title="Mechanizm CRON"></a>Mechanizm CRON</h3><p><strong>Mechanizm CRON</strong> jest to odpowiednik <strong>Menadżera zadań</strong> w <strong>Windows</strong>.<br>Możemy zdefiniować jakieś zadanie. Zakładam, że nie ma nas przy komputerze<br>a coś musi się wykonać np. jakaś aktualizacja systemu, albo tworzenie<br>automatycznych logów w systemie.</p>
+<p>Mechanizm CRON posiada <strong>7 pozycji:</strong>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* * * * * root touch /tmp/plik.txt</span><br></pre></td></tr></table></figure>
+<h3 id="Opis-wiersz-z-definicja-zadania-w-CRON"><a href="#Opis-wiersz-z-definicja-zadania-w-CRON" class="headerlink" title="Opis wiersz z definicją zadania w CRON"></a>Opis wiersz z definicją zadania w CRON</h3><table>
 <thead>
 <tr>
 <th style="text-align:center"><strong>Pozycja</strong></th>
@@ -303,7 +303,7 @@ liczba będzie rosnąć.
 </tr>
 </tbody>
 </table>
-<p>Mechanizmu CRON używa się do uruchamiania zadań (programów, komend,<br>skryptów) o konkretnej godzinie, dniu…</p>
+<p>Mechanizmu CRON używa się do uruchamiania zadań (programów, komend,<br>skryptów) o konkretnej godzinie, dniu.</p>
 
 
                 

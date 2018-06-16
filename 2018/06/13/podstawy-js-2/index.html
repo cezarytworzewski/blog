@@ -197,33 +197,33 @@ Dzisiaj skupie się na tekstowym typi"/>
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <p>Ogólnie rzecz biorąc, zaczynam od początku <em>JavaScript</em>, ale mnóstwo<br>rzeczy wiem - <em>tak czuję, albo wydaję mi się</em>! :)</p>
 <p>Dzisiaj skupie się na tekstowym typie danych <strong>String</strong>,<br>typie liczbowym <strong>Number</strong>, <strong>true</strong>, <strong>false</strong> i wartości<br><strong>true &amp; false</strong>. A dzisiejsza przygodę zakończę z <strong>null vs. undefined</strong>.</p>
-<h2 id="Tekstowy-typ-danych-String"><a href="#Tekstowy-typ-danych-String" class="headerlink" title="Tekstowy typ danych String."></a>Tekstowy typ danych <code>String</code>.</h2><p>Warto powiedzieć, że tekstwoy typ danych zapisujemy za pomocą apostrofów<br> <code>&#39; &#39;</code> albo cudzysłowów <code>&quot; &quot;</code>. Jest to obojętne jaką konwencje użyjemy,<br> ale zawsze powinniśmy stosować tylko jedną. Między innymi po to, aby nasz kod był czytelny dla nas, ale również dla naszych kolegów po fachu.</p>
+<h2 id="Tekstowy-typ-danych-String"><a href="#Tekstowy-typ-danych-String" class="headerlink" title="Tekstowy typ danych String."></a>Tekstowy typ danych <code>String</code>.</h2><p>Warto powiedzieć, że tekstowy typ danych zapisujemy za pomocą apostrofów<br> <code>&#39; &#39;</code> albo cudzysłowów <code>&quot; &quot;</code>. Jest to obojętne jaką konwencje użyjemy,<br>ale zawsze powinniśmy stosować tylko jedną. Między innymi po to,<br>aby nasz kod był czytelny dla nas, ale również dla naszych kolegów po fachu.</p>
 <p>Zadeklarujemy sobie zmienną <code>firstName</code>:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">let firstName = &apos;Jan&apos;;</span><br></pre></td></tr></table></figure>
-<p>Stworzyliśmy własnie zmienną <code>firstName</code> i przypisaliśmy do niej wartość <code>Jan</code>.</p>
-<p>Żeby sprawdzić jaki typ danych ma nasza zmienna używamy to takich działań operatora <code>typeof</code>.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> firstName = <span class="string">'Jan'</span>;</span><br></pre></td></tr></table></figure>
+<p>Stworzyliśmy właśnie zmienną <code>firstName</code> i przypisaliśmy do niej wartość <code>Jan</code>.</p>
+<p>Żeby sprawdzić jaki typ danych ma nasza zmienna używamy to takich działań<br>operatora <code>typeof</code>.</p>
 <p><code>typeof firstName</code> =&gt; Wynikiem jest: <strong><em>String</em></strong></p>
-<p>Dlatego jeśli wartość naszej zmiennej posiada <code>&#39;  &#39;</code> albo <code>&quot;  &quot;</code> to wiem, że jest to typ <strong><em>String</em></strong>.</p>
+<p>Dlatego jeśli wartość naszej zmiennej posiada <code>&#39;  &#39;</code> albo <code>&quot;  &quot;</code> to wiem,<br>że jest to typ <strong><em>String</em></strong>.</p>
 <p>Tekstowy typ danych to <em>String</em>.</p>
-<h3 id="Przyklady"><a href="#Przyklady" class="headerlink" title="Przykłady:"></a>Przykłady:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">let firstName = &apos;Jan&apos;;</span><br><span class="line">let lastName = &quot;Kowalski&quot;;</span><br></pre></td></tr></table></figure>
-<p> Załóżmy, że mamy tytuł ksiązki albo cytat. Zazwyczaj umieszczamy je w <code>&quot; &quot;</code>. Jak to zrobić w JavaScript?</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">let bookTitle = &quot;Władca pierścieni&quot;</span><br></pre></td></tr></table></figure>
+<h3 id="Przyklady"><a href="#Przyklady" class="headerlink" title="Przykłady:"></a>Przykłady:</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> firstName = <span class="string">'Jan'</span>;</span><br><span class="line"><span class="keyword">let</span> lastName = <span class="string">"Kowalski"</span>;</span><br></pre></td></tr></table></figure>
+<p>Załóżmy, że mamy tytuł książki albo cytat. Zazwyczaj umieszczamy je w <code>&quot; &quot;</code>.<br>Jak to zrobić w JavaScript?</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> bookTitle = <span class="string">"Władca pierścieni"</span></span><br></pre></td></tr></table></figure>
 <p>Wywołuję sobie to w konsoli przeglądarki. Wynik to:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">bookTitle // wywołuję sobie zmienną</span><br><span class="line"> &quot;Władca Pierścieni&quot; // jest to wynik, posiada cudzysłowy, ale są to cudzysłowy informujące, że wartośc jest String,</span><br></pre></td></tr></table></figure>
-<p>Żeby zrobić cydzysłów okreslający tytuł książk to robię to tak:</p>
-<p><code>let bookTitle = &quot;&#39;Władca Pierścieni&#39;&quot;;</code></p>
-<p><em>albo:</em></p>
-<p><code>let bookTitle = &#39;&quot;Władca Pierścieni&quot;&#39;;</code></p>
-<p><em>inny sposób to:</em></p>
-<p><code>let bookTitle = &quot;\&quot;Władca Pierścieni\&quot;&quot;;</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">bookTitle // wywołuję sobie zmienną</span><br><span class="line">&quot;Władca Pierścieni&quot; // jest to wynik, posiada cudzysłowy, ale są to cudzysłowy informujące, że wartośc jest String,</span><br></pre></td></tr></table></figure>
+<p>Żeby zrobić cudzysłów określający tytuł książki to robię to tak:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> bookTitle = <span class="string">"'Władca Pierścieni'"</span>;</span><br></pre></td></tr></table></figure>
+<p>albo:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> bookTitle = <span class="string">'"Władca Pierścieni"'</span>;</span><br></pre></td></tr></table></figure>
+<p>inny sposób to:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> bookTitle = <span class="string">"\"Władca Pierścieni\""</span>;</span><br></pre></td></tr></table></figure>
 <h2 id="Liczbowy-typ-danych-Number"><a href="#Liczbowy-typ-danych-Number" class="headerlink" title="Liczbowy typ danych Number."></a>Liczbowy typ danych <code>Number</code>.</h2><p><strong>Number</strong> to liczbowy typ danych, dzięki nim możemy przechowywać liczby,<br>wartości liczbowe, liczby całkowite czy wartości zmiennoprzecinkowe.<br>Zapisujemy je troszkę inaczej niż <code>String</code> tzn. zapisujemy je bez użycia<br>cudzysłowów.</p>
 <ul>
 <li><p>liczba całkowita:</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">let number = 20;</span><br></pre></td></tr></table></figure>
+  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> number = <span class="number">20</span>;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>liczba zmiennoprzecinkowa:</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">let number = 20.5;</span><br></pre></td></tr></table></figure>
-<p>   Do tworzenia liczb zmiennoprzecinkowych używamy <em>kropki</em></p>
+  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> number = <span class="number">20.5</span>;</span><br></pre></td></tr></table></figure>
+<p>  Do tworzenia liczb zmiennoprzecinkowych używamy <em>kropki</em></p>
 </li>
 </ul>
 <p>W JavaScript mamy też zmienne (stałe), czyli <strong>Infinity</strong> i <strong>-Infinity</strong>:</p>
@@ -234,10 +234,10 @@ Dzisiaj skupie się na tekstowym typi"/>
 <p>Posiadamy również taką wartość jak <strong>NaN</strong> (<em>Not a Number</em>):</p>
 <ul>
 <li>to nie jest wartość liczbowa, jest tylko skojarzona jako typ liczbowy</li>
-<li>jeśli będziemy robić jakieś obliczenia, a wnikiem nie będzie nowa liczba,<br>  to zostanie zwrócona wartość <strong>Nan</strong></li>
+<li>jeśli będziemy robić jakieś obliczenia, a wynikiem nie będzie nowa liczba,<br>  to zostanie zwrócona wartość <strong>Nan</strong></li>
 </ul>
-<h2 id="Prawda-falsz-wartosci-true-amp-false"><a href="#Prawda-falsz-wartosci-true-amp-false" class="headerlink" title="Prawda, fałsz, wartości true &amp; false"></a>Prawda, fałsz, wartości true &amp; false</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">let isLoggedIn = true;</span><br><span class="line"></span><br><span class="line">if(isLoggedIn) &#123;</span><br><span class="line">    console.log(&apos;Zalogowano&apos;);</span><br><span class="line">&#125; else &#123;</span><br><span class="line">    console.log(&apos;Nie zalogowano&apos;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>to jest bardzo istotna linia: <code>if(isLoggedIn)</code> w środku nawiasu<br><strong>zawsze</strong> jest prawda. To nie musi być zmienna <code>isLoggedIn</code>, może to<br>być dowolna inna zmienna. Zgodnie z wartością zmiennej <code>isLoggedIn</code><br>zmienna ta ma wartość <code>true</code>, póżniej w <strong>instrukcji warunkowej</strong><br>sprawdzam czy <code>isLoggedIn</code> jest prawdziwe. Jeśli prawdziwe to wykonam<br>kod <code>console.log(&#39;Zalogowano&#39;);</code></p>
+<h2 id="Prawda-falsz-wartosci-true-amp-false"><a href="#Prawda-falsz-wartosci-true-amp-false" class="headerlink" title="Prawda, fałsz, wartości true &amp; false"></a>Prawda, fałsz, wartości true &amp; false</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> isLoggedIn = <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (isLoggedIn) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Zalogowano'</span>);</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Nie zalogowano'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>to jest bardzo istotna linia: <code>if (isLoggedIn)</code> w środku nawiasu<br><strong>zawsze</strong> jest prawda. To nie musi być zmienna <code>isLoggedIn</code>, może to<br>być dowolna inna zmienna. Zgodnie z wartością zmiennej <code>isLoggedIn</code><br>zmienna ta ma wartość <code>true</code>, później w <strong>instrukcji warunkowej</strong><br>sprawdzam czy <code>isLoggedIn</code> jest prawdziwe. Jeśli prawdziwe to wykonam<br>kod <code>console.log(&#39;Zalogowano&#39;);</code></p>
 <h2 id="Wartosci-falszywe-to"><a href="#Wartosci-falszywe-to" class="headerlink" title="Wartości fałszywe to:"></a>Wartości fałszywe to:</h2><ul>
 <li>false</li>
 <li>0</li>
@@ -247,22 +247,22 @@ Dzisiaj skupie się na tekstowym typi"/>
 <li>NaN</li>
 </ul>
 <p>Przykład:</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">let value = 0;</span><br><span class="line"></span><br><span class="line">if(value) &#123;</span><br><span class="line">    console.log(&apos;Ta wartość nie jest fałszywa&apos;);</span><br><span class="line">&#125; else &#123;</span><br><span class="line">    console.log(&apos;Wartość jest fałszywa&apos;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> value = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(value) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Ta wartość nie jest fałszywa'</span>);</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Wartość jest fałszywa'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="null-vs-undefined"><a href="#null-vs-undefined" class="headerlink" title="null vs. undefined"></a>null vs. undefined</h2><p>Są to wartości fałszywe! - ale nie oto teraz chodzi.</p>
-<p><code>let yourName;</code> Sprawdzam swoją zmienną za pomocą <code>typeof</code>, czyli<br><code>typeof yourName</code>. Wynikiem jest <code>&quot;undefined&quot;</code>. Jeśli się dwołamy<br>bezpośrednio do zmiennej w konsoli, czyli wpiszemy: <code>yourName;</code> to wynik<br>również wskazuje na <code>undefined</code></p>
-<p>Jedno <code>undefined</code> posiada cydzysłowy a drugie nie w powyższym opisie.<br>Musimy pamiętać, że:</p>
+<p><code>let yourName;</code> Sprawdzam swoją zmienną za pomocą <code>typeof</code>, czyli<br><code>typeof yourName</code>. Wynikiem jest <code>&quot;undefined&quot;</code>. Jeśli się odwołamy<br>bezpośrednio do zmiennej w konsoli, czyli wpiszemy: <code>yourName;</code> to wynik<br>również wskazuje na <code>undefined</code></p>
+<p>Jedno <code>undefined</code> posiada cudzysłowy a drugie nie w powyższym opisie.<br>Musimy pamiętać, że:</p>
 <p>Operator <code>typeof</code> <strong>zawsze</strong> zwraca <code>String</code>, ale wartość tego String<br>jest <code>undefined</code>.</p>
 <p>Jeśli utworzymy zmienną, ale nie przypiszemy do niej żadnej wartości,<br>to ma ona wartość <code>undefined</code>: <code>let yourName;</code> - wartość zmiennej to<br><em><code>undefined</code></em></p>
-<p>Jeśli, chcemy <strong>z góry</strong>, aby zadeklarowana zmienna miała wartośc pustą<br>to przypiszemy do niej wartość <strong>null</strong>: <code>let yourName = null;</code></p>
+<p>Jeśli, chcemy <strong>z góry</strong>, aby zadeklarowana zmienna miała wartość pustą<br>to przypiszemy do niej wartość <strong>null</strong>: <code>let yourName = null;</code></p>
 <p>Sprawdźmy jedną rzecz: <code>typeof null</code> - zwróci nam <code>object</code>, ale <strong>STOP</strong></p>
 <p><strong><em>null</em> NIE JEST OBIEKTEM</strong></p>
 <h3 id="Jak-to-ma-sie-do-obiektow"><a href="#Jak-to-ma-sie-do-obiektow" class="headerlink" title="Jak to ma się do obiektów ?"></a>Jak to ma się do obiektów ?</h3><p><code>let person = {};</code>, sprawdźmy za pomocą <code>typeof person.name</code> =&gt;<br>Wynik to: <code>&quot;undefined&quot;</code></p>
-<p>Dlaczego tak jest???</p>
+<p>Dlaczego tak jest?</p>
 <p>Ponieważ próbujemy się odwołać do czegoś, czego nie ma. W tym wypadku<br>próbujemy sie odwołać do właściwości name obiektu person`</p>
-<p>Jeśli chcem, aby ta właściwość była pusta to możemy zrobić to tak:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">let person = &#123;</span><br><span class="line">    name: null</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>Jeśli chcę, aby ta właściwość była pusta to możemy zrobić to tak:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> person = &#123;</span><br><span class="line">    name: <span class="literal">null</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <p>Teraz <code>typeof person.name</code> będzie miał wartość <code>object</code>.</p>
-<p>Jeśli wynikiem kiedyś będzie <code>null</code>, to muszę pamiętać, że zmienna<br>została już zadeklarowana, ale nic nie zostało do niej pzypisane.<br>Przy <code>undefined</code> wartość nigdy nie została ustawiona.</p>
+<p>Jeśli wynikiem kiedyś będzie <code>null</code>, to muszę pamiętać, że zmienna<br>została już zadeklarowana, ale nic nie zostało do niej przypisane.<br>Przy <code>undefined</code> wartość nigdy nie została ustawiona.</p>
 <h2 id="Podsumowujac"><a href="#Podsumowujac" class="headerlink" title="Podsumowując"></a>Podsumowując</h2><p>Lekcja ta, też nie była dla mnie skomplikowana. Wydaje mi się, że<br>rozumiem o co w niej chodzi. Wykonałem parę ćwiczeń wraz z<br><strong>Piotr Palarz</strong> i jestem zadowolony :-)</p>
 <p>Jeżeli popełniłem jakieś błędy w opisie lekcji, albo uważacie, że nie<br>bardzo jednak to rozumiem, to proszę  dajcie znać w komentarzach!</p>
 <p><strong><em>Pozdrawiam! :-)</em></strong></p>

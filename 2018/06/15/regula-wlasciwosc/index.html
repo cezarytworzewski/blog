@@ -201,22 +201,24 @@ Co to jest reguła CSS?Dzięki regułą CSS, możemy stworzyć wygląd, tak"/>
 <h3 id="Regula-CSS-sklada-sie-z"><a href="#Regula-CSS-sklada-sie-z" class="headerlink" title="Reguła CSS składa się z:"></a>Reguła CSS składa się z:</h3><ul>
 <li>selektora - selektor jest elementem HTML, który chcemy edytować, może<br>  to być element zdefiniowany jako klasa, wygląda to mniej więcej tak:<br>  Elementowi <code>h3</code> nadaję klasę: <code>&lt;h3 class=&quot;size-title&quot;&gt;&lt;/h3&gt;</code>.</li>
 <li>nawiasu klamrowego {} - w danym nawiasie umieszczamy swoje parametry.<br>  Umieszczamy swoje operacje, czyli operacje, które będą coś zmieniać<br>  na mojej stronie od strony warstwy prezentacji</li>
-<li>właściwość - za ich pomocą okreslamy, co chcemy zmienić w naszej stronie<br>  internetowej, okreslamy jaki element HTML chcemy zmienić.<br>  Chcemy np. zmienić tło naszej strony internetowej. Za tło odpowiada<br>  właściwość <em>background-color</em></li>
+<li>właściwość - za ich pomocą określamy, co chcemy zmienić w naszej stronie<br>  internetowej, określamy jaki element HTML chcemy zmienić.<br>  Chcemy np. zmienić tło naszej strony internetowej. Za tło odpowiada<br>  właściwość <code>background-color</code></li>
 <li>wartość - za pomocą wartości, określamy jak chcemy zmienić element, czy<br>  nadamy mu kolor czerwony.</li>
 </ul>
-<h4 id="Prosty-przepis-na-stworzenie-reguly-CSS"><a href="#Prosty-przepis-na-stworzenie-reguly-CSS" class="headerlink" title="Prosty przepis na stworzenie reguły CSS."></a>Prosty przepis na stworzenie reguły CSS.</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">selektor &#123;</span><br><span class="line">    właściwość: wartość;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-<p>czyli, chce zmienić element <em>h3</em>, nadać mu wielkość czcionki o rozmiarze<br>25px. Gdzie moją <strong>właściwością</strong> jest <em>wielkość czcionki</em>:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">h3 &#123;</span><br><span class="line">    font-size: 25px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="Prosty-przepis-na-stworzenie-reguly-CSS"><a href="#Prosty-przepis-na-stworzenie-reguly-CSS" class="headerlink" title="Prosty przepis na stworzenie reguły CSS."></a>Prosty przepis na stworzenie reguły CSS.</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">selektor</span> &#123;</span><br><span class="line">    właściwość: wartość;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>czyli, chce zmienić element <code>h3</code>, nadać mu wielkość czcionki o rozmiarze<br>25px. Gdzie moją <strong>właściwością</strong> jest <em>wielkość czcionki</em>:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h3</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">25px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>Wyobraź sobie, że przed Tobą znajduje się stos białych, czystych kartek,<br>    a Twoim zadaniem jest pokolorowanie każdej z nich. Dodatkowo każdą<br>    kartkę koloru czerwonego musisz przeciąć na pół. Pierwsza czynność,<br>    czyli pokolorowanie kartek, oczywiście nie jest niczym trudnym.<br>    Druga czynność, czyli przecięcie na pół kartek koloru czerwonego,<br>    wymaga od Ciebie odszukania danej kartki, czyli selekcji spośród danej<br>    grupy kartek.</p>
 </blockquote>
-<p> no więc:</p>
-<p> <strong>regułą</strong> - są tutaj kartki papieru,</p>
-<p> <strong>właściwością</strong> - jest tu informacja, że chcemy pokolorować, czyli<br>    właściwość <em>color</em></p>
-<p> <strong>wartość</strong> - to już jest określony kolor, np. czerwony, zielony</p>
-<p> Dlatego właściwość CSS, zawiera się w regule CSS, jest czymś podrzędnym,<br> bez czego selektor (reguła) CSS nie będzie działać.</p>
-<p> Właściwości są niezbędne do poprawnego działania <em>reguły CSS</em>.</p>
-<p>Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy <em>regułą</em> a<br> <em>właściwością</em> CSS.</p>
+<p>no więc:</p>
+<ul>
+<li><strong>regułą</strong> - są tutaj kartki papieru,</li>
+<li><strong>właściwością</strong> - jest tu informacja, że chcemy pokolorować, czyli<br>  właściwość <em>color</em></li>
+<li><strong>wartość</strong> - to już jest określony kolor, np. czerwony, zielony</li>
+</ul>
+<p>Dlatego właściwość CSS, zawiera się w regule CSS, jest czymś podrzędnym,<br>bez czego selektor (reguła) CSS nie będzie działać.</p>
+<p>Właściwości są niezbędne do poprawnego działania <em>reguły CSS</em>.</p>
+<p>Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy <em>regułą</em><br>a <em>właściwością</em> CSS.</p>
 
 
                 
