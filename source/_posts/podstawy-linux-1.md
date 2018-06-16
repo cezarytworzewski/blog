@@ -101,16 +101,17 @@ Edytor `VIM` posiada 3 tryby pracy:
 * jeśli kliknę literę `a` to będę wówczas w **trybie input**, czyli
     wprowadzanie, od tej chwili mogę pisać w swoim edytorze kod
 * żeby zapisać plik to:
-  * najpierw klikam `ctrl + c`
-  * znak `:` - czyli dwukropek uruchamia nam trzeci tryb, tzw. **tryb command-line**
-  * żeby zapisać plik wciskam `w` (write)
-  * żeby wyjść z pliku wciskam `:q` (quit)
-  * albo od razu `:wq`
+    - najpierw klikam `ctrl + c`
+    - znak `:` - czyli dwukropek uruchamia nam trzeci tryb, tzw. **tryb 
+        command-line**
+    - żeby zapisać plik wciskam `w` (write)
+    - żeby wyjść z pliku wciskam `:q` (quit)
+    - albo od razu `:wq`
 
 Aby wyświetlić całą zawartość pliku w terminalu wywołuję polecenie `cat`,
 `cat plik1.txt`.
 
-**Inne potrzebne polecenia w **`VIM`** to:**
+Inne potrzebne polecenia w `VIM` to:
 
 * `dd` - wycina nam daną linię, w której się ustawimy
 * `p` - wkleja nam tekst pod tekstem, gdzie obecnie się znajdujemy kursorem

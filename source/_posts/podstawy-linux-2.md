@@ -65,7 +65,7 @@ Instalacja z paczki wygląda następująco:
     uzupełniam go zawartością po czym zapisuję. Więcej o edytorze VIM
     znajdziesz [tutaj](https://www.cezarytworzewski.github.io/blog/2018/06/07/podstawy-linux-1/)
 
-* sprawdzam zawartość **plik.txt**:
+* sprawdzam zawartość `plik.txt`:
 
     ```bash
     cat plik.txt
@@ -115,7 +115,7 @@ ls
 ls -l
 ```
 
-Parametr **l** wyświetla wszystko - uprawnienia, data,
+Parametr `-l` wyświetla wszystko - uprawnienia, data,
 godzina, user. Pierwsza kolumna oznacza uprawnienia do pliku,
 natomiast druga to cyfra np: **1**, z każdym dowiązaniem twardym
 liczba będzie rosnąć.

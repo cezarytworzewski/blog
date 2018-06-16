@@ -3,7 +3,7 @@ title: Czym się różni reguła od właściwości w CSS?
 date: 2018/06/15
 ----
 
-Pod lupę wezmę teraz **CSS**. Opowiem o tym, czym jest właściwość a czym
+Pod lupę wezmę teraz `CSS`. Opowiem o tym, czym jest właściwość a czym
 reguła w CSS.
 
 ## Co to jest reguła CSS?
@@ -11,9 +11,11 @@ reguła w CSS.
 Dzięki regułą CSS, możemy stworzyć wygląd, tak jakbyśmy chcieli aby nasza
 strona wyglądała dla jednego, bądź wielu elementów.
 
-Reguła CSS określa wygląd dla elementu HTML.
+Reguła CSS określa **wygląd** dla elementu HTML.
 
-### Reguła CSS składa się z:
+### Składnia reguły
+
+Reguła CSS składa się z:
 
 * selektora - selektor jest elementem HTML, który chcemy edytować, może
     to być element zdefiniowany jako klasa, wygląda to mniej więcej tak:
@@ -45,13 +47,13 @@ h3 {
 }
 ```
 
-> Wyobraź sobie, że przed Tobą znajduje się stos białych, czystych kartek,
-    a Twoim zadaniem jest pokolorowanie każdej z nich. Dodatkowo każdą
-    kartkę koloru czerwonego musisz przeciąć na pół. Pierwsza czynność,
-    czyli pokolorowanie kartek, oczywiście nie jest niczym trudnym.
-    Druga czynność, czyli przecięcie na pół kartek koloru czerwonego,
-    wymaga od Ciebie odszukania danej kartki, czyli selekcji spośród danej
-    grupy kartek.
+Wyobraź sobie, że przed Tobą znajduje się stos białych, czystych kartek,
+a Twoim zadaniem jest pokolorowanie każdej z nich. Dodatkowo każdą
+kartkę koloru czerwonego musisz przeciąć na pół. Pierwsza czynność,
+czyli pokolorowanie kartek, oczywiście nie jest niczym trudnym.
+Druga czynność, czyli przecięcie na pół kartek koloru czerwonego,
+wymaga od Ciebie odszukania danej kartki, czyli selekcji spośród danej
+grupy kartek.
 
 no więc:
 

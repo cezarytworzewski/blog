@@ -13,7 +13,7 @@ powtórny etap tejże nauki?
 
 `JavaScript` to interpretowany, skryptowy język programowania.
 
-Co to oznacza, że `interpretowany`? *INTERPRETOWANY* ponieważ plik,
+Co to oznacza, że `interpretowany`? _INTERPRETOWANY_ ponieważ plik,
 który nie jest kompilowany, jedynie zostanie  zinterpretowany przez
 program np. przez przeglądarkę i zostanie on wykonany jako np. odtwarzacz
 video albo galeria zdjęć.
@@ -29,7 +29,7 @@ video albo galeria zdjęć.
 ## Jak złapać kontekst użycia JavaScriptu na stronie?
 
 Rozumiem to tak. Załóżmy, że posiadamy miniaturkę zdjęcia z wakacji.
-Jeśli najadę na zdjęcie myszką, i ustawie *`hover`* w stylach `CSS` to
+Jeśli najadę na zdjęcie myszką, i ustawie `hover` w stylach `CSS` to
 zdjęcie mi sie podświetli. Analogia do JavaScriptu, to taka według mnie,
 że jeśli najedziemy myszką na zdjęcie, następnie klikniemy, to wywołamy
 `zdarzenie`, które np. będzie polegało na wyświetleniu dużego zdjęcia

@@ -3,12 +3,12 @@ title: Nauka JavaScript od podstaw (2)
 date: 2018/06/13
 ----
 
-Ogólnie rzecz biorąc, zaczynam od początku *JavaScript*, ale mnóstwo
-rzeczy wiem - *tak czuję, albo wydaję mi się*! :)
+Ogólnie rzecz biorąc, zaczynam od początku **JavaScript**, ale mnóstwo
+rzeczy wiem - _tak czuję, albo wydaję mi się!_
 
-Dzisiaj skupie się na tekstowym typie danych **String**,
-typie liczbowym **Number**, **true**, **false** i wartości
-**true & false**. A dzisiejsza przygodę zakończę z **null vs. undefined**.
+Dzisiaj skupie się na tekstowym typie danych `String`,
+typie liczbowym `Number`, `true`, `false` i wartości
+`true` & `false`. A dzisiejsza przygodę zakończę z `null` vs. `undefined`.
 
 ## Tekstowy typ danych `String`.
 
@@ -93,18 +93,18 @@ cudzysłowów.
     let number = 20.5;
     ```
 
-    Do tworzenia liczb zmiennoprzecinkowych używamy *kropki*
+    Do tworzenia liczb zmiennoprzecinkowych używamy **kropki**.
 
 W JavaScript mamy też zmienne (stałe), czyli **Infinity** i **-Infinity**:
 
 * `Infinity` => 1.797693134862315E+308
 * `-Infinity` => 1.797693134862316E+308
 
-Posiadamy również taką wartość jak **NaN** (*Not a Number*):
+Posiadamy również taką wartość jak `NaN` (_Not a Number_):
 
 * to nie jest wartość liczbowa, jest tylko skojarzona jako typ liczbowy
 * jeśli będziemy robić jakieś obliczenia, a wynikiem nie będzie nowa liczba,
-    to zostanie zwrócona wartość **Nan**
+    to zostanie zwrócona wartość `NaN`.
 
 ## Prawda, fałsz, wartości true & false
 
@@ -158,7 +158,7 @@ również wskazuje na `undefined`
 Jedno `undefined` posiada cudzysłowy a drugie nie w powyższym opisie.
 Musimy pamiętać, że:
 
-Operator `typeof` **zawsze** zwraca `String`, ale wartość tego String
+Operator `typeof` _zawsze_ zwraca `String`, ale wartość tego String
 jest `undefined`.
 
 Jeśli utworzymy zmienną, ale nie przypiszemy do niej żadnej wartości,

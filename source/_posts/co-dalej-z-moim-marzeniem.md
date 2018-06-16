@@ -4,7 +4,7 @@ date: 2018/06/02
 ----
 
 Ostatnio kupiłem sobie napój firmy `OSHEE`. Spodobał mi się cytat z
-butelki *Ograniczenia istnieją tylko w głowie*. Pierwsze skojarzenie
+butelki _"Ograniczenia istnieją tylko w głowie"_. Pierwsze skojarzenie
 jakie wpadło mi do głowy to: `programista Front-end` i `JavaScript`.
 Brzmi motywująco i pozytywnie. Na mojej twarzy poczułem zadowolenie ale
 tylko przez chwile... bo od razu przypomniałem sobie ile to już miesięcy
@@ -14,7 +14,7 @@ Mimo tylu porażek i niepowodzeń nie poddaję się!
 W najbliższym czasie postanowiłem wzmożyć naukę programowania.
 Uściślając, jak wiecie chce zostać `Front-end developerem` dlatego około
 w połowie czerwca razem z kolegą panuję zacząć kilkudniowe - intensywne
-szkolenie, które przybliży mnie do zostania *ekspertem* `Front-end` lub
+szkolenie, które przybliży mnie do zostania **ekspertem** `Front-end` lub
 `JavaScript`.
 
 Sam nie wiem jak to wyjdzie wszystko. Nie wiem czy to zrozumiem - ale

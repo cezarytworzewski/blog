@@ -93,10 +93,9 @@ Jeśli dodam plik za pomocą znacznika `img` to muszę pamiętać, że:
 
 ## Definicja `img` & `backgroung-image`
 
-- `img` - to skrót od `images`
-        - `images`(ang. *obrazek*)
-- `background`- (ang. *tło*)
-        - `background-images` - mogę przetłumaczyć jako `tło obrazkowe`
+- `img` - to skrót od `images` (ang. _obrazek_)
+- `background` (ang. _tło_)
+    - `background-image` - mogę przetłumaczyć jako `tło obrazkowe`
 
 `img` służy do dodawania zdjęcia, obrazków, natomiast `background-image`
 służy do dodawania tła na stronie
