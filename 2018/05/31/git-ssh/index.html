@@ -115,7 +115,7 @@ Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w Git"/>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/blog/">Home</a>
+            <a class="navbar-brand" href="/blog/">Strona główna</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -125,31 +125,15 @@ Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w Git"/>
                     <li>
                         <a href="/blog/">
                             
-                                Home
+                                Strona główna
                             
                         </a>
                     </li>
                 
                     <li>
-                        <a href="/blog/archives">
+                        <a href="/blog/kontakt/">
                             
-                                Archives
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/blog/tags">
-                            
-                                Tags
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/blog/categories">
-                            
-                                Categories
+                                Kontakt
                             
                         </a>
                     </li>
@@ -166,6 +150,30 @@ Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w Git"/>
                         <a href="https://twitter.com/ctworzewski">
                             
                                 <i class="fa fa-twitter fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://youtube.com/czarek92r">
+                            
+                                <i class="fa fa-youtube fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://facebook.com/cezarytworzewski">
+                            
+                                <i class="fa fa-facebook fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://linkedin.com/in/ctworzewski">
+                            
+                                <i class="fa fa-linkedin fa-stack-2x"></i>
                             
                         </a>
                     </li>
@@ -239,14 +247,11 @@ Sam wiele razy miałem sytuację, że posypały mi się klucze SSH w Git"/>
 </li>
 <li><p>następnie w konsoli wydaję polecenie:</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br></pre></td></tr></table></figure>
+<p>  znak <code>.</code> - kropka oznacza, że chce dodać wszystkie pliki. Jeśli chciałbym<br>  dodać tylko jeden plik to wydam polecenie: <code>git add index.html</code>, gdzie<br>  plik <code>index.html</code> jest moim plikiem, który chce wysłać na serwer.</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status (opcjonalnie)</span><br><span class="line">git commit -m <span class="string">"commit-message"</span></span><br><span class="line">git remote add origin git@github.com:NAZWA_UŻYTKOWNIKA_GITHUB/NAZWA_REPOZYTORIUM.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<pre><code>znak `.` - kropka oznacza, że chce dodać wszystkie pliki. Jeśli chciałbym
-dodać tylko jeden plik to wydam polecenie: `git add index.html`, gdzie
-plik `index.html` jest moim plikiem, który chce wysłać na serwer.
-
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status (opcjonalnie)</span><br><span class="line">git commit -m <span class="string">"commit-message"</span></span><br><span class="line">git remote add origin git@github.com:NAZWA_UŻYTKOWNIKA_GITHUB/NAZWA_REPOZYTORIUM.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
-</code></pre><p>Pliki powinny być już dostępne w projekcie na <a href="http://www.github.com" target="_blank" rel="noopener">GitHub</a>.</p>
+<p>Pliki powinny być już dostępne w projekcie na <a href="http://www.github.com" target="_blank" rel="noopener">GitHub</a>.</p>
 
 
                 
