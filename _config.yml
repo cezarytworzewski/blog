@@ -85,7 +85,7 @@ theme_config:
     Strona główna: /
     Kontakt: /kontakt/
     Github:
-      url: https://github.com/cezarytworzewski
+      url: https://github.com/ctworzewski
       icon: github
     Twitter:
       url: https://twitter.com/ctworzewski
@@ -94,7 +94,7 @@ theme_config:
       url: https://youtube.com/czarek92r
       icon: youtube
     Facebook:
-      url: https://facebook.com/cezarytworzewski
+      url: https://facebook.com/ctworzewski
       icon: facebook
     LinkedIn:
       url: https://linkedin.com/in/ctworzewski
