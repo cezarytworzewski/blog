@@ -31,11 +31,14 @@
             "kbd",
             "br",
             "figure",
+            "figcaption",
             "img",
             "i",
             "mark",
             "small",
-            "abbr"
+            "abbr",
+            "details",
+            "summary"
         ]
     }
 }

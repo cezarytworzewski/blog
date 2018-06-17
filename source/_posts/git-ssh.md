@@ -41,7 +41,7 @@ Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.
     ```
 
 * następnie, muszę przejść do katalogu użytkownika `~/.ssh`.
- 
+
     Z poziomu terminala do katalogu użytkownika przechodzimy za pomocą
     polecenia `cd ~` - znak TYLDA. Są tam dwa pliki, interesuje mnie
     plik o nazwie: `id_rsa.pub` --> wchodzę do niego i kopiuję całą jego
@@ -51,16 +51,16 @@ Myślę, że w ten sposób będę mógł usystematyzować swoją wiedzę.
     wklejam na koncie `GitHub` w zakładce `Settings` --> `SSH and GPG keys`.
 
 * następnie w konsoli wydaję polecenie:
-    
+
     ```text
         git init
         git add .
     ```
-    
+
     znak `.` - kropka oznacza, że chce dodać wszystkie pliki. Jeśli chciałbym
     dodać tylko jeden plik to wydam polecenie: `git add index.html`, gdzie
     plik `index.html` jest moim plikiem, który chce wysłać na serwer.
-    
+
     ```bash
         git status (opcjonalnie)
         git commit -m "commit-message"

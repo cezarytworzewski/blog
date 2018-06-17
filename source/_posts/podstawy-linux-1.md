@@ -102,7 +102,7 @@ Edytor `VIM` posiada 3 tryby pracy:
     wprowadzanie, od tej chwili mogę pisać w swoim edytorze kod
 * żeby zapisać plik to:
     - najpierw klikam `ctrl + c`
-    - znak `:` - czyli dwukropek uruchamia nam trzeci tryb, tzw. **tryb 
+    - znak `:` - czyli dwukropek uruchamia nam trzeci tryb, tzw. **tryb
         command-line**
     - żeby zapisać plik wciskam `w` (write)
     - żeby wyjść z pliku wciskam `:q` (quit)

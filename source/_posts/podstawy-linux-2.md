@@ -71,7 +71,7 @@ Instalacja z paczki wygląda następująco:
     ```
 
 * teraz chce utworzyć **skrót** do pliku o nazwie **plik.txt**:
-    
+
     Tworzę folder **dowiązania** w lokalizacji **tmp**:
 
     ```bash
