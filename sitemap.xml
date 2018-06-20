@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cezarytworzewski.github.io/kontakt/index.html</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/20/bootstrap-learning/</loc>
     
-    <lastmod>2018-06-17T08:55:32.675Z</lastmod>
+    <lastmod>2018-06-20T21:59:10.847Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/</loc>
+    <loc>https://cezarytworzewski.github.io/kontakt/index.html</loc>
     
     <lastmod>2018-06-17T08:55:32.675Z</lastmod>
     
@@ -23,6 +23,13 @@
   </url>
   
   <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
+    
+    <lastmod>2018-06-17T08:55:32.675Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/15/porownanie-znacznikow-q-cite-blockquote/</loc>
     
     <lastmod>2018-06-17T08:55:32.675Z</lastmod>
@@ -30,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/</loc>
     
     <lastmod>2018-06-17T08:55:32.675Z</lastmod>
     
@@ -51,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</loc>
     
     <lastmod>2018-06-17T08:55:32.671Z</lastmod>
     
@@ -72,14 +79,7 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</loc>
-    
-    <lastmod>2018-06-17T08:55:32.671Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/</loc>
     
     <lastmod>2018-06-17T08:55:32.671Z</lastmod>
     
@@ -93,7 +93,14 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
+    
+    <lastmod>2018-06-17T08:55:32.671Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/</loc>
     
     <lastmod>2018-06-17T08:55:32.671Z</lastmod>
     
