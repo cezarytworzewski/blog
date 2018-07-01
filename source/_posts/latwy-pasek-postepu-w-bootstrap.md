@@ -52,7 +52,8 @@ zastosować podczas tworzenia strony, coś co określam terminem `strona w budow
     Są dwa parametry odpowiadające za rozmiar:
 
         * <strong>w - x</strong> (`w` - szerokość; `x` - wartość liczbowa)
-        * <strong>h - x</strong> (`h` - wysokość; `x` - wartość liczbowa).
+
+        * <strong>h - x</strong> (`h` - wysokość; `x` - wartość liczbowa)
 
     Wyróżniamy następujące wartości liczbowe: <strong>25, 50, 75, 100</strong>.
     Wartości te są wyrażone w procentach i jest ich tylko cztery.
@@ -61,6 +62,7 @@ zastosować podczas tworzenia strony, coś co określam terminem `strona w budow
     
     `h-25` - określa wysokość na 25% wartości danego okna.
     `w-75` - określa szerokość okna o wartości 75% danego okna.
+    
     W moim przypadku, chciałem nadać tło na 75% danego okna, czyli okna
     `progress-bar`.
 
