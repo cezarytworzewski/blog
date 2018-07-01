@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/07/01/latwy-pasek-postepu-w-bootstrap/</loc>
-    
-    <lastmod>2018-07-01T17:09:59.556Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/21/dostosowanie-umiejetnosci-pod-rekrutacje/</loc>
     
     <lastmod>2018-06-21T18:04:21.134Z</lastmod>
@@ -19,6 +12,13 @@
     <loc>https://cezarytworzewski.github.io/2018/06/20/bootstrap-nauka/</loc>
     
     <lastmod>2018-06-20T22:09:01.495Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
+    
+    <lastmod>2018-06-17T08:55:32.675Z</lastmod>
     
   </url>
   
@@ -45,13 +45,6 @@
   
   <url>
     <loc>https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/</loc>
-    
-    <lastmod>2018-06-17T08:55:32.675Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</loc>
     
     <lastmod>2018-06-17T08:55:32.675Z</lastmod>
     
