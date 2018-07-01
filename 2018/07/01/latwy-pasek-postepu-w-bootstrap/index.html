@@ -13,6 +13,9 @@
     
 
     
+        <meta name="description" content="Ostatnio uczę się intensywnie Bootstrap&amp;#39;a.
+Pominąłem opisanie jak stworzyć fajny przycisk w Bootstrap za pomocą klasy .btn.Dość ciekawą rzeczą jes"/>
+    
 
     <!--Author-->
     
@@ -21,10 +24,13 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Cezary Tworzewski"/>
+        <meta property="og:title" content="Tworzenie łatwego paska postępu w Bootstrap"/>
     
 
     <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Ostatnio uczę się intensywnie Bootstrap&amp;#39;a.
+Pominąłem opisanie jak stworzyć fajny przycisk w Bootstrap za pomocą klasy .btn.Dość ciekawą rzeczą jes"/>
     
 
     <!--Open Graph Site Name-->
@@ -32,7 +38,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -51,7 +57,7 @@
 
     <!-- Title -->
     
-    <title>page - Archiwa - Cezary Tworzewski</title>
+    <title>Tworzenie łatwego paska postępu w Bootstrap - Cezary Tworzewski</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -180,129 +186,74 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('/blog/images/front.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Archiwa</h1>
+                <div class="post-heading">
+                    <h1>Tworzenie łatwego paska postępu w Bootstrap</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2018-07-01
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/blog/2018/06/07/podstawy-linux-1/">
-        <h1 class="post-title archive">
-            Nauka Linux'a od podstaw (1)
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-07
-    </p>
-</div>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Ostatnio uczę się intensywnie <code>Bootstrap&#39;a</code>.</p>
+<p>Pominąłem opisanie jak stworzyć fajny przycisk w Bootstrap za pomocą klasy <code>.btn</code>.<br>Dość ciekawą rzeczą jest stworzenie prostego paska postępu, który można<br>zastosować podczas tworzenia strony, coś co określam terminem<br><code>strona w budowie</code>.</p>
+<h2 id="Jak-to-wyglada"><a href="#Jak-to-wyglada" class="headerlink" title="Jak to wygląda?"></a>Jak to wygląda?</h2><p> Pasek postępu wygląda następująco:</p>
+<p><img src="https://image.ibb.co/eLjjNJ/pasek_post_pu.png" alt="Pasek postępu"> </p>
+<h2 id="Jak-to-zrobic"><a href="#Jak-to-zrobic" class="headerlink" title="Jak to zrobić?"></a>Jak to zrobić?</h2><p>Tworzymy sobie klasę główną dla naszego paska. Musimy stworzyć klasę<br>zewnętrzną, która będzie przechowywać nasz pasek postępu:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;progress&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">To właśnie w powyższym kodzie określimy jak będzie wyglądał nasz pasek. Teraz</span><br><span class="line"> musimy stworzyć - do stworzenia paska służy prosta klasa Bootstrap&apos;a o </span><br><span class="line"> nazwie `progress-bar`. Kod wygląda następująco:</span><br></pre></td></tr></table></figure>
+<p><div class="progress"><br>    <div class="progress-bar bg-success w-75">75%</div><br></div><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">Efekt od strony Front-end&apos;u wygląda tak:</span><br><span class="line"></span><br><span class="line">![Pasek postępu 2](https://image.ibb.co/d2oppy/pasek_post_pu_2.png)</span><br><span class="line"></span><br><span class="line">Podstawowa klasa `progress-bar` tworzy pasek postępu koloru szarego, kolor ten</span><br><span class="line">jest widoczny po prawej stronie powyższego obrazka. Pasek postępu jest koloru</span><br><span class="line">zielonego - nie jest to domyślna wartość. Jest zielony ponieważ dodałem </span><br><span class="line">również klasę o nazwie ```bg-success```, czyli tło zielone; `bg` -  to </span><br><span class="line">inaczej `background-color` określana jako właściwość w CSS.</span><br><span class="line"></span><br><span class="line">Warto również wspomnieć o kolejnej klasie jakiej użyłem, czyli klasa `w-75`. </span><br><span class="line">W Bootstrap&apos;ie jest coś takiego jak &lt;strong&gt;rozmiar okna&lt;/strong&gt;.  Są dwa </span><br><span class="line">parametry odpowiadające za rozmiar: &lt;strong&gt;w - x&lt;/strong&gt; (`w` - </span><br><span class="line">szerokość; `x` - wartość liczbowa) oraz &lt;strong&gt;h - x&lt;/strong&gt; </span><br><span class="line">(`h` - wysokość; `x` - wartość liczbowa).</span><br><span class="line"></span><br><span class="line">Wyróżniamy następujące wartości liczbowe: &lt;strong&gt;25, 50, 75, 100&lt;/strong&gt;. </span><br><span class="line">Wartości te są wyrażone w procentach i jest ich tylko cztery.</span><br><span class="line"></span><br><span class="line">Na przykład wartość:</span><br><span class="line"></span><br><span class="line">`h-25` - określa wysokość na 25% wartości danego okna.</span><br><span class="line">`w-75` - określa szerokość okna o wartości 75% danego okna. W moim przypadku,</span><br><span class="line"> chciałem nadać tło na 75% danego okna, czyli okna `progress-bar`.</span><br><span class="line"></span><br><span class="line">Kolejna klasa warta uwagi to ```progress-bar-striped```. Nadaje ona wzorek z</span><br><span class="line"> pasków, u mnie będzie to kolor naprzemienny, raz jasnozielony a raz </span><br><span class="line"> ciemnozielony. </span><br><span class="line"> </span><br><span class="line"> Wygląda to tak:</span><br><span class="line"> </span><br><span class="line"> ![Pasek progress-bar-striped](https://image.ibb.co/ftz7bd/pasek_post_pu_wzorek.png)</span><br><span class="line"> </span><br><span class="line">Ostatnią najfajniejszą według mnie jest klasa `progress-bar-animated`. </span><br><span class="line">Tworzy ona niemal identyczny pasek jak w klasie `progress-bar-striped`, z</span><br><span class="line">tym, że pasek jest ruchomy. Posiada on efekt przesuwania się paska od prawej</span><br><span class="line">do lewej strony.</span><br></pre></td></tr></table></figure></p>
+<p><div class="progress"><br>    <div class="progress-bar bg-success w-75 progress-bar-striped progress-bar-animated"><br>    </div><br></div><br><code>`</code></p>
+<p>Żeby działał klasa <code>progress-bar-animated</code> musi być najpierw zdefiniowana<br>klasa <code>progress-bar-striped</code>.</p>
+<p>Nie jestem ekspertem w Bootstrap (mam nadzieję, że jeszcze), ale podoba mi<br>się możliwość tworzenia w nim stron internetowych. Podstawą na pewno jest dla<br>mnie, że konieczne jest zrozumienie <code>Grida</code> jak to jest z tymi kolumnami.<br>Reszta to już zapamiętanie kilku klas, dzięki którym możemy zrobić ciekawą<br>stronkę.</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
             
-                <div class="post-preview">
-    <a href="/blog/2018/06/05/podstawy-js-1/">
-        <h1 class="post-title archive">
-            Nauka JavaScript od podstaw (1)
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-05
-    </p>
-</div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>Komentarze:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
             
-                <div class="post-preview">
-    <a href="/blog/2018/06/03/javascript-od-nowa/">
-        <h1 class="post-title archive">
-            Jutro startuję z JavaScript od nowa!
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-03
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/06/02/co-dalej-z-moim-marzeniem/">
-        <h1 class="post-title archive">
-            Co dalej? Jakie mam plany? Programowanie? JavaScript? Linux?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/06/01/linux-vs-windows/">
-        <h1 class="post-title archive">
-            Linux vs. Windows dla Front-end'owca?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-01
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/05/31/git-ssh/">
-        <h1 class="post-title archive">
-            Czym jest Git? Klucze SSH - jak to zrozumieć?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-05-31
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/05/30/omnie/">
-        <h1 class="post-title archive">
-            Kim jestem? O czym będzie mój blog?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-05-30
-    </p>
-</div>
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-        <li class="previous"><a href="/blog/archives/">&larr;  Następna</a></li>
-    
-    
-</ul>
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
@@ -381,7 +332,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
