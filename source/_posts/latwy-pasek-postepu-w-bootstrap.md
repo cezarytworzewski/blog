@@ -16,15 +16,15 @@ zastosować podczas tworzenia strony, coś co określam terminem
  Pasek postępu wygląda następująco:
  
 ![Pasek postępu](https://image.ibb.co/eLjjNJ/pasek_post_pu.png) 
+
  ## Jak to zrobić?
  
 Tworzymy sobie klasę główną dla naszego paska. Musimy stworzyć klasę 
 zewnętrzną, która będzie przechowywać nasz pasek postępu:
-
-```
+```html
 <div class="progress">
 </div>
-``` 
+```
 
 To właśnie w powyższym kodzie określimy jak będzie wyglądał nasz pasek. Teraz
  musimy stworzyć - do stworzenia paska służy prosta klasa Bootstrap'a o 
