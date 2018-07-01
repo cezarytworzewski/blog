@@ -8,16 +8,15 @@ Ostatnio uczę się intensywnie `Bootstrap'a`.
 
 Pominąłem opisanie jak stworzyć fajny przycisk w Bootstrap za pomocą klasy `.btn`. 
 Dość ciekawą rzeczą jest stworzenie prostego paska postępu, który można
-zastosować podczas tworzenia strony, coś co określam terminem 
-`strona w budowie`.
+zastosować podczas tworzenia strony, coś co określam terminem `strona w budowie`.
  
- ## Jak to wygląda?
+## Jak to wygląda?
  
  Pasek postępu wygląda następująco:
  
 ![Pasek postępu](https://image.ibb.co/eLjjNJ/pasek_post_pu.png) 
 
- ## Jak to zrobić?
+## Jak to zrobić?
  
 1. Tworzymy sobie klasę główną dla naszego paska. Musimy stworzyć klasę
     zewnętrzną, która będzie przechowywać nasz pasek postępu:
@@ -27,7 +26,7 @@ zastosować podczas tworzenia strony, coś co określam terminem
     </div>
     ```
 
-To właśnie w powyższym kodzie określimy jak będzie wyglądał nasz pasek. 
+    To właśnie w powyższym kodzie określimy jak będzie wyglądał nasz pasek.
 
 2. Teraz musimy stworzyć - do stworzenia paska służy prosta klasa Bootstrap'a
     o nazwie `progress-bar`. Kod wygląda następująco:
@@ -45,9 +44,8 @@ To właśnie w powyższym kodzie określimy jak będzie wyglądał nasz pasek.
     Podstawowa klasa `progress-bar` tworzy pasek postępu koloru szarego, kolor ten
     jest widoczny po prawej stronie powyższego obrazka. Pasek postępu jest koloru
     zielonego - nie jest to domyślna wartość. Jest zielony ponieważ dodałem 
-    również klasę o nazwie ```bg-success```, czyli tło zielone; `bg` -  to 
+    również klasę o nazwie `bg-success`, czyli tło zielone; `bg` -  to
     inaczej `background-color` określana jako właściwość w CSS.
-    
     Warto również wspomnieć o kolejnej klasie jakiej użyłem, czyli klasa `w-75`. 
     W Bootstrap'ie jest coś takiego jak <strong>rozmiar okna</strong>.  Są dwa 
     parametry odpowiadające za rozmiar: <strong>w - x</strong> (`w` - 
@@ -64,8 +62,7 @@ To właśnie w powyższym kodzie określimy jak będzie wyglądał nasz pasek.
      chciałem nadać tło na 75% danego okna, czyli okna `progress-bar`.
 
 3. Kolejna klasa warta uwagi to ```progress-bar-striped```. Nadaje ona wzorek z
-    pasków, u mnie będzie to kolor naprzemienny, raz jasnozielony a raz 
-    ciemnozielony. 
+    pasków, u mnie będzie to kolor naprzemienny, raz jasnozielony a raz ciemnozielony.
  
     Wygląda to tak:
  
