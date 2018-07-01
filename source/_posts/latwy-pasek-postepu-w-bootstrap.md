@@ -41,31 +41,33 @@ zastosować podczas tworzenia strony, coś co określam terminem `strona w budow
 
     ![Pasek postępu 2](https://image.ibb.co/d2oppy/pasek_post_pu_2.png)
 
-    Podstawowa klasa `progress-bar` tworzy pasek postępu koloru szarego, kolor ten
-    jest widoczny po prawej stronie powyższego obrazka. Pasek postępu jest koloru
-    zielonego - nie jest to domyślna wartość. Jest zielony ponieważ dodałem 
-    również klasę o nazwie `bg-success`, czyli tło zielone `bg` -  to
-    inaczej `background-color` określana jako właściwość w CSS.
-    Warto również wspomnieć o kolejnej klasie jakiej użyłem, czyli klasa `w-75`. 
-    W Bootstrap'ie jest coś takiego jak <strong>rozmiar okna</strong>.
+    Podstawowa klasa `progress-bar` tworzy pasek postępu koloru szarego,
+    kolor ten jest widoczny po prawej stronie powyższego obrazka. Pasek postępu
+    jest koloru zielonego - nie jest to domyślna wartość. Jest zielony ponieważ
+    dodałem również klasę o nazwie `bg-success`, czyli tło zielone `bg` - to
+    inaczej `background-color` określana jako właściwość w CSS. Warto również
+    wspomnieć o kolejnej klasie jakiej użyłem, czyli klasa `w-75`. W
+    Bootstrap'ie jest coś takiego jak <strong>rozmiar okna</strong>.
+
     Są dwa parametry odpowiadające za rozmiar:
+
         * <strong>w - x</strong> (`w` - szerokość; `x` - wartość liczbowa)
         * <strong>h - x</strong> (`h` - wysokość; `x` - wartość liczbowa).
-    
-    Wyróżniamy następujące wartości liczbowe: <strong>25, 50, 75, 100</strong>. 
+
+    Wyróżniamy następujące wartości liczbowe: <strong>25, 50, 75, 100</strong>.
     Wartości te są wyrażone w procentach i jest ich tylko cztery.
 
     Na przykład wartość:
     
     `h-25` - określa wysokość na 25% wartości danego okna.
-    `w-75` - określa szerokość okna o wartości 75% danego okna. W moim przypadku,
-     chciałem nadać tło na 75% danego okna, czyli okna `progress-bar`.
+    `w-75` - określa szerokość okna o wartości 75% danego okna.
+    W moim przypadku, chciałem nadać tło na 75% danego okna, czyli okna
+    `progress-bar`.
 
 3. Kolejna klasa warta uwagi to `progress-bar-striped`. Nadaje ona wzorek z
     pasków, u mnie będzie to kolor naprzemienny, raz jasnozielony a raz ciemnozielony.
  
     Wygląda to tak:
- 
     ![Pasek progress-bar-striped](https://image.ibb.co/ftz7bd/pasek_post_pu_wzorek.png)
  
 4. Ostatnią najfajniejszą według mnie jest klasa `progress-bar-animated`. 
