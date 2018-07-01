@@ -51,9 +51,9 @@ zastosować podczas tworzenia strony, coś co określam terminem `strona w budow
 
     Są dwa parametry odpowiadające za rozmiar:
 
-        * <strong>w - x</strong> (`w` - szerokość; `x` - wartość liczbowa)
+        * w - x (`w` - szerokość; `x` - wartość liczbowa)
 
-        * <strong>h - x</strong> (`h` - wysokość; `x` - wartość liczbowa)
+        * h - x (`h` - wysokość; `x` - wartość liczbowa)
 
     Wyróżniamy następujące wartości liczbowe: <strong>25, 50, 75, 100</strong>.
     Wartości te są wyrażone w procentach i jest ich tylko cztery.
@@ -62,7 +62,7 @@ zastosować podczas tworzenia strony, coś co określam terminem `strona w budow
     
     `h-25` - określa wysokość na 25% wartości danego okna.
     `w-75` - określa szerokość okna o wartości 75% danego okna.
-    
+
     W moim przypadku, chciałem nadać tło na 75% danego okna, czyli okna
     `progress-bar`.
 
@@ -74,8 +74,7 @@ zastosować podczas tworzenia strony, coś co określam terminem `strona w budow
  
 4. Ostatnią najfajniejszą według mnie jest klasa `progress-bar-animated`. 
     Tworzy ona niemal identyczny pasek jak w klasie `progress-bar-striped`, z
-    tym, że pasek jest ruchomy. Posiada on efekt przesuwania się paska od prawej
-    do lewej strony.
+    tym, że pasek jest ruchomy. Posiada on efekt przesuwania się paska od prawej do lewej strony.
   
     ```text
     <div class="progress">
@@ -89,9 +88,6 @@ zastosować podczas tworzenia strony, coś co określam terminem `strona w budow
  
  
 Nie jestem ekspertem w Bootstrap (mam nadzieję, że jeszcze), ale podoba mi 
-się możliwość tworzenia w nim stron internetowych. Podstawą na pewno jest dla
-mnie, że konieczne jest zrozumienie `Grida` jak to jest z tymi kolumnami. 
-Reszta to już zapamiętanie kilku klas, dzięki którym możemy zrobić ciekawą 
-stronkę.
+się możliwość tworzenia w nim stron internetowych. Podstawą na pewno jest dla mnie, że konieczne jest zrozumienie `Grida` jak to jest z tymi kolumnami. Reszta to już zapamiętanie kilku klas, dzięki którym możemy zrobić ciekawą stronkę.
  
  
