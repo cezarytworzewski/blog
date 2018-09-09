@@ -17,8 +17,8 @@ Nagle los sie odwrócił i dostałem swoją pierwszą wymarzoną pracę w IT.
 # Moja pierwsza praca w IT!!!
 
 Jestem meeegaaa szczęśliwy! Wchodząc do pracy jak i zniej wychodząć jestem 
-bardzo pozytywnie nastawiony - w duszy jestem radosny, że w końcu mogę robić to 
-co uwielbiam :)
+bardzo pozytywnie nastawiony - w duszy jestem radosny, że w końcu mogę robić
+to co uwielbiam :)
 
 Zajmuję się kilkunastoma stronami postawionymi na silniku *WordPress*. Na razie
 zapoznaje się z ich strukturą z okoła 3-4 stronami. Kiedyś coś liznąłem 
@@ -29,23 +29,23 @@ drukarki. Mogę zawsze liczyć na pomoc z ludzi ze społeczności [WarsawJS](htt
 związanymi z moją pracą. Za co Wam bardzo dziękuje :)
 
 Poza tym w firmie, jestem (będę) odpowiedzialny za wdrażanie programu
-[Mobevo](https://www.mobevo.pl/) u klientów oraz za pomoc techniczną. Dlatego
-czały czas uczę się tego programu oraz funkcji.
+[Mobevo](https://www.mobevo.pl/) u klientów oraz za pomoc techniczną. 
+Dlatego czały czas uczę się tego programu oraz funkcji.
 
 Poza tym atmosfera jest bardzo fajna. Świetni ludzie :). Uważam osobiście, że
 atmosfera w pracy wpływa na naszą produktywność.
 
-Zauważyłem, że w pracy też można się uczyć. Miewałem różne problemy w związku z
-moimi zadaniami - więc odpalam [Google](https://www.google.pl) lub [YouTube](https://www.youtube.pl)
-i znajduję swoje odpowiedzi.
+Zauważyłem, że w pracy też można się uczyć. Miewałem różne problemy w związku
+z moimi zadaniami - więc odpalam [Google](https://www.google.pl) lub 
+[YouTube](https://www.youtube.pl) i znajduję swoje odpowiedzi.
 
 # Co po pracy?
 
 Cały czas staram się dokształcać. Widzę jak bardzo mało wiem. Zacząłem 
 przerabiać podstawowy kurs sieci komputerowtch na [kurs na Udemy - autor Mariusz Kuriata](https://www.udemy.com/sieci-komputerowe-kompletny-kurs-budowa-i-dziaanie-sieci/).
 Mam cały czas kontakt z autorem kursu. Pomaga mi w razie moich pytań. 
-Zauważyłem, że zrozumiałem sporo nowych *podstawowych* rzeczy, ponieważ kurs 
-jest nastawiony na sporo praktycznych rzeczy. Niestety nie mam możliwości 
+Zauważyłem, że zrozumiałem sporo nowych *podstawowych* rzeczy, ponieważ 
+kurs jest nastawiony na sporo praktycznych rzeczy. Niestety nie mam możliwości 
 przetestowania tworzenia sieci **VPN** lub **przekierowania portów** - ponieważ 
 mój router (przenośny hotspot) nie oferuję takiej usługi. Może w wolnej chwili 
 w pracy spróbuje się tego nauczyć!
