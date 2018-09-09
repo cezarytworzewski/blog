@@ -1,6 +1,6 @@
 ---
 title: Pierwsza praca w IT oraz o małym wstrzymaniu bloga
-date: 2018-09-09 09:30:00
+date: 2018-09-09 23:43:51
 tags:
 ---
 
