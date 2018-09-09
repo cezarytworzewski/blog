@@ -5,9 +5,9 @@
   <subtitle>Learning Front-end</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="https://cezarytworzewski.github.io/"/>
+  <link href="https://ctworzewski.github.io/"/>
   <updated>2018-09-09T07:28:02.323Z</updated>
-  <id>https://cezarytworzewski.github.io/</id>
+  <id>https://ctworzewski.github.io/</id>
   
   <author>
     <name>Cezary Tworzewski</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Pierwsza praca w IT oraz o małym wstrzymaniu bloga</title>
-    <link href="https://cezarytworzewski.github.io/2018/09/09/moja-pierwsza-praca-w-IT/"/>
-    <id>https://cezarytworzewski.github.io/2018/09/09/moja-pierwsza-praca-w-IT/</id>
+    <link href="https://ctworzewski.github.io/2018/09/09/moja-pierwsza-praca-w-IT/"/>
+    <id>https://ctworzewski.github.io/2018/09/09/moja-pierwsza-praca-w-IT/</id>
     <published>2018-09-09T21:43:51.000Z</published>
     <updated>2018-09-09T07:28:02.323Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Tworzenie łatwego paska postępu w Bootstrap</title>
-    <link href="https://cezarytworzewski.github.io/2018/07/01/latwy-pasek-postepu-w-bootstrap/"/>
-    <id>https://cezarytworzewski.github.io/2018/07/01/latwy-pasek-postepu-w-bootstrap/</id>
+    <link href="https://ctworzewski.github.io/2018/07/01/latwy-pasek-postepu-w-bootstrap/"/>
+    <id>https://ctworzewski.github.io/2018/07/01/latwy-pasek-postepu-w-bootstrap/</id>
     <published>2018-07-01T15:01:18.000Z</published>
     <updated>2018-09-09T17:11:03.281Z</updated>
     
@@ -61,8 +61,8 @@
   
   <entry>
     <title>Czego oczekują firmy - nauka</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/21/dostosowanie-umiejetnosci-pod-rekrutacje/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/21/dostosowanie-umiejetnosci-pod-rekrutacje/</id>
+    <link href="https://ctworzewski.github.io/2018/06/21/dostosowanie-umiejetnosci-pod-rekrutacje/"/>
+    <id>https://ctworzewski.github.io/2018/06/21/dostosowanie-umiejetnosci-pod-rekrutacje/</id>
     <published>2018-06-21T17:48:09.000Z</published>
     <updated>2018-09-09T17:11:03.277Z</updated>
     
@@ -82,8 +82,8 @@
   
   <entry>
     <title>Na razie Bootstrap</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/20/bootstrap-nauka/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/20/bootstrap-nauka/</id>
+    <link href="https://ctworzewski.github.io/2018/06/20/bootstrap-nauka/"/>
+    <id>https://ctworzewski.github.io/2018/06/20/bootstrap-nauka/</id>
     <published>2018-06-20T21:43:51.000Z</published>
     <updated>2018-09-09T17:11:03.276Z</updated>
     
@@ -103,8 +103,8 @@
   
   <entry>
     <title>Jak łatwiej tworzyć artykuły na bloga z Hexo?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/</id>
+    <link href="https://ctworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/"/>
+    <id>https://ctworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/</id>
     <published>2018-06-15T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.280Z</updated>
     
@@ -125,8 +125,8 @@
   
   <entry>
     <title>Dlaczego nie można modyfikować pliku bootstrap.min.css?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/</id>
+    <link href="https://ctworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/"/>
+    <id>https://ctworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/</id>
     <published>2018-06-14T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.277Z</updated>
     
@@ -146,8 +146,8 @@
   
   <entry>
     <title>Czym się różni reguła od właściwości w CSS?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</id>
+    <link href="https://ctworzewski.github.io/2018/06/15/regula-wlasciwosc/"/>
+    <id>https://ctworzewski.github.io/2018/06/15/regula-wlasciwosc/</id>
     <published>2018-06-14T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.287Z</updated>
     
@@ -168,8 +168,8 @@
   
   <entry>
     <title>Porównanie znaczników &quot;q, cite, blockquote&quot;.</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/15/porownanie-znacznikow-q-cite-blockquote/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/15/porownanie-znacznikow-q-cite-blockquote/</id>
+    <link href="https://ctworzewski.github.io/2018/06/15/porownanie-znacznikow-q-cite-blockquote/"/>
+    <id>https://ctworzewski.github.io/2018/06/15/porownanie-znacznikow-q-cite-blockquote/</id>
     <published>2018-06-14T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.287Z</updated>
     
@@ -190,8 +190,8 @@
   
   <entry>
     <title>Jaka jest różnica pomiędzy znacznikiem img &amp; background-image?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/14/img-vs-background-image/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/14/img-vs-background-image/</id>
+    <link href="https://ctworzewski.github.io/2018/06/14/img-vs-background-image/"/>
+    <id>https://ctworzewski.github.io/2018/06/14/img-vs-background-image/</id>
     <published>2018-06-13T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.279Z</updated>
     
@@ -212,8 +212,8 @@
   
   <entry>
     <title>Nauka JavaScript od podstaw (2)</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/</id>
+    <link href="https://ctworzewski.github.io/2018/06/13/podstawy-js-2/"/>
+    <id>https://ctworzewski.github.io/2018/06/13/podstawy-js-2/</id>
     <published>2018-06-12T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.285Z</updated>
     
@@ -233,8 +233,8 @@
   
   <entry>
     <title>Nauka Linux&#39;a od podstaw (2)</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/08/podstawy-linux-2/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/08/podstawy-linux-2/</id>
+    <link href="https://ctworzewski.github.io/2018/06/08/podstawy-linux-2/"/>
+    <id>https://ctworzewski.github.io/2018/06/08/podstawy-linux-2/</id>
     <published>2018-06-07T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.286Z</updated>
     
@@ -254,8 +254,8 @@
   
   <entry>
     <title>Nauka Linux&#39;a od podstaw (1)</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/07/podstawy-linux-1/</id>
+    <link href="https://ctworzewski.github.io/2018/06/07/podstawy-linux-1/"/>
+    <id>https://ctworzewski.github.io/2018/06/07/podstawy-linux-1/</id>
     <published>2018-06-06T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.285Z</updated>
     
@@ -275,8 +275,8 @@
   
   <entry>
     <title>Nauka JavaScript od podstaw (1)</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/05/podstawy-js-1/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/05/podstawy-js-1/</id>
+    <link href="https://ctworzewski.github.io/2018/06/05/podstawy-js-1/"/>
+    <id>https://ctworzewski.github.io/2018/06/05/podstawy-js-1/</id>
     <published>2018-06-04T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.284Z</updated>
     
@@ -297,8 +297,8 @@
   
   <entry>
     <title>Jutro startuję z JavaScript od nowa!</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/</id>
+    <link href="https://ctworzewski.github.io/2018/06/03/javascript-od-nowa/"/>
+    <id>https://ctworzewski.github.io/2018/06/03/javascript-od-nowa/</id>
     <published>2018-06-02T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.281Z</updated>
     
@@ -319,8 +319,8 @@
   
   <entry>
     <title>Co dalej? Jakie mam plany? Programowanie? JavaScript? Linux?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</id>
+    <link href="https://ctworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/"/>
+    <id>https://ctworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</id>
     <published>2018-06-01T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.276Z</updated>
     
@@ -340,8 +340,8 @@
   
   <entry>
     <title>Linux vs. Windows dla Front-end&#39;owca?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/</id>
+    <link href="https://ctworzewski.github.io/2018/06/01/linux-vs-windows/"/>
+    <id>https://ctworzewski.github.io/2018/06/01/linux-vs-windows/</id>
     <published>2018-05-31T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.282Z</updated>
     
@@ -361,8 +361,8 @@
   
   <entry>
     <title>Czym jest Git? Klucze SSH - jak to zrozumieć?</title>
-    <link href="https://cezarytworzewski.github.io/2018/05/31/git-ssh/"/>
-    <id>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</id>
+    <link href="https://ctworzewski.github.io/2018/05/31/git-ssh/"/>
+    <id>https://ctworzewski.github.io/2018/05/31/git-ssh/</id>
     <published>2018-05-30T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.279Z</updated>
     
@@ -383,8 +383,8 @@
   
   <entry>
     <title>Kim jestem? O czym będzie mój blog?</title>
-    <link href="https://cezarytworzewski.github.io/2018/05/30/omnie/"/>
-    <id>https://cezarytworzewski.github.io/2018/05/30/omnie/</id>
+    <link href="https://ctworzewski.github.io/2018/05/30/omnie/"/>
+    <id>https://ctworzewski.github.io/2018/05/30/omnie/</id>
     <published>2018-05-29T22:00:00.000Z</published>
     <updated>2018-09-09T17:11:03.283Z</updated>
     
