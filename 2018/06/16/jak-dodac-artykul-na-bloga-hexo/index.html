@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="Odnalazłem nowy sposób na tworzenie artykułów  w oparciu o Hexo.
+Do tej pory utrudniałem sobie pracę podczas tworzenia artykułów.Tworzyłem nowy plik, "/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Cezary Tworzewski"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Jak łatwiej tworzyć artykuły na bloga z Hexo?"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Odnalazłem nowy sposób na tworzenie artykułów  w oparciu o Hexo.
+Do tej pory utrudniałem sobie pracę podczas tworzenia artykułów.Tworzyłem nowy plik, "/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Cezary Tworzewski"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="https://cezarytworzewski.github.io/blog/images/front.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="https://cezarytworzewski.github.io/blog/images/front.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>Jak łatwiej tworzyć artykuły na bloga z Hexo? - Cezary Tworzewski</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/blog/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    <!---->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120895796-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120895796-1');
+</script>
+
+
+    <!-- favicon -->
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/blog/">Strona główna</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/blog/">
+                            
+                                Strona główna
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/kontakt/">
+                            
+                                Kontakt
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/ctworzewski">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://twitter.com/ctworzewski">
+                            
+                                <i class="fa fa-twitter fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://youtube.com/czarek92r">
+                            
+                                <i class="fa fa-youtube fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://facebook.com/ctworzewski">
+                            
+                                <i class="fa fa-facebook fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://linkedin.com/in/ctworzewski">
+                            
+                                <i class="fa fa-linkedin fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/blog/images/front.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Jak łatwiej tworzyć artykuły na bloga z Hexo?</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2018-06-16
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Odnalazłem nowy sposób na tworzenie artykułów  w oparciu o <strong>Hexo</strong>.</p>
+<p>Do tej pory utrudniałem sobie pracę podczas tworzenia artykułów.<br>Tworzyłem nowy plik, pisałem artykuł a później dodawałem go z użyciem<br>programu <code>git</code>. Dodawanie artykułów trwało o wiele dłużej, gdyż musiałem<br>wydawać kolejno polecenia:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">"Initial post"</span></span><br><span class="line">git push</span><br><span class="line">hexo clean</span><br><span class="line">hexo deploy</span><br><span class="line">gh-pages -d public/</span><br></pre></td></tr></table></figure>
+<p>Teraz wystarczy, że wydam tylko 3 polecenia, które są opisanie poniżej. Na<br>szczęście udało mi się znaleźć sposób jak łatwiej dodać artykuł.</p>
+<h2 id="💡-Wskazowka"><a href="#💡-Wskazowka" class="headerlink" title="💡 Wskazówka"></a>💡 Wskazówka</h2><p>Ostatnie 3 polecenia możesz wykonać jednym:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run deploy</span><br></pre></td></tr></table></figure>
+<p>jeśli zdefiniujesz w pliku <code>package.json</code> nowe zadanie:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">"scripts": &#123;</span><br><span class="line">    "deploy": "hexo clean &amp;&amp; hexo generate &amp;&amp; gh-pages -d public/"</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Tworzenie-artykulow-w-aplikacji-zbudowanej-w-oparciu-o-Hexo"><a href="#Tworzenie-artykulow-w-aplikacji-zbudowanej-w-oparciu-o-Hexo" class="headerlink" title="Tworzenie artykułów (w aplikacji zbudowanej w oparciu o Hexo)"></a>Tworzenie artykułów (w aplikacji zbudowanej w oparciu o Hexo)</h2><ol>
+<li><p>Jestem w katalogu projektu, moja ścieżka wygląda tak:</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cezary:~/blog$</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Teraz żeby dodać nowy artykuł muszę wydać w katalogu projektu polecenie:</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new MOJ_NOWY_POST</span><br></pre></td></tr></table></figure>
+<p> Stworzy mi się automatycznie plik o nazwie <code>MOJ-NOWY-POST.md</code>.<br> Rozszerzenie <code>md</code> jest również dodawane automatycznie do pliku.</p>
+<p> Skąd wiem, że plik się poprawnie dodał? Otóż po wydaniu wcześniejszego<br> polecenia otrzymam komunikat - informację o dodaniu poprawnie pliku.</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Created: ~/blog/source/_posts/MOJ-NOWY-POST.md</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Następnie edytuję plik <code>MOJ-NOWY-POST.md</code> dodając w nim treść artykułu.<br> Zapisuję go i przechodzę dalej.</p>
+</li>
+<li><p>Wydam kolejno polecenia:</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">gh-pages -d public/</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><mark>Artykuł właśnie został dodany i opublikowany!</mark> 🚀</p>
+<h2 id="Tworzenie-artykulow-roboczych-draft"><a href="#Tworzenie-artykulow-roboczych-draft" class="headerlink" title="Tworzenie artykułów roboczych (draft)"></a>Tworzenie artykułów roboczych (<code>draft</code>)</h2><p>Możesz napisać kilka artykułów ale w wersji roboczej. Załóżmy, że napisałeś<br>artykuł, ale chcesz opublikować go jutro. Z Hexo masz taką możliwość.</p>
+<p>Jak tworzyć artykuł w wersji roboczej:</p>
+<ul>
+<li><p>będąc w głównym katalogu mojego bloga wydaję polecenie:</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new draft PLIK_ROBOCZY</span><br></pre></td></tr></table></figure>
+<p>  Informację o poprawnym dodaniu pliku roboczego znajdziesz poniżej:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Created: ~/blog/source/_drafts/PLIK-ROBOCZY.md</span><br></pre></td></tr></table></figure>
+<p>  Zapewne zauważyłeś, że w katalogu projektu, dodał się nowy folder o nazwie:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source/_drafts</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>jeśli już edytowałeś swój plik roboczy, teraz pora żeby go opublikować</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish PLIK_ROBOCZY</span><br></pre></td></tr></table></figure>
+<p>  Potwierdzeniem poprawnego opublikowania jest otrzymanie komunikatu:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Published: ~/blog/source/_posts/PLIK-ROBOCZY.md</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><mark>Twój szkic został zamieniony na artykuł!</mark> 🚀</p>
+<p><em>Wszystkie</em> operacje musisz wykonywać będąc w <em>głównym</em> katalogu projektu.</p>
+<p><em>Good luck!</em></p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>Komentarze:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/ctworzewski" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/cezarytworzewski" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="mailto:cezary.tworzewski@gmail.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2018 Cezary Tworzewski<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'cezarytworzewski';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="Jak wiecie, dodatkiem do mojej nauki Front-end&amp;#39;u jest nauka Linux&amp;#39;a.Fizycznie posiadam Ubuntu i na maszynie wirtualnej CentOS.
+Podstawowe pole"/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Cezary Tworzewski"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Nauka Linux&#39;a od podstaw (1)"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Jak wiecie, dodatkiem do mojej nauki Front-end&amp;#39;u jest nauka Linux&amp;#39;a.Fizycznie posiadam Ubuntu i na maszynie wirtualnej CentOS.
+Podstawowe pole"/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Cezary Tworzewski"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="https://cezarytworzewski.github.io/blog/images/front.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="https://cezarytworzewski.github.io/blog/images/front.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>Nauka Linux&#39;a od podstaw (1) - Cezary Tworzewski</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/blog/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    <!---->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120895796-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120895796-1');
+</script>
+
+
+    <!-- favicon -->
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/blog/">Strona główna</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/blog/">
+                            
+                                Strona główna
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/kontakt/">
+                            
+                                Kontakt
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/ctworzewski">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://twitter.com/ctworzewski">
+                            
+                                <i class="fa fa-twitter fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://youtube.com/czarek92r">
+                            
+                                <i class="fa fa-youtube fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://facebook.com/ctworzewski">
+                            
+                                <i class="fa fa-facebook fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://linkedin.com/in/ctworzewski">
+                            
+                                <i class="fa fa-linkedin fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/blog/images/front.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Nauka Linux'a od podstaw (1)</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2018-06-07
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Jak wiecie, dodatkiem do mojej nauki <code>Front-end&#39;u</code> jest nauka <code>Linux&#39;a</code>.<br>Fizycznie posiadam <code>Ubuntu</code> i na maszynie wirtualnej <code>CentOS</code>.</p>
+<h2 id="Podstawowe-polecenie"><a href="#Podstawowe-polecenie" class="headerlink" title="Podstawowe polecenie"></a>Podstawowe polecenie</h2><ul>
+<li><code>pwd</code> - wskazuje bieżącą lokalizację (ścieżkę) w jakiej się znajdujemy</li>
+<li><code>cd ..</code> - zejście do katalogu wcześniej</li>
+<li><code>cd ../..</code> - przechodzi dwa poziomy do tyłu</li>
+<li><code>clear</code> - czyści nam ekran</li>
+<li><code>whoami</code> - sprawdza nam, kto jest zalogowany aktualnie, jaki user</li>
+</ul>
+<h3 id="W-czym-moze-pomoc-nam-przycisk-na-klawiaturze-TAB"><a href="#W-czym-moze-pomoc-nam-przycisk-na-klawiaturze-TAB" class="headerlink" title="W czym może pomóc nam przycisk na klawiaturze TAB?"></a>W czym może pomóc nam przycisk na klawiaturze <code>TAB</code>?</h3><p>Przycisk ten dopisuje na ‘drugą’ część polecenia! :)</p>
+<h3 id="Co-to-sciezka-bezwzgledna"><a href="#Co-to-sciezka-bezwzgledna" class="headerlink" title="Co to ścieżka bezwzględna?"></a>Co to ścieżka bezwzględna?</h3><p>To jest coś w stylu <code>pwd</code>. Przykład:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /home/cezary/Dokumenty/</span><br></pre></td></tr></table></figure>
+<p>Czyli jest to cała ścieżka dostępu.</p>
+<h3 id="Co-to-jest-sciezka-wzgledna"><a href="#Co-to-jest-sciezka-wzgledna" class="headerlink" title="Co to jest ścieżka względna?"></a>Co to jest ścieżka względna?</h3><p>W najprostszym dla mnie rozumieniu jest to przechodzenie stopniowe do katalogów,<br>katalog po katalogu. Przykład poniżej:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> home</span><br><span class="line"><span class="built_in">cd</span> cezary</span><br><span class="line"><span class="built_in">cd</span> Dokumenty</span><br></pre></td></tr></table></figure>
+<h3 id="O-nieee-Gdzie-szukac-pomocy-Nie-dziala-mi-to"><a href="#O-nieee-Gdzie-szukac-pomocy-Nie-dziala-mi-to" class="headerlink" title="O nieee! Gdzie szukać pomocy? Nie działa mi to!"></a>O nieee! Gdzie szukać pomocy? Nie działa mi to!</h3><p>Najpopularniejszymi źródłami, z którego możemy czerpać wiedzę i<br>możliwość rozwiązywania problemów jest:</p>
+<ul>
+<li><a href="http://www.linux.pl" target="_blank" rel="noopener">Linux.pl</a></li>
+<li><a href="http://www.forum.linux.pl" target="_blank" rel="noopener">Forum Linuxa</a></li>
+</ul>
+<h2 id="Pliki-i-katalogi"><a href="#Pliki-i-katalogi" class="headerlink" title="Pliki i katalogi"></a>Pliki i katalogi</h2><p><strong>Najpopularniejsze polecenia to:</strong></p>
+<ul>
+<li><code>mkdir</code> - tworzy nam katalog. Przykład: <code>mkdir JavaScript</code></li>
+<li><code>rmdir</code> - usuwa nam plik lub pusty katalog</li>
+<li><code>touch</code> - tworzy nam pliki wszelkiego typu. Pliki tekstowe, pliki<br>  <code>html</code>, <code>css</code> czy nawet pliki <code>js</code>. Możemy tworzyć kilka plików na<br>  raz -&gt; <code>touch plik1.txt plik2.txt index.htmk</code>. Więcej do poczytania<br>  na <a href="https://piecioshka.pl/blog/2018/05/21/jak-stworzyc-3-pliki-o-roznych-rozszerzeniach.html" target="_blank" rel="noopener">Jak stworzyć 3 pliki o różnych rozszerzeniach za pomocą 1 polecenia?</a></li>
+<li><code>rm</code> - usunięcie pliku lib niepustego katalogu. Aby usunąć katalog<br>  wraz z zawartością wywołujemy polecenie <code>rm</code> z parametrem<br>  <code>r</code> –&gt; <code>rm -r Dokumenty</code>.</li>
+<li><code>cp</code> - kopiuje pliki lub katalogi w różne miejsca</li>
+<li><code>mv</code> - przeniesienie pliku lub katalogu (wycinanie). Zmienia też nazwę.</li>
+</ul>
+<h2 id="Kopiowanie"><a href="#Kopiowanie" class="headerlink" title="Kopiowanie"></a>Kopiowanie</h2><p>Tworzę dwa foldery:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir katalog1</span><br><span class="line">mkdir katalog2</span><br></pre></td></tr></table></figure>
+<p>W <code>katalog1</code> tworzę dwa pliki: <code>touch plik1.txt plik2.txt</code>.<br><code>Katalog2</code> pozostaje pusty.</p>
+<ul>
+<li>chce <code>plik1.txt</code> skopiować do <code>katalog2/</code>:<br>  <code>cp katalog1/plik1.txt katalog2</code></li>
+<li>chce <code>plik1.txt</code> skopiować do <code>katalog2/</code>, ale zmienić nazwę tego pliku:<br>  <code>cp katalog1/plik1.txt katalog2/plik3.txt</code></li>
+<li>chce skopiować całą zawartość <code>katalog1</code> do <code>katalog2/</code>:<br>  <code>cp katalog1/* katalog2/</code></li>
+<li>zmiana nazwy i przenoszenie ‘czegoś’ w inne miejsce:<br>  <code>mv katalog1/plik1.txt katalog2/</code> - rezultat będzie taki, że<br>  <code>plik1.txt</code>zostanie przeniesiony (wycięty) z <code>katalog1</code> i będzie<br>  widoczny w <code>katalog2</code></li>
+<li>chce zmienić nazwę pliku w tym samym katalogu:</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> katalog1/</span><br><span class="line">mv plik1.txt nowaNazwaPliku.txt</span><br></pre></td></tr></table></figure>
+<h2 id="Edytor-VIM"><a href="#Edytor-VIM" class="headerlink" title="Edytor VIM"></a>Edytor VIM</h2><p>Edytor <code>VIM</code> posiada 3 tryby pracy:</p>
+<ul>
+<li>po wejściu do <code>VIM</code> np.: <code>vim plik1.txt</code> - wtedy mamy <strong>tryb normal</strong></li>
+<li>jeśli kliknę literę <code>a</code> to będę wówczas w <strong>trybie input</strong>, czyli<br>  wprowadzanie, od tej chwili mogę pisać w swoim edytorze kod</li>
+<li>żeby zapisać plik to:<ul>
+<li>najpierw klikam <code>ctrl + c</code></li>
+<li>znak <code>:</code> - czyli dwukropek uruchamia nam trzeci tryb, tzw. <strong>tryb<br>  command-line</strong></li>
+<li>żeby zapisać plik wciskam <code>w</code> (write)</li>
+<li>żeby wyjść z pliku wciskam <code>:q</code> (quit)</li>
+<li>albo od razu <code>:wq</code></li>
+</ul>
+</li>
+</ul>
+<p>Aby wyświetlić całą zawartość pliku w terminalu wywołuję polecenie <code>cat</code>,<br><code>cat plik1.txt</code>.</p>
+<p>Inne potrzebne polecenia w <code>VIM</code> to:</p>
+<ul>
+<li><code>dd</code> - wycina nam daną linię, w której się ustawimy</li>
+<li><code>p</code> - wkleja nam tekst pod tekstem, gdzie obecnie się znajdujemy kursorem</li>
+<li><code>P</code> lub <code>Shift + p</code> - wkleja nam tekst nad tekstem</li>
+</ul>
+<h3 id="Jak-wyszukiwac-dany-tekst-w-edytorze-VIM"><a href="#Jak-wyszukiwac-dany-tekst-w-edytorze-VIM" class="headerlink" title="Jak wyszukiwać dany tekst w edytorze VIM?"></a>Jak wyszukiwać dany tekst w <code>edytorze VIM</code>?</h3><p>Jeśli chcemy wyszukać np. <code>pająk</code> tzn. słowo w tekście to robimy <code>/pająk</code>.<br>Wyszukają nam się wyrazy o tej wartości w całym naszym pliku.</p>
+<h3 id="Jak-zmienic-slowo-w-VIM"><a href="#Jak-zmienic-slowo-w-VIM" class="headerlink" title="Jak zmienić słowo w VIM?"></a>Jak zmienić słowo w <code>VIM</code>?</h3><p>Jeśli chce zmienić wszystkie słowa<code>pająk</code> na <code>kot</code> to uruchamiam:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:%s/pająk/kot</span><br></pre></td></tr></table></figure>
+<p>W kolejnych wpisach o Linuxie dowiem się jak instalować rzeczy.<br>Oczywiście z poziomu <code>TERMINALA</code></p>
+<p>Zapraszam do czytania i komentowania! :)</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>Komentarze:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/ctworzewski" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/cezarytworzewski" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="mailto:cezary.tworzewski@gmail.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2018 Cezary Tworzewski<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'cezarytworzewski';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+
+</html>
