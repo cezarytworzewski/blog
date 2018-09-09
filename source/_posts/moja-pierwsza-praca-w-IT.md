@@ -6,8 +6,7 @@ tags:
 
 # Wstrzymanie mojego bloga
 
-Przepraszam Was bardzo za małą przerwę w blogowaniu. Było to spowodowane różnymi
-rzeczami, pod koniec lipca skończyła mi się umowa na basenie jako ratownik wodny
+Przepraszam Was bardzo za małą przerwę w blogowaniu. Było to spowodowane różnymi rzeczami, pod koniec lipca skończyła mi się umowa na basenie jako ratownik wodny
 (zaproponowano mi kolejną), pracę miałbym zacząć od września. W sierpniu pracowałem
 w sklepie. Przez cały czas wysyłałem CV w poszukiwaniau pracy w IT - zero odzewu.
  Dlaczego? Ponieważ mam małą wiedzę i nie mam żadnego doświadczenia w tej pracy.
