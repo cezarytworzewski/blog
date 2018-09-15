@@ -27,6 +27,7 @@
     },
     "MD033": {
         "allowed_elements": [
+            "a",
             "iframe",
             "kbd",
             "br",

@@ -3,7 +3,7 @@ title: Kim jestem? O czym będzie mój blog?
 date: 2018/05/30
 ---
 
-Witam wszystkich `FRONT-ów` :-)
+Witam wszystkich `front-end developer`!
 
 Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),
 ale obecnie mieszkam w Kielcach.
@@ -22,6 +22,6 @@ prędzej czy później uda mi się osiągnąć mój cel.
 
 Na stworzenie bloga, namówił mnie kolega - programista Piotr Kowalski <https://piecioshka.pl/>
 
-<mark>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu HEXO.</mark>
+<mark>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu `Hexo`.</mark>
 
     _Do zobaczenia_

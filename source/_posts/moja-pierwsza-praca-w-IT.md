@@ -1,10 +1,7 @@
 ---
 title: Pierwsza praca w IT oraz o małym wstrzymaniu bloga
 date: 2018-09-09 23:43:51
-tags:
---
-
-# Wstrzymanie mojego bloga
+---
 
 Przepraszam Was bardzo za małą przerwę w blogowaniu. Było to spowodowane
 różnymi rzeczami, pod koniec lipca skończyła mi się umowa na basenie jako
@@ -15,7 +12,7 @@ nie mam żadnego doświadczenia w tej pracy. To wpłynęło, że powoli zaczął
 tracić nadzieję. Nagle los się odwrócił i dostałem swoją pierwszą wymarzoną
 pracę w IT.
 
-# Moja pierwsza praca w IT!!!
+## Moja pierwsza praca w IT
 
 Jestem meeegaaa szczęśliwy! Wchodząc do pracy, jak i z niej wychodząc jestem
 bardzo pozytywnie nastawiony - w duszy jestem radosny, że w końcu mogę
@@ -40,10 +37,11 @@ Zauważyłem, że w pracy też można się uczyć. Miewałem różne problemy w
 związku z moimi zadaniami - więc odpalam [Google](https://www.google.pl)
 lub [YouTube](https://www.youtube.pl) i znajduję swoje odpowiedzi.
 
-# Co po pracy?
+## Co po pracy?
 
 Cały czas staram się dokształcać. Widzę jak bardzo mało wiem. Zacząłem
-przerabiać podstawowy kurs sieci komputerowtch na [kurs na Udemy - autor Mariusz Kuriata](https://www.udemy.com/sieci-komputerowe-kompletny-kurs-budowa-i-dziaanie-sieci/).
+przerabiać podstawowy kurs sieci komputerowtch na
+[kurs na Udemy - autor Mariusz Kuriata](https://www.udemy.com/sieci-komputerowe-kompletny-kurs-budowa-i-dziaanie-sieci/).
 Mam cały czas kontakt z autorem kursu. Pomaga mi w razie moich pytań.
 Zauważyłem, że zrozumiałem sporo nowych *podstawowych* rzeczy, ponieważ
 kurs jest nastawiony na sporo praktycznych rzeczy. Niestety nie mam
