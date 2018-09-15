@@ -1,11 +1,12 @@
 ---
-title: Pierwsza praca w IT oraz o małym wstrzymaniu bloga
+title: Moja pierwsza praca w IT
 date: 2018-09-09 23:43:51
 ---
 
 Przepraszam Was bardzo za małą przerwę w blogowaniu. Było to spowodowane
 różnymi rzeczami, pod koniec lipca skończyła mi się umowa na basenie jako
 ratownik wodny (zaproponowano mi kolejną), pracę miałbym zacząć od września.
+
 W sierpniu pracowałem w sklepie. Przez cały czas wysyłałem CV w
 poszukiwaniu pracy w IT - zero odzewu. Dlaczego? Ponieważ mam małą wiedzę i
 nie mam żadnego doświadczenia w tej pracy. To wpłynęło, że powoli zacząłem
