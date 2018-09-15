@@ -16,7 +16,7 @@ Chce zostać PROGRAMISTĄ, a dokładniej FRONT-END DEVELOPEREM. Miewam
 mnóstwo porażek w zdobywaniu odpowiednich szczebli w tej dziedzinie,
 ale się nie poddaję.
 
-Moją `piętą Achillesową` jest zdecydowanie `must have` każdego
+Moją `piętą achillesową` jest zdecydowanie `must have` każdego
 programisty, czyli `JavaScript`. Wierzę, a raczej jestem pewny, że
 prędzej czy później uda mi się osiągnąć mój cel.
 

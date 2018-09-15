@@ -30,7 +30,7 @@ video albo galeria zdjęć.
 
 Rozumiem to tak. Załóżmy, że posiadamy miniaturkę zdjęcia z wakacji.
 Jeśli najadę na zdjęcie myszką, i ustawie `hover` w stylach `CSS` to
-zdjęcie mi sie podświetli. Analogia do JavaScriptu, to taka według mnie,
+zdjęcie mi się podświetli. Analogia do JavaScriptu, to taka według mnie,
 że jeśli najedziemy myszką na zdjęcie, następnie klikniemy, to wywołamy
 `zdarzenie`, które np. będzie polegało na wyświetleniu dużego zdjęcia
 obok miniatury.
@@ -90,7 +90,7 @@ zamykającym znacznikiem `body`, czyli `</body>`
 
 Dlaczego?
 
-Jeśli umieścimy go w `head` to skrypt sie wykonana, a póki co strona www
+Jeśli umieścimy go w `head` to skrypt się wykonana, a na razie strona www
 nie zostanie wczytana, wykona się później. Obejściem na to może być
 dodanie atrybutu `async`, które opóźnia proces interpretowania kodu.
 

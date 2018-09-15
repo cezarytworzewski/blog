@@ -43,7 +43,7 @@ gdzie, tą bibliotekę, będziemy chcieli wykorzystać w innym projekcie i od no
 musielibyśmy dostosowywać właściwości CSS naszej strony. Dlatego jak wspomniałem
 wcześniej - najlepiej jak stworzymy drugi plik.
 
-Albo jeśli edytujemy, to nie powinniśmy sie łudzić, że zostanie ona update'owana
+Albo jeśli edytujemy, to nie powinniśmy się łudzić, że zostanie ona update'owana
 przez twórców Twitter'a. Musielibyśmy wprowadzić na prawdę bardzo dobre
 *nowe* funkcjonalności we framework'u.
 

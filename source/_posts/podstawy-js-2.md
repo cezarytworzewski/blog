@@ -180,7 +180,7 @@ Wynik to: `"undefined"`
 Dlaczego tak jest?
 
 Ponieważ próbujemy się odwołać do czegoś, czego nie ma. W tym wypadku
-próbujemy sie odwołać do właściwości name obiektu person`
+próbujemy się odwołać do właściwości name obiektu person`
 
 Jeśli chcę, aby ta właściwość była pusta to możemy zrobić to tak:
 
