@@ -4,6 +4,7 @@
     "version": "0.0.0",
     "scripts": {
         "upload-site": "gh-pages -d public/",
+        "predeploy": "npm run lint:all",
         "deploy": "hexo clean && hexo generate && npm run upload-site",
         "lint:all": "markdownlint source/",
         "start": "hexo server"

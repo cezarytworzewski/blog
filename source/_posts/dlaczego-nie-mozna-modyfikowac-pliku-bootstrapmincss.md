@@ -31,7 +31,14 @@ nie musimy edytować, ale jednak załóżmy, że chcemy zmienić `font-size` na
 Ponadto, nie powinniśmy edytować tego pliku, ponieważ został on poddany
 procesowi **minifikacji kodu**, o którym mówi mój kolega w swoim `vlog'u`:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8Mhvn2jImwI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/8Mhvn2jImwI"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+></iframe>
 
 *Minifikacja kodu* jest to usunięcie w całym pliku białych znaków.
 
