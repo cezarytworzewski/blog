@@ -39,48 +39,6 @@
   
   <entry>
     <title>Pierwsza praca w IT oraz o małym wstrzymaniu bloga</title>
-    <link href="https://cezarytworzewski.github.io/2018/09/09/moja-pierwsza-praca-w-IT%20%E2%80%94%20kopia/"/>
-    <id>https://cezarytworzewski.github.io/2018/09/09/moja-pierwsza-praca-w-IT — kopia/</id>
-    <published>2018-09-09T21:43:51.000Z</published>
-    <updated>2018-09-16T12:26:06.504Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Po-co-to-robic"><a href="#Po-co-to-robic" class="headerlink" title="Po co to robić?"></a>Po co to robić?</h1><p>Załóżmy, że mamy do skopiowania większą ilość danych z jednego komputera na<br>drugi. Nie muszę wykorzystywać do tego <code>pendrive</code> ani <code>dysków przenośnych</code>.</p><p>Tak na prawdę wystarczy mi jedynie zwykły <code>kabel sieciowy UTO</code>, który<br>jest zakończony końcówką <code>RJ-45</code>.</p><h1 id="Od-czego-zaczac"><a href="#Od-czego-zaczac" class="headerlink" title="Od czego zacząć?"></a>Od czego zacząć?</h1><p>Potrzebne mi będzię:</p><ul><li>dwa komputery</li><li>kabel sieciowy UTP (<code>Ethernet</code>)</li></ul><p>Żeby połączyć między sobą dwa komputery w sieć, oprócz sprzętu będę<br>potrzebował, że tak to nazwie “logiki porozumieniowej”, czyli <code>adresu IP</code>, </p><h1 id="Zaczynamy"><a href="#Zaczynamy" class="headerlink" title="Zaczynamy"></a>Zaczynamy</h1><p>Na starcie, podłączam dwa komputery za pomocą kabla sieciowego</p><p>Pamiętajcie, że zawsze możecie komentować mojego bloga. Krytyka mile widziana :)</p><p>Pozdrawiam! :-)</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Po-co-to-robic&quot;&gt;&lt;a href=&quot;#Po-co-to-robic&quot; class=&quot;headerlink&quot; title=&quot;Po co to robić?&quot;&gt;&lt;/a&gt;Po co to robić?&lt;/h1&gt;&lt;p&gt;Załóżmy, że mamy do 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Systemowe narzędzie Regsvr32</title>
-    <link href="https://cezarytworzewski.github.io/2018/09/09/polaczenie-komputerow-za-pomoca-kabla-sieciowego/"/>
-    <id>https://cezarytworzewski.github.io/2018/09/09/polaczenie-komputerow-za-pomoca-kabla-sieciowego/</id>
-    <published>2018-09-09T21:43:51.000Z</published>
-    <updated>2018-09-20T15:29:48.667Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Wstep"><a href="#Wstep" class="headerlink" title="Wstęp"></a>Wstęp</h1><p>Po co taki wpis. Po to, że nauczyłem się nowej rzeczy. Otóż, oprócz edycją<br>stron postawionych na systemie CMS WordPress, czy rozwiązywaniu problemów<br>z drukarkami do mich zadań należy pomoc klientom w rozwiązywaniu problemów<br>z programem <a href="https://www.mobevo.pl" target="_blank" rel="noopener">Mobevo</a>, którego autorem jest firma,<br>w której pracuje, czyli tak zwany <strong>Help-desk</strong>.</p><p>Problem polega z bibliotekami dll systemu Windows. Sam nie raz prywatnie<br>miałem problem z tymi bibliotekami, rozwiązywanie moich problemów zawsze<br>polegało na dodaniu brakujących bibliotek dll.</p><p>A co zrobić jeśli biblioteka istnieje w folderze programu, ale powoduję<br>błąd, że program dalej nie działa.</p><h1 id="Co-to-jest-narzedzie-Regsvr32"><a href="#Co-to-jest-narzedzie-Regsvr32" class="headerlink" title="Co to jest narzędzie Regsvr32?"></a>Co to jest narzędzie <em>Regsvr32</em>?</h1><p>Narzędzie, które jest wbudowane w system Windows, tj. <strong>Regsvr32</strong> służy<br>do rejestrowania i wyrejestrowywania kontrolek OLE ( są to kontrolki bibliotek DLL i kontrolki ActiveX.</p><p>Narzędzie to, znajduje się w folderze <a href="">C:\Windows\System32</a> i nazywa się<br><em>regsvr32</em>. Zobacz sam:</p><p>![](/images/reg.jpg “Regsvr32”</p><h1 id="Od-czego-zaczac"><a href="#Od-czego-zaczac" class="headerlink" title="Od czego zacząć?"></a>Od czego zacząć?</h1><p>Potrzebne mi będzię:</p><ul><li>dwa komputery</li><li>kabel sieciowy UTP (<code>Ethernet</code>)</li></ul><p>Żeby połączyć między sobą dwa komputery w sieć, oprócz sprzętu będę<br>potrzebował, że tak to nazwie “logiki porozumieniowej”, czyli <code>adresu IP</code>, </p><h1 id="Zaczynamy"><a href="#Zaczynamy" class="headerlink" title="Zaczynamy"></a>Zaczynamy</h1><p>Na starcie, podłączam dwa komputery za pomocą kabla sieciowego</p><p>Pamiętajcie, że zawsze możecie komentować mojego bloga. Krytyka mile widziana :)</p><p>Pozdrawiam! :-)</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Wstep&quot;&gt;&lt;a href=&quot;#Wstep&quot; class=&quot;headerlink&quot; title=&quot;Wstęp&quot;&gt;&lt;/a&gt;Wstęp&lt;/h1&gt;&lt;p&gt;Po co taki wpis. Po to, że nauczyłem się nowej rzeczy. Otó
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Pierwsza praca w IT oraz o małym wstrzymaniu bloga</title>
     <link href="https://cezarytworzewski.github.io/2018/09/09/moja-pierwsza-praca-w-IT/"/>
     <id>https://cezarytworzewski.github.io/2018/09/09/moja-pierwsza-praca-w-IT/</id>
     <published>2018-09-09T21:43:51.000Z</published>
@@ -187,19 +145,20 @@
   </entry>
   
   <entry>
-    <title>Dlaczego nie można modyfikować pliku bootstrap.min.css?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/</id>
+    <title>Czym się różni reguła od właściwości w CSS?</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</id>
     <published>2018-06-14T22:00:00.000Z</published>
-    <updated>2018-06-17T08:55:32.671Z</updated>
+    <updated>2018-06-17T08:55:32.675Z</updated>
     
-    <content type="html"><![CDATA[<p>Czym jest <strong>Bootstrap</strong>? Bootstrap jest to framework. Służy on do tworzenia<br>stron internetowych w sposób <em>responsywny</em>, czyli taki, gdzie strona będzie<br>się dostosowywać do każdego urządzenia, nie zależnie od wielkości przeglądarki.</p><p>Framework ten można pobrać lokalnie na swój komputer lub z serwera:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"</span>/&gt;</span></span><br></pre></td></tr></table></figure><h2 id="Dlaczego-nie-powinnismy-go-modyfikowac"><a href="#Dlaczego-nie-powinnismy-go-modyfikowac" class="headerlink" title="Dlaczego nie powinniśmy go modyfikować?"></a>Dlaczego nie powinniśmy go modyfikować?</h2><p>Chodzi oto, że Bootstrap posiada szereg <em>domyślnie</em> stworzonych elementów,<br>które w sposób “automatyczny” dadzą nam wizualnie świetną stronę internetową.</p><p>Więc, posiada on edytowane już selektory, które możemy zostawić<br>i strona będzie nam się dobrze prezentować.</p><p>Jeśli chcemy zmodyfikować, to robimy to inaczej. Tworzymy <em>nowy</em> plik<br><code>style.css</code> i modyfikujemy dane selektory. Nadpisujemy je.</p><p>Wyobraź sobie, że Bootstrap posiada już stworzony selektor <code>h1</code>, którego<br>nie musimy edytować, ale jednak załóżmy, że chcemy zmienić <code>font-size</code> na<br><code>30px</code>, gdzie domyślnie ta wartość wynosi przykładowo <code>18px</code>.</p><p>Ponadto, nie powinniśmy edytować tego pliku, ponieważ został on poddany<br>procesowi <strong>minifikacji kodu</strong>, o którym mówi mój kolega w swoim <code>vlog&#39;u</code>:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/8Mhvn2jImwI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><p><em>Minifikacja kodu</em> jest to usunięcie w całym pliku białych znaków.</p><p>Plik, który został poddany minifikacji kodu, byłby - a dokładniej jest trudny<br>do edycji. Jest on nieczytelny, więc edycja go zajęła by nam “setki godzin”.</p><p>Innym powodem według mnie dlaczego nie powinniśmy go edytować, to taka sytuacja<br>gdzie, tą bibliotekę, będziemy chcieli wykorzystać w innym projekcie i od nowa<br>musielibyśmy dostosowywać właściwości CSS naszej strony. Dlatego jak wspomniałem<br>wcześniej - najlepiej jak stworzymy drugi plik.</p><p>Albo jeśli edytujemy, to nie powinniśmy sie łudzić, że zostanie ona update’owana<br>przez twórców Twitter’a. Musielibyśmy wprowadzić na prawdę bardzo dobre<br><em>nowe</em> funkcjonalności we framework’u.</p><p>To się tyczy nie tylko Bootstrap’a, a także <em>innych</em> framework’ów.</p>]]></content>
+    <content type="html"><![CDATA[<p>Pod lupę wezmę teraz <code>CSS</code>. Opowiem o tym, czym jest właściwość a czym<br>reguła w CSS.</p><h2 id="Co-to-jest-regula-CSS"><a href="#Co-to-jest-regula-CSS" class="headerlink" title="Co to jest reguła CSS?"></a>Co to jest reguła CSS?</h2><p>Dzięki regułą CSS, możemy stworzyć wygląd, tak jakbyśmy chcieli aby nasza<br>strona wyglądała dla jednego, bądź wielu elementów.</p><p>Reguła CSS określa <strong>wygląd</strong> dla elementu HTML.</p><h3 id="Skladnia-reguly"><a href="#Skladnia-reguly" class="headerlink" title="Składnia reguły"></a>Składnia reguły</h3><p>Reguła CSS składa się z:</p><ul><li>selektora - selektor jest elementem HTML, który chcemy edytować, może<br>  to być element zdefiniowany jako klasa, wygląda to mniej więcej tak:<br>  Elementowi <code>h3</code> nadaję klasę: <code>&lt;h3 class=&quot;size-title&quot;&gt;&lt;/h3&gt;</code>.</li><li>nawiasu klamrowego {} - w danym nawiasie umieszczamy swoje parametry.<br>  Umieszczamy swoje operacje, czyli operacje, które będą coś zmieniać<br>  na mojej stronie od strony warstwy prezentacji</li><li>właściwość - za ich pomocą określamy, co chcemy zmienić w naszej stronie<br>  internetowej, określamy jaki element HTML chcemy zmienić.<br>  Chcemy np. zmienić tło naszej strony internetowej. Za tło odpowiada<br>  właściwość <code>background-color</code></li><li>wartość - za pomocą wartości, określamy jak chcemy zmienić element, czy<br>  nadamy mu kolor czerwony.</li></ul><h4 id="Prosty-przepis-na-stworzenie-reguly-CSS"><a href="#Prosty-przepis-na-stworzenie-reguly-CSS" class="headerlink" title="Prosty przepis na stworzenie reguły CSS"></a>Prosty przepis na stworzenie reguły CSS</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">selektor</span> &#123;</span><br><span class="line">    właściwość: wartość;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>czyli, chce zmienić element <code>h3</code>, nadać mu wielkość czcionki o rozmiarze<br>25px. Gdzie moją <strong>właściwością</strong> jest <em>wielkość czcionki</em>:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h3</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">25px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Wyobraź sobie, że przed Tobą znajduje się stos białych, czystych kartek,<br>a Twoim zadaniem jest pokolorowanie każdej z nich. Dodatkowo każdą<br>kartkę koloru czerwonego musisz przeciąć na pół. Pierwsza czynność,<br>czyli pokolorowanie kartek, oczywiście nie jest niczym trudnym.<br>Druga czynność, czyli przecięcie na pół kartek koloru czerwonego,<br>wymaga od Ciebie odszukania danej kartki, czyli selekcji spośród danej<br>grupy kartek.</p><p>no więc:</p><ul><li><strong>regułą</strong> - są tutaj kartki papieru,</li><li><strong>właściwością</strong> - jest tu informacja, że chcemy pokolorować, czyli<br>  właściwość <em>color</em></li><li><strong>wartość</strong> - to już jest określony kolor, np. czerwony, zielony</li></ul><p>Dlatego właściwość CSS, zawiera się w regule CSS, jest czymś podrzędnym,<br>bez czego selektor (reguła) CSS nie będzie działać.</p><p>Właściwości są niezbędne do poprawnego działania <em>reguły CSS</em>.</p><p>Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy <em>regułą</em><br>a <em>właściwością</em> CSS.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Czym jest &lt;strong&gt;Bootstrap&lt;/strong&gt;? Bootstrap jest to framework. Służy on do tworzenia&lt;br&gt;stron internetowych w sposób &lt;em&gt;responsywny&lt;
+        &lt;p&gt;Pod lupę wezmę teraz &lt;code&gt;CSS&lt;/code&gt;. Opowiem o tym, czym jest właściwość a czym&lt;br&gt;reguła w CSS.&lt;/p&gt;
+&lt;h2 id=&quot;Co-to-jest-regula-CSS&quot;&gt;&lt;a 
       
     
     </summary>
@@ -230,20 +189,19 @@
   </entry>
   
   <entry>
-    <title>Czym się różni reguła od właściwości w CSS?</title>
-    <link href="https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/"/>
-    <id>https://cezarytworzewski.github.io/2018/06/15/regula-wlasciwosc/</id>
+    <title>Dlaczego nie można modyfikować pliku bootstrap.min.css?</title>
+    <link href="https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/"/>
+    <id>https://cezarytworzewski.github.io/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/</id>
     <published>2018-06-14T22:00:00.000Z</published>
-    <updated>2018-06-17T08:55:32.675Z</updated>
+    <updated>2018-06-17T08:55:32.671Z</updated>
     
-    <content type="html"><![CDATA[<p>Pod lupę wezmę teraz <code>CSS</code>. Opowiem o tym, czym jest właściwość a czym<br>reguła w CSS.</p><h2 id="Co-to-jest-regula-CSS"><a href="#Co-to-jest-regula-CSS" class="headerlink" title="Co to jest reguła CSS?"></a>Co to jest reguła CSS?</h2><p>Dzięki regułą CSS, możemy stworzyć wygląd, tak jakbyśmy chcieli aby nasza<br>strona wyglądała dla jednego, bądź wielu elementów.</p><p>Reguła CSS określa <strong>wygląd</strong> dla elementu HTML.</p><h3 id="Skladnia-reguly"><a href="#Skladnia-reguly" class="headerlink" title="Składnia reguły"></a>Składnia reguły</h3><p>Reguła CSS składa się z:</p><ul><li>selektora - selektor jest elementem HTML, który chcemy edytować, może<br>  to być element zdefiniowany jako klasa, wygląda to mniej więcej tak:<br>  Elementowi <code>h3</code> nadaję klasę: <code>&lt;h3 class=&quot;size-title&quot;&gt;&lt;/h3&gt;</code>.</li><li>nawiasu klamrowego {} - w danym nawiasie umieszczamy swoje parametry.<br>  Umieszczamy swoje operacje, czyli operacje, które będą coś zmieniać<br>  na mojej stronie od strony warstwy prezentacji</li><li>właściwość - za ich pomocą określamy, co chcemy zmienić w naszej stronie<br>  internetowej, określamy jaki element HTML chcemy zmienić.<br>  Chcemy np. zmienić tło naszej strony internetowej. Za tło odpowiada<br>  właściwość <code>background-color</code></li><li>wartość - za pomocą wartości, określamy jak chcemy zmienić element, czy<br>  nadamy mu kolor czerwony.</li></ul><h4 id="Prosty-przepis-na-stworzenie-reguly-CSS"><a href="#Prosty-przepis-na-stworzenie-reguly-CSS" class="headerlink" title="Prosty przepis na stworzenie reguły CSS"></a>Prosty przepis na stworzenie reguły CSS</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">selektor</span> &#123;</span><br><span class="line">    właściwość: wartość;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>czyli, chce zmienić element <code>h3</code>, nadać mu wielkość czcionki o rozmiarze<br>25px. Gdzie moją <strong>właściwością</strong> jest <em>wielkość czcionki</em>:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h3</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">25px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Wyobraź sobie, że przed Tobą znajduje się stos białych, czystych kartek,<br>a Twoim zadaniem jest pokolorowanie każdej z nich. Dodatkowo każdą<br>kartkę koloru czerwonego musisz przeciąć na pół. Pierwsza czynność,<br>czyli pokolorowanie kartek, oczywiście nie jest niczym trudnym.<br>Druga czynność, czyli przecięcie na pół kartek koloru czerwonego,<br>wymaga od Ciebie odszukania danej kartki, czyli selekcji spośród danej<br>grupy kartek.</p><p>no więc:</p><ul><li><strong>regułą</strong> - są tutaj kartki papieru,</li><li><strong>właściwością</strong> - jest tu informacja, że chcemy pokolorować, czyli<br>  właściwość <em>color</em></li><li><strong>wartość</strong> - to już jest określony kolor, np. czerwony, zielony</li></ul><p>Dlatego właściwość CSS, zawiera się w regule CSS, jest czymś podrzędnym,<br>bez czego selektor (reguła) CSS nie będzie działać.</p><p>Właściwości są niezbędne do poprawnego działania <em>reguły CSS</em>.</p><p>Mam nadzieję, że nie co przybliżyłem Wam różnicę pomiędzy <em>regułą</em><br>a <em>właściwością</em> CSS.</p>]]></content>
+    <content type="html"><![CDATA[<p>Czym jest <strong>Bootstrap</strong>? Bootstrap jest to framework. Służy on do tworzenia<br>stron internetowych w sposób <em>responsywny</em>, czyli taki, gdzie strona będzie<br>się dostosowywać do każdego urządzenia, nie zależnie od wielkości przeglądarki.</p><p>Framework ten można pobrać lokalnie na swój komputer lub z serwera:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"</span>/&gt;</span></span><br></pre></td></tr></table></figure><h2 id="Dlaczego-nie-powinnismy-go-modyfikowac"><a href="#Dlaczego-nie-powinnismy-go-modyfikowac" class="headerlink" title="Dlaczego nie powinniśmy go modyfikować?"></a>Dlaczego nie powinniśmy go modyfikować?</h2><p>Chodzi oto, że Bootstrap posiada szereg <em>domyślnie</em> stworzonych elementów,<br>które w sposób “automatyczny” dadzą nam wizualnie świetną stronę internetową.</p><p>Więc, posiada on edytowane już selektory, które możemy zostawić<br>i strona będzie nam się dobrze prezentować.</p><p>Jeśli chcemy zmodyfikować, to robimy to inaczej. Tworzymy <em>nowy</em> plik<br><code>style.css</code> i modyfikujemy dane selektory. Nadpisujemy je.</p><p>Wyobraź sobie, że Bootstrap posiada już stworzony selektor <code>h1</code>, którego<br>nie musimy edytować, ale jednak załóżmy, że chcemy zmienić <code>font-size</code> na<br><code>30px</code>, gdzie domyślnie ta wartość wynosi przykładowo <code>18px</code>.</p><p>Ponadto, nie powinniśmy edytować tego pliku, ponieważ został on poddany<br>procesowi <strong>minifikacji kodu</strong>, o którym mówi mój kolega w swoim <code>vlog&#39;u</code>:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/8Mhvn2jImwI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><p><em>Minifikacja kodu</em> jest to usunięcie w całym pliku białych znaków.</p><p>Plik, który został poddany minifikacji kodu, byłby - a dokładniej jest trudny<br>do edycji. Jest on nieczytelny, więc edycja go zajęła by nam “setki godzin”.</p><p>Innym powodem według mnie dlaczego nie powinniśmy go edytować, to taka sytuacja<br>gdzie, tą bibliotekę, będziemy chcieli wykorzystać w innym projekcie i od nowa<br>musielibyśmy dostosowywać właściwości CSS naszej strony. Dlatego jak wspomniałem<br>wcześniej - najlepiej jak stworzymy drugi plik.</p><p>Albo jeśli edytujemy, to nie powinniśmy sie łudzić, że zostanie ona update’owana<br>przez twórców Twitter’a. Musielibyśmy wprowadzić na prawdę bardzo dobre<br><em>nowe</em> funkcjonalności we framework’u.</p><p>To się tyczy nie tylko Bootstrap’a, a także <em>innych</em> framework’ów.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Pod lupę wezmę teraz &lt;code&gt;CSS&lt;/code&gt;. Opowiem o tym, czym jest właściwość a czym&lt;br&gt;reguła w CSS.&lt;/p&gt;
-&lt;h2 id=&quot;Co-to-jest-regula-CSS&quot;&gt;&lt;a 
+        &lt;p&gt;Czym jest &lt;strong&gt;Bootstrap&lt;/strong&gt;? Bootstrap jest to framework. Służy on do tworzenia&lt;br&gt;stron internetowych w sposób &lt;em&gt;responsywny&lt;
       
     
     </summary>
@@ -437,6 +395,28 @@
       
         &lt;p&gt;Drugi post postanowiłem, że będzie poświęcony konfiguracji &lt;code&gt;Git&amp;#39;a&lt;/code&gt; krok&lt;br&gt;po kroku.&lt;/p&gt;
 &lt;p&gt;Sam wiele razy miałem sytuację
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Kim jestem? O czym będzie mój blog?</title>
+    <link href="https://cezarytworzewski.github.io/2018/05/30/omnie/"/>
+    <id>https://cezarytworzewski.github.io/2018/05/30/omnie/</id>
+    <published>2018-05-29T22:00:00.000Z</published>
+    <updated>2018-06-17T08:55:32.671Z</updated>
+    
+    <content type="html"><![CDATA[<p>Witam wszystkich <code>FRONT-ów</code> :-)</p><p>Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),<br>ale obecnie mieszkam w Kielcach.</p><p>Z zawodu? To skomplikowane. Ukończyłem studia inżynierskie na kierunku<br>INFORMATYKA na UJK Kielce. Natomiast pracuję jako ratownik wodny na jednym z<br>Kieleckich basenów.</p><p>Chce zostać PROGRAMISTĄ, a dokładniej FRONT-END DEVELOPEREM. Miewam<br>mnóstwo porażek w zdobywaniu odpowiednich szczebli w tej dziedzinie,<br>ale się nie poddaję.</p><p>Moją <code>piętą Achillesową</code> jest zdecydowanie <code>must have</code> każdego<br>programisty, czyli <code>JavaScript</code>. Wierzę, a raczej jestem pewny, że<br>prędzej czy później uda mi się osiągnąć mój cel.</p><p>Na stworzenie bloga, namówił mnie kolega - programista Piotr Kowalski <a href="https://piecioshka.pl/" target="_blank" rel="noopener">https://piecioshka.pl/</a></p><p><mark>Ten blog powstał, chyba dopiero za 4-krotnym konfigurowaniu HEXO.</mark></p><pre><code>_Do zobaczenia_</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Witam wszystkich &lt;code&gt;FRONT-ów&lt;/code&gt; :-)&lt;/p&gt;
+&lt;p&gt;Mam na imię Cezary. Pochodzę z małej wsi koło Opatowa (woj. świętokrzyskie),&lt;br&gt;ale obe
       
     
     </summary>
