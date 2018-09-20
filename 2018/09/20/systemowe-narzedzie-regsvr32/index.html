@@ -13,6 +13,8 @@
     
 
     
+        <meta name="description" content="WstępPo co taki wpis. Po to, że nauczyłem się nowej rzeczy. Otóż, oprócz edycjąstron postawionych na systemie CMS WordPress, czy rozwiązywaniu problem"/>
+    
 
     <!--Author-->
     
@@ -21,10 +23,12 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Cezary Tworzewski"/>
+        <meta property="og:title" content="Systemowe narzędzie Regsvr32.exe"/>
     
 
     <!--Open Graph Description-->
+    
+        <meta property="og:description" content="WstępPo co taki wpis. Po to, że nauczyłem się nowej rzeczy. Otóż, oprócz edycjąstron postawionych na systemie CMS WordPress, czy rozwiązywaniu problem"/>
     
 
     <!--Open Graph Site Name-->
@@ -32,7 +36,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -51,7 +55,7 @@
 
     <!-- Title -->
     
-    <title>page - Archiwa - Cezary Tworzewski</title>
+    <title>Systemowe narzędzie Regsvr32.exe - Cezary Tworzewski</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -180,170 +184,89 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('/blog/images/front.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Archiwa</h1>
+                <div class="post-heading">
+                    <h1>Systemowe narzędzie Regsvr32.exe</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2018-09-20
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/blog/2018/06/15/dlaczego-nie-mozna-modyfikowac-pliku-bootstrapmincss/">
-        <h1 class="post-title archive">
-            Dlaczego nie można modyfikować pliku bootstrap.min.css?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-15
-    </p>
-</div>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 id="Wstep"><a href="#Wstep" class="headerlink" title="Wstęp"></a>Wstęp</h1><p>Po co taki wpis. Po to, że nauczyłem się nowej rzeczy. Otóż, oprócz edycją<br>stron postawionych na systemie CMS WordPress, czy rozwiązywaniu problemów<br>z drukarkami do moich zadań należy pomoc klientom w rozwiązywaniu problemów<br>z programem <a href="https://www.mobevo.pl" target="_blank" rel="noopener">Mobevo</a>, którego autorem jest firma,<br>w której pracuje, czyli tak zwany <strong>Helpdesk</strong>.</p>
+<p>Problem polega z bibliotekami dll systemu Windows. Sam nie raz prywatnie<br>miałem problem z tymi bibliotekami, rozwiązywanie moich problemów zawsze<br>polegało na dodaniu brakujących bibliotek dll.</p>
+<p>A co zrobić jeśli biblioteka istnieje w folderze programu, ale powoduję<br>błąd, że program dalej nie działa.</p>
+<h1 id="Co-to-jest-narzedzie-Regsvr32"><a href="#Co-to-jest-narzedzie-Regsvr32" class="headerlink" title="Co to jest narzędzie Regsvr32?"></a>Co to jest narzędzie <em>Regsvr32</em>?</h1><p>Narzędzie, które jest wbudowane w system Windows, tj. <strong>Regsvr32</strong> służy<br>do rejestrowania i wyrejestrowywania kontrolek OLE<br>( są to kontrolki bibliotek DLL i kontrolki ActiveX).</p>
+<p>Narzędzie to, znajduje się w folderze <a href="">C:\Windows\System32</a> i nazywa się<br><em>regsvr32</em>. Zobacz sam:</p>
+<p><img src="https://image.ibb.co/nA3H2K/reg.jpg" alt="Regsvr32"></p>
+<p>Podczas, gdy kliknąłem tzn. uruchomiłem to narzędzie wyskoczyło:</p>
+<p><img src="https://image.ibb.co/hzMgUz/image.png" alt="error rgsvr32"></p>
+<p>spokojnie to nie jest błąd, tego narzędzia używamy z wiersza poleceń.</p>
+<p>Od razu możemy zobaczyć jak używać tego polecenia</p>
+<h1 id="Jak-naprawilem-blad"><a href="#Jak-naprawilem-blad" class="headerlink" title="Jak naprawiłem błąd?"></a>Jak naprawiłem błąd?</h1><p>Po zdanlnym podłączeniu do komputera (serwera) klienta, na którym zainstalowany<br>jest główny program, wyłączyłem program <strong>Mobevo</strong>. Następnie po wejściu<br>w konsole systemu Windows z uprawnieniami administratora. Jak to zrobiłem?<br>Posłużyłem się skrótem klawiszowym <strong>Windows + R</strong>.</p>
+<p>Efekt to:</p>
+<p><img src="https://image.ibb.co/djJObe/image.png" alt="Konsola Windows"></p>
+<p>Tak to wygląda w skrócie:</p>
+<p><img src="https://image.ibb.co/fmF5NK/image.png" alt="regsvr32">)</p>
+<p>Wynik powyższego polecenia <code>regsvr32 &lt;ścieżka dostępu&gt;.dll</code> jest taka:</p>
+<p><img src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2013/04/regsvr32-register-dll.jpg" alt=""></p>
+<p>Powyższy screen jest zaczerpnięty  z grafik Google. Ale efekt będzie ten sam.</p>
+<h1 id="Podsumowanie"><a href="#Podsumowanie" class="headerlink" title="Podsumowanie"></a>Podsumowanie</h1><p>Dzisiaj natomiast u innego klienta wyskozył ten sam błąd. Więc szybkość<br>naprawy była błyskawiczna. Od razu się z nim uporałem.<br>Zacząłem sobie archiwizować różne błędy i opisuję ich rozwiązania,<br>tak aby w razie różnych problemów móc się posiłkować swoimi materialami.</p>
+<p>Natomiast widzę, że muszę cały czas się uczyć. Po pracy znajduję czas po to<br>aby cały czas czytać i ćwiczyć. Ostatnie około dwa lata zajmowałem się<br>nauką <code>HTML CSS</code> i pokrewnymi zagadnieniami. Wszystko bez żadnych efektów -<br>dlatego teraz muszę nadrabiać.</p>
+<p>Jeśli chcialbyś dowiedzieć się więcej o <strong>regsvr32</strong> to zajrzyj na:</p>
+<p><a href="https://support.microsoft.com/pl-pl/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages" target="_blank" rel="noopener">Microsoft o regsvr32</a></p>
+<p><a href="https://support.lenovo.com/il/pl/solutions/ht069266" target="_blank" rel="noopener">Lenovo o regsvr32</a></p>
+<p><strong>Jeśli masz jakieś uwagi do arykułu to proszę o komentarz - z chęcią się<br> się czegoś nauczę od Ciebie!</strong></p>
+<p> <strong><em>Pozdrawiam!</em></strong></p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
             
-                <div class="post-preview">
-    <a href="/blog/2018/06/14/img-vs-background-image/">
-        <h1 class="post-title archive">
-            Jaka jest różnica pomiędzy znacznikiem img & background-image?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-14
-    </p>
-</div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>Komentarze:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
             
-                <div class="post-preview">
-    <a href="/blog/2018/06/13/podstawy-js-2/">
-        <h1 class="post-title archive">
-            Nauka JavaScript od podstaw (2)
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-13
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/06/08/podstawy-linux-2/">
-        <h1 class="post-title archive">
-            Nauka Linux'a od podstaw (2)
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-08
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/06/07/podstawy-linux-1/">
-        <h1 class="post-title archive">
-            Nauka Linux'a od podstaw (1)
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-07
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/06/05/podstawy-js-1/">
-        <h1 class="post-title archive">
-            Nauka JavaScript od podstaw (1)
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-05
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/06/03/javascript-od-nowa/">
-        <h1 class="post-title archive">
-            Jutro startuję z JavaScript od nowa!
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-03
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/06/02/co-dalej-z-moim-marzeniem/">
-        <h1 class="post-title archive">
-            Co dalej? Jakie mam plany? Programowanie? JavaScript? Linux?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/06/01/linux-vs-windows/">
-        <h1 class="post-title archive">
-            Linux vs. Windows dla Front-end'owca?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-06-01
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/blog/2018/05/31/git-ssh/">
-        <h1 class="post-title archive">
-            Czym jest Git? Klucze SSH - jak to zrozumieć?
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-05-31
-    </p>
-</div>
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-        <li class="previous"><a href="/blog/archives/">&larr;  Następna</a></li>
-    
-    
-        <li class="next"><a href="/blog/archives/page/3/">Poprzednia  &rarr;</a></li>
-    
-</ul>
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
@@ -422,7 +345,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
