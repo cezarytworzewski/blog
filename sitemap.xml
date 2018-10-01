@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cezarytworzewski.github.io/2018/10/01/margin-padding/</loc>
+    
+    <lastmod>2018-10-01T20:02:19.195Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cezarytworzewski.github.io/2018/09/20/systemowe-narzedzie-regsvr32/</loc>
     
     <lastmod>2018-09-20T16:29:36.022Z</lastmod>
@@ -72,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
     
     <lastmod>2018-06-17T08:55:32.671Z</lastmod>
     
@@ -86,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/</loc>
+    <loc>https://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/</loc>
     
     <lastmod>2018-06-17T08:55:32.671Z</lastmod>
     
@@ -100,6 +107,13 @@
   </url>
   
   <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/16/jak-dodac-artykul-na-bloga-hexo/</loc>
+    
+    <lastmod>2018-06-17T08:55:32.671Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/14/img-vs-background-image/</loc>
     
     <lastmod>2018-06-17T08:55:32.671Z</lastmod>
@@ -107,21 +121,14 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/03/javascript-od-nowa/</loc>
-    
-    <lastmod>2018-06-17T08:55:32.671Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/05/31/git-ssh/</loc>
-    
-    <lastmod>2018-06-17T08:55:32.671Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/01/linux-vs-windows/</loc>
+    
+    <lastmod>2018-06-17T08:55:32.671Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/02/co-dalej-z-moim-marzeniem/</loc>
     
     <lastmod>2018-06-17T08:55:32.671Z</lastmod>
     
