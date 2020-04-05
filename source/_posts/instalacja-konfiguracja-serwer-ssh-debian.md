@@ -3,8 +3,9 @@ title: Instalacja i konfiguracja serwera SSH na Debian 9. Po co mi to?
 date: 2020/04/05
 ---
 
-Postanowiłem wznowić pisanie artykułów oraz dzielić się z Wami tym co się nauczyłem. Będę starał się pisać już regularnie  moje 
-**daily raporty** z przebiegu swojej nauki.
+Postanowiłem wznowić pisanie artykułów oraz dzielić się z Wami tym co się nauczyłem. Będę starał się pisać już regularnie  moje **daily raporty** z przebiegu swojej nauki.
+
+Do testów wziąłem dwie fizyczne maszyny, pierwszy z nich to laptop z Windows 10, na którym robię testowe połączenie z serwerem, a drugi komputer to PC stacjonarny z zainstalowanym Debianem.
 
 # Instalacja Debiana
 
@@ -88,7 +89,7 @@ Do testowania sprawdzenia połączenia przez SSH'a użyje programu **Putty**. Pr
 #MaxSessions 10
  ```
 
-linijkę `#PermitRootLogin prohibit-password` zamieniam na `#PermitRootLogin yes`, zapoisuję plik i próbujemy ponownie.
+linijkę `#PermitRootLogin prohibit-password` zamieniam na `PermitRootLogin yes`, zapoisuję plik i próbujemy ponownie.
 
 ![](https://imgur.com/7IImWoN)
 
@@ -98,4 +99,9 @@ Musimy teraz zrestartować nasz serwer ssh
 
 ### Testujemy ponownie połączenie
 
-????
+Otwieram program Putty, podaję dane do logowania i...
+
+![](img]https://i.imgur.com/jaw4clZ.jpg[/img])
+
+Udało się! Podstawowa konfiguracja SSH zakończona powodzeniem.
+
