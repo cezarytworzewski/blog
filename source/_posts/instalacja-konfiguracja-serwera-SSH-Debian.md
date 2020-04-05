@@ -1,6 +1,7 @@
 ---
-title: Instalacja i konfiguracja serwera SSH na Debian 9. Po co mi to?
-date: 2020/04/05
+title: instalacja-konfiguracja-serwera-SSH-Debian
+date: 2020-04-06 00:01:19
+tags:
 ---
 
 Postanowiłem wznowić pisanie artykułów oraz dzielić się z Wami tym co się nauczyłem. Będę starał się pisać już regularnie  moje **daily raporty** z przebiegu swojej nauki.
@@ -104,4 +105,3 @@ Otwieram program Putty, podaję dane do logowania i...
 ![](img]https://i.imgur.com/jaw4clZ.jpg[/img])
 
 Udało się! Podstawowa konfiguracja SSH zakończona powodzeniem.
-
