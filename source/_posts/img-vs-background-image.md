@@ -40,11 +40,6 @@ Znacznik ten posiada również atrybuty:
 
 Przykładowy kod z użyciem znacznika `img`:
 
-```html
-    <img src="/images/computer.jpg"/>
-    <img src="https://piecioshka.pl/assets/images/posts/post-banner-hexo-setup-blog.png"/>
-```
-
 ## Reguła `background-image`
 
 Reguła, ta ustawia obrazek tła dla elementu.
@@ -53,21 +48,8 @@ Wygląda to tak: `background-image: url(ścieżka-do-obrazka)`
 
 Mamy stworzony kod `HTML`:
 
-```html
-<section class="banner"></section>
-```
-
 W pliku np. `style/main.css` odwołujemy się do reguły `background-image`
 po to, aby dodać nasz długo oczekiwany baner:
-
-```css
-.banner {
-    background-image: url("../images/baner-biblioteka.jpg");
-    background-repeat: no-repeat;
-    height: 421px;
-    width: auto;
-}
-```
 
 ### Wszystko ładnie, pięknie - ale kiedy stosować jedno albo drugie
 
