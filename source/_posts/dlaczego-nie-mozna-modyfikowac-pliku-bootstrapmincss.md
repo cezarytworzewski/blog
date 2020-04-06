@@ -13,7 +13,7 @@ Framework ten można pobrać lokalnie na swój komputer lub z serwera:
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
 ```
 
-## Dlaczego nie powinniśmy go modyfikować?
+## Dlaczego nie powinniśmy go modyfikować
 
 Chodzi oto, że Bootstrap posiada szereg _domyślnie_ stworzonych elementów,
 które w sposób "automatyczny" dadzą nam wizualnie świetną stronę internetową.

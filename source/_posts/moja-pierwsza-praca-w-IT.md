@@ -38,7 +38,7 @@ Zauważyłem, że w pracy też można się uczyć. Miewałem różne problemy w
 związku z moimi zadaniami - więc odpalam [Google](https://www.google.pl)
 lub [YouTube](https://www.youtube.pl) i znajduję swoje odpowiedzi.
 
-## Co po pracy?
+## Co po pracy
 
 Cały czas staram się dokształcać. Widzę jak bardzo mało wiem. Zacząłem
 przerabiać podstawowy kurs sieci komputerowtch na

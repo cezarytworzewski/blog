@@ -27,8 +27,8 @@ by zadziałało ze zdwojoną siłą. Więc w najbliższym czasie więcej `JS`.
 Dużo osób mówi, że najlepiej uczyć się na błędach. Tylko, że JA nie
 potrafię. Nie umiem wyciągnąć wniosków dlaczego nie umiem tego zrozumieć.
 
-![](http://campusnooz.com/cunooz/wp-content/uploads/sites/4/2016/07/dickwad.jpg)
+![imgur](http://campusnooz.com/cunooz/wp-content/uploads/sites/4/2016/07/dickwad.jpg)
 
 Co więcej u mnie? Cały czas też chce poznawać lepiej Linuxa, tak żeby
 pracować na nim.... może do końca życia? Chyba, że w drogę wejdzie mi
-`MacBook` firmy `Apple` - słyszałem o nim pozytywne opinie.
+`MacBook` firmy `Apple` - słyszałem o nim pozytywne opinie

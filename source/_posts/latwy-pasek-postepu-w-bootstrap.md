@@ -50,10 +50,9 @@ Pasek postępu wygląda następująco:
     Bootstrap'ie jest coś takiego jak **rozmiar okna**.
 
     Są dwa parametry odpowiadające za rozmiar:
-        * w - x (`w` - szerokość; `x` - wartość liczbowa)
+         w - x (`w` - szerokość; `x` - wartość liczbowa)
+         h - x (`h` - wysokość; `x` - wartość liczbowa)
 
-        * h - x (`h` - wysokość; `x` - wartość liczbowa)
-        
     Wyróżniamy następujące wartości liczbowe: **25, 50, 75, 100**.
     Wartości te są wyrażone w procentach i jest ich tylko cztery.
 

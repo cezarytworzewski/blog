@@ -25,18 +25,18 @@ Znacznik ten posiada również atrybuty:
 * atrybut `title` - jeśli najedziemy kursorem myszy na zdjęcie to
     pojawi się tekst obrazka
 * kolejne atrybuty to `height` oraz `width`:
-    + `height` - wysokość grafiki
-    + `width` - szerokość grafiki
+    +`height` - wysokość grafiki
+    +`width` - szerokość grafiki
 
  Służą one do zmiany rozmiarów wyświetlającego obrazek.
 
 * jeszcze inny atrybut to `align` - służy do wyrównywania obrazków w
     poziomie.
 
-    + Atrybut `align` posiada dwie wartości:
+    +Atrybut `align` posiada dwie wartości:
 
-        - `left`
-        - `right`
+        -`left`
+        -`right`
 
 Przykładowy kod z użyciem znacznika `img`:
 
@@ -69,7 +69,7 @@ po to, aby dodać nasz długo oczekiwany baner:
 }
 ```
 
-### Wszystko ładnie, pięknie - ale kiedy stosować jedno albo drugie?
+### Wszystko ładnie, pięknie - ale kiedy stosować jedno albo drugie
 
 Podchodząc do tworzenia projektu trzeba najpierw się zastanowić nad tym,
 czy dane tło ma być takie samo na wszystkich podstronach czy nie.
