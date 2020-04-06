@@ -129,4 +129,4 @@ Otwieram program Putty, podaję dane do logowania i...
 
 [Imgur](https://i.imgur.com/jaw4clZ.jpg)
 
-## Udało się! Podstawowa konfiguracja SSH zakończona powodzeniem.
+## Udało się! Podstawowa konfiguracja SSH zakończona powodzeniem
