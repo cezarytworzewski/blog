@@ -15,11 +15,11 @@ Fizycznie posiadam `Ubuntu` i na maszynie wirtualnej `CentOS`.
 * `clear` - czyści nam ekran
 * `whoami` - sprawdza nam, kto jest zalogowany aktualnie, jaki user
 
-### W czym może pomóc nam przycisk na klawiaturze `TAB`?
+### W czym może pomóc nam przycisk na klawiaturze `TAB`
 
 Przycisk ten dopisuje na 'drugą' część polecenia! :)
 
-### Co to ścieżka bezwzględna?
+### Co to ścieżka bezwzględna
 
 To jest coś w stylu `pwd`. Przykład:
 
@@ -29,10 +29,10 @@ cd /home/cezary/Dokumenty/
 
 Czyli jest to cała ścieżka dostępu.
 
-### Co to jest ścieżka względna?
+### Co to jest ścieżka względna
 
-W najprostszym dla mnie rozumieniu jest to przechodzenie stopniowe do katalogów,
-katalog po katalogu. Przykład poniżej:
+W najprostszym dla mnie rozumieniu jest to przechodzenie stopniowe do
+katalogów, katalog po katalogu. Przykład poniżej:
 
 ```bash
 cd home
@@ -40,7 +40,7 @@ cd cezary
 cd Dokumenty
 ```
 
-### O nieee! Gdzie szukać pomocy? Nie działa mi to!
+### O nieee! Gdzie szukać pomocy? Nie działa mi to
 
 Najpopularniejszymi źródłami, z którego możemy czerpać wiedzę i
 możliwość rozwiązywania problemów jest:
@@ -101,12 +101,12 @@ Edytor `VIM` posiada 3 tryby pracy:
 * jeśli kliknę literę `a` to będę wówczas w **trybie input**, czyli
     wprowadzanie, od tej chwili mogę pisać w swoim edytorze kod
 * żeby zapisać plik to:
-    - najpierw klikam `ctrl + c`
-    - znak `:` - czyli dwukropek uruchamia nam trzeci tryb, tzw. **tryb
+    -najpierw klikam `ctrl + c`
+    -znak `:` - czyli dwukropek uruchamia nam trzeci tryb, tzw. **tryb
         command-line**
-    - żeby zapisać plik wciskam `w` (write)
-    - żeby wyjść z pliku wciskam `:q` (quit)
-    - albo od razu `:wq`
+    -żeby zapisać plik wciskam `w` (write)
+    -żeby wyjść z pliku wciskam `:q` (quit)
+    -albo od razu `:wq`
 
 Aby wyświetlić całą zawartość pliku w terminalu wywołuję polecenie `cat`,
 `cat plik1.txt`.
@@ -117,12 +117,12 @@ Inne potrzebne polecenia w `VIM` to:
 * `p` - wkleja nam tekst pod tekstem, gdzie obecnie się znajdujemy kursorem
 * `P` lub `Shift + p` - wkleja nam tekst nad tekstem
 
-### Jak wyszukiwać dany tekst w `edytorze VIM`?
+### Jak wyszukiwać dany tekst w `edytorze VIM`
 
 Jeśli chcemy wyszukać np. `pająk` tzn. słowo w tekście to robimy `/pająk`.
 Wyszukają nam się wyrazy o tej wartości w całym naszym pliku.
 
-### Jak zmienić słowo w `VIM`?
+### Jak zmienić słowo w `VIM`
 
 Jeśli chce zmienić wszystkie słowa`pająk` na `kot` to uruchamiam:
 

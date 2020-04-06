@@ -9,7 +9,7 @@ Przepraszam za opóźnienia! :)
 Jak wiecie zacząłem naukę 'czystego' `JavaScript-u`. Jak przebiegał
 powtórny etap tejże nauki?
 
-## Co to jest JavaScript?
+## Co to jest JavaScript
 
 `JavaScript` to interpretowany, skryptowy język programowania.
 
@@ -26,7 +26,7 @@ video albo galeria zdjęć.
 * gry
 * edytory tekstu
 
-## Jak złapać kontekst użycia JavaScriptu na stronie?
+## Jak złapać kontekst użycia JavaScriptu na stronie
 
 Rozumiem to tak. Załóżmy, że posiadamy miniaturkę zdjęcia z wakacji.
 Jeśli najadę na zdjęcie myszką, i ustawie `hover` w stylach `CSS` to
@@ -35,7 +35,7 @@ zdjęcie mi się podświetli. Analogia do JavaScriptu, to taka według mnie,
 `zdarzenie`, które np. będzie polegało na wyświetleniu dużego zdjęcia
 obok miniatury.
 
-## JQuery `=!` JavaScript ?
+## JQuery `=!` JavaScript
 
 jQuery to inaczej zbiór funkcji napisanych w czystym JavaScript. Dzięki
 jQuery możemy manipulować drzewem DOM.
@@ -55,7 +55,7 @@ może ma to sens? Jak myślicie?
 
 Dajcie znać o swoich opiniach na ten temat! :-)
 
-## JavaScript poza przeglądarką?
+## JavaScript poza przeglądarką
 
 * `Node.js` (programy napisane w nim to np. `Gulp`, `Grunt`, `Yeoman`
 * `MongoDB` - zapytania w tej bazie wypisujemy za pomocą poleceń JavaScript.
@@ -64,7 +64,7 @@ Dajcie znać o swoich opiniach na ten temat! :-)
     [Piotra Kowalskiego][piecioshka]) o nazwie
     [*`Photoshop Plugin Copy Color After Picking`*][plugin]
 
-## Gdzie umieszczać skrypty JavaScript?
+## Gdzie umieszczać skrypty JavaScript
 
 * możemy je umieszczać w elemencie `head`:
 
@@ -94,7 +94,7 @@ Jeśli umieścimy go w `head` to skrypt się wykonana, a na razie strona www
 nie zostanie wczytana, wykona się później. Obejściem na to może być
 dodanie atrybutu `async`, które opóźnia proces interpretowania kodu.
 
-## No więc czym jest `ZMIENNA`?
+## No więc czym jest `ZMIENNA`
 
 Zmienne są to podstawowe konstrukcje języka JavaScript - ABSOLUTNA PODSTAWA!
 
@@ -116,11 +116,11 @@ var imie = 'Cezary',
     nazwisko = 'Tworzewski';
 ```
 
-## Gdzie jest zapisywana wartość zmiennej?
+## Gdzie jest zapisywana wartość zmiennej
 
 Wszystkie zmienne zostają zapisane w pamięci `RAM - Random Access Memory`
 
-## Co mogą przechowywać zmienne?
+## Co mogą przechowywać zmienne
 
 * wartości prymitywne (np. ciąg znaków)
 * referencje do obiektów (np. Date)

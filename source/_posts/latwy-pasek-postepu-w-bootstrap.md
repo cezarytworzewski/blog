@@ -10,13 +10,13 @@ Pominąłem opisanie jak stworzyć fajny przycisk w Bootstrap za pomocą klasy `
 Dość ciekawą rzeczą jest stworzenie prostego paska postępu, który można
 zastosować podczas tworzenia strony, coś co określam terminem `strona w budowie`.
 
-## Jak to wygląda?
+## Jak to wygląda
 
 Pasek postępu wygląda następująco:
 
-![](https://image.ibb.co/eLjjNJ/pasek_post_pu.png)
+![imgur](https://image.ibb.co/eLjjNJ/pasek_post_pu.png)
 
-## Jak to zrobić?
+## Jak to zrobić
 
 1. Tworzymy sobie klasę główną dla naszego paska. Musimy stworzyć klasę
     zewnętrzną, która będzie przechowywać nasz pasek postępu:
@@ -39,7 +39,7 @@ Pasek postępu wygląda następująco:
 
     Efekt od strony Front-end'u wygląda tak:
 
-    ![](https://image.ibb.co/d2oppy/pasek_post_pu_2.png)
+    ![imgur](https://image.ibb.co/d2oppy/pasek_post_pu_2.png)
 
     Podstawowa klasa `progress-bar` tworzy pasek postępu koloru szarego,
     kolor ten jest widoczny po prawej stronie powyższego obrazka. Pasek postępu
@@ -50,11 +50,10 @@ Pasek postępu wygląda następująco:
     Bootstrap'ie jest coś takiego jak **rozmiar okna**.
 
     Są dwa parametry odpowiadające za rozmiar:
-
         * w - x (`w` - szerokość; `x` - wartość liczbowa)
 
         * h - x (`h` - wysokość; `x` - wartość liczbowa)
-
+        
     Wyróżniamy następujące wartości liczbowe: **25, 50, 75, 100**.
     Wartości te są wyrażone w procentach i jest ich tylko cztery.
 

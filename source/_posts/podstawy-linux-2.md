@@ -21,14 +21,14 @@ Instalacja z paczki wygląda następująco:
 
 * musimy pobrać odpowiednią paczkę, która jest zgodna z naszą architekturą OS
 * wydajemy polecenie:
-    + `rpm -i teamviewer_linux.rpm` albo lepszym rozwiązaniem będzie:
-        - `rpm -Uvh teamviewer_linux.rpm` => gdzie poszczególne parametry
+    +`rpm -i teamviewer_linux.rpm` albo lepszym rozwiązaniem będzie:
+        -`rpm -Uvh teamviewer_linux.rpm` => gdzie poszczególne parametry
             oznaczają:
-            + `U` - jest to inaczej polecenie `install` ale dodatkowo
+            +`U` - jest to inaczej polecenie `install` ale dodatkowo
                 robi nam `update` naszej paczki
-            + `v` - wyświetla nam informacje co aktualnie się wykonuje
+            +`v` - wyświetla nam informacje co aktualnie się wykonuje
                 podczas instalacji
-            + `h` - wyświetla nam procentoway pasek postępu
+            +`h` - wyświetla nam procentoway pasek postępu
 
 **Instalacja z narzędziem autoomatycznym:**
 `yum install cups` - gdzie **cups** jest to serwer wydruku
