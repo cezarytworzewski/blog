@@ -4,16 +4,24 @@ date: 2020-04-06 00:01:19
 tags:
 ---
 
-Postanowiłem wznowić pisanie artykułów oraz dzielić się z Wami tym co się nauczyłem. Będę starał się pisać już regularnie  moje **daily raporty** z przebiegu swojej nauki.
+Postanowiłem wznowić pisanie artykułów oraz dzielić się z Wami tym co się
+nauczyłem. Będę starał się pisać już regularnie  moje **daily raporty**
+z przebiegu swojej nauki.
 
-Do testów wziąłem dwie fizyczne maszyny, pierwszy z nich to laptop z Windows 10, na którym robię testowe połączenie z serwerem, a drugi komputer to PC stacjonarny z zainstalowanym Debianem.
+Do testów wziąłem dwie fizyczne maszyny, pierwszy z nich to laptop z Windows 10
+ na którym robię testowe połączenie z serwerem, a drugi komputer to komputer
+ stacjonarny z zainstalowanym Debianem.
 
-# Instalacja Debiana
+## Instalacja Debiana
 
-W swoim domowym zaciszu postanowiłem zainstalować Debian 9. Dlaczego akurat Debian 9? Odpowiedź prosta. Debian to system, na ktorym jest hosting w firmie, w której pracuje, a rownież są postawione serwery plików również z użciem tego systemu.
-Wygrzebałem stary komputer... mała renowacja i gotowe.
+W swoim domowym zaciszu postanowiłem zainstalować Debian 9. Dlaczego akurat
+Debian 9? Odpowiedź prosta. Debian to system, na ktorym jest hosting w firmie,
+w której pracuje, a rownież są postawione serwery plików również z użciem tego
+systemu. Wygrzebałem stary komputer... mała renowacja i gotowe.
 
-System został zainstalowany. Podstawowe usługi jakie były domyślnie - również. Co prawda, była możiwość instalacji serwera SSH, ale pomyślałem, że byłoby za łatwo.
+System został zainstalowany. Podstawowe usługi jakie były domyślnie - również.
+Co prawda, była możiwość instalacji serwera SSH, ale pomyślałem, że byłoby
+za łatwo.
 
 ## Otwieram terminal
 
@@ -29,30 +37,35 @@ Na początku wydaję polecenia
 Na to czekałem od samego początu...
 
 ```bash
-'apt-get install openssh-server' // polecenie to pobiera i instaluje pakiet `openssh-server` 
+'apt-get install openssh-server' // polecenie to pobiera i instaluje pakiet
+`openssh-server`
 ```
 
-W zasadzie to już wszystko powinno działać. Jakby tak było ze wszystkim, to byłoby super - ale **live is brutal**.
+W zasadzie to już wszystko powinno działać. Jakby tak było ze wszystkim,
+to byłoby super - ale **live is brutal**.
 
-Po wydaniu polecenia `apt-get install openssh-server` pojawił się pierwszy niespodziewany błąd, o którym nikt nie pisał w źródłach z których korzystałem.
+Po wydaniu polecenia `apt-get install openssh-server` pojawił się pierwszy
+niespodziewany błąd, o którym nikt nie pisał w źródłach z których korzystałem.
 Problem to:
 
-```
+```bash
 Czytanie listy pakietów...Gotowe
 Budowanie drzewa zależności
 .
 .
 .
 Kontynuować? [T/n] T
-Media change: please insert the disc labeled 
-Debian GNU/Linux... - Official amd64 DVD Binary... in the drive '/media/cdrom/' and press [Enter]
+Media change: please insert the disc labeled
+Debian GNU/Linux... - Official amd64 DVD Binary... in the drive '/media/cdrom/'
+and press [Enter]
 ```
 
 No i właśnie to już **pierwszy problem**.
 
 Po przeszukaniu Internetu. Znalazłem rozwiązanie.
 
-Muszę wyedytować plik z `/etc/apt/sources.list` tzn zakomentować jedną z linijek:
+Muszę wyedytować plik z `/etc/apt/sources.list` tzn zakomentować jedną z
+linijek:
 
 Przed:
 
@@ -60,25 +73,36 @@ Przed:
 
 Po:
 
-`# deb cdrom"[Debian GNU/Linux 9.12.0 _sTRETCH_ - oFFICIAL AMD64 dvd bINARY-1 2$`
+`# deb cdrom"[Debian GNU/Linux 9.12.0_sTRETCH_- oFFICIAL AMD64 dvd bINARY-1 2$`
 
-Po wprowadzeniu tej zmiany, próbuję ponownie zainstalować serwer ssh, znowu ten sam problem co wcześniej. 
+Po wprowadzeniu tej zmiany, próbuję ponownie zainstalować serwer ssh, znowu ten
+sam problem co wcześniej.
 
-No dobra, to uruchamiamy ponownie system. W konsoli wydaję polecenie `reboot` - polecenie to uruchamia ponownie system. System się uruchamia, i próbujemy od nowa zainstalować. Tym razem się udało. Czas na świętowanie!!! :)
+No dobra, to uruchamiamy ponownie system. W konsoli wydaję polecenie `reboot` -
+polecenie to uruchamia ponownie system. System się uruchamia, i próbujemy od
+nowa zainstalować. Tym razem się udało. Czas na świętowanie!!! :)
 
-Do testowania sprawdzenia połączenia przez SSH'a użyje programu **Putty**. Program ten jest bezpłatnym klientem usług Telenet, SSH oraz działa pod systemami Windows oraz Linux.
+Do testowania sprawdzenia połączenia przez SSH'a użyje programu **Putty**.
+Program ten jest bezpłatnym klientem usług Telenet, SSH oraz działa pod
+systemami Windows oraz Linux.
 
 ### Uruchamiam **Putty**
 
- * ![](https://imgur.com/Yj2FVN4)
- * następnie podaję dane do logowania do systemu Debian. Połączenie wykonuje z systemu Windows.
- ![](https://imgur.com/00GXAT1)
+ *[Imgur](https://i.imgur.com/Yj2FVN4.jpg)
+ *następnie podaję dane do logowania do systemu Debian. Połączenie
+ wykonuje z systemu Windows.
+*[Imgur](https://i.imgur.com/00GXAT1.jpg)
 
- więc pojawił nam się **problem numer dwa**... **Access denied** - sądząc po komunikacje chodzi o jakieś uprawnienia, no dobra przeglądamy dalej Internet w poszukiwaniu rozwiązania :)
+ więc pojawił nam się **problem numer dwa**... **Access denied** -
+ sądząc po komunikacje chodzi o jakieś uprawnienia, no dobra przeglądamy dalej
+Internet w poszukiwaniu rozwiązania :)
 
  Znalazłem rozwiązanie!!!
 
- Tym razem muszę wyedytować plik `sshd_config`, dokładna lokalziacja jest w katalogu `/etc/ssh`. Więc otweiramy sobie terminalowy edytor, wydając polecenie: `nano /etc/ssh/sshd_config`. W tym pliku odnajdujemy fragment kodu taki jak:
+ Tym razem muszę wyedytować plik `sshd_config`, dokładna lokalziacja jest w
+ katalogu `/etc/ssh`. Więc otweiramy sobie terminalowy edytor, wydając
+ polecenie: `nano /etc/ssh/sshd_config`. W tym pliku odnajdujemy fragment kodu
+ taki jak:
 
  ```bash
 # Authentication:
@@ -90,18 +114,19 @@ Do testowania sprawdzenia połączenia przez SSH'a użyje programu **Putty**. Pr
 #MaxSessions 10
  ```
 
-linijkę `#PermitRootLogin prohibit-password` zamieniam na `PermitRootLogin yes`, zapoisuję plik i próbujemy ponownie.
+linijkę `#PermitRootLogin prohibit-password` zamieniam na `PermitRootLogin yes`
+zapisuję plik i próbujemy ponownie.
 
-![](https://imgur.com/7IImWoN)
+[Imgur](https://i.imgur.com/7IImWoN.jpg)
 
 Musimy teraz zrestartować nasz serwer ssh
 
-![](https://imgur.com/CEfgvcn)
+[Imgur](https://i.imgur.com/CEfgvcn.jpg)
 
 ### Testujemy ponownie połączenie
 
 Otwieram program Putty, podaję dane do logowania i...
 
-![](img]https://i.imgur.com/jaw4clZ.jpg[/img])
+[Imgur](https://i.imgur.com/jaw4clZ.jpg)
 
-Udało się! Podstawowa konfiguracja SSH zakończona powodzeniem.
+## Udało się! Podstawowa konfiguracja SSH zakończona powodzeniem.
