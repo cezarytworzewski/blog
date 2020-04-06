@@ -172,7 +172,7 @@ Sprawdźmy jedną rzecz: `typeof null` - zwróci nam `object`, ale **STOP**
 
 ***null* NIE JEST OBIEKTEM**
 
-### Jak to ma się do obiektów?
+### Jak to ma się do obiektów
 
 `let person = {};`, sprawdźmy za pomocą `typeof person.name` =>
 Wynik to: `"undefined"`
