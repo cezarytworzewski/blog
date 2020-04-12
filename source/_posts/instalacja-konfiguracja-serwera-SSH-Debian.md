@@ -77,7 +77,8 @@ Po:
 
 `# deb cdrom"[Debian GNU/Linux 9.12.0_sTRETCH_- oFFICIAL AMD64 dvd bINARY-1 2$`
 
-Po wprowadzeniu tej zmiany próbuję ponownie zainstalować serwer ssh, znowu ten sam problem, co wcześniej.
+Po wprowadzeniu tej zmiany próbuję ponownie zainstalować serwer ssh, znowu ten
+sam problem, co wcześniej.
 
 No dobra, to uruchamiamy ponownie system. W konsoli wydaję polecenie `reboot` -
 polecenie to uruchamia ponownie system. System się uruchamia i próbujemy od
