@@ -3,8 +3,8 @@
 ## Instalacja
 
 ```bash
+git submodule init
 npm install
-git clone https://github.com/klugjo/hexo-theme-clean-blog.git themes/clean-blog
 ```
 
 ## Lokalne Uruchomienie
