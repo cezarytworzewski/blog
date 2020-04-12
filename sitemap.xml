@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cezarytworzewski.github.io/2020/04/06/instalacja-konfiguracja-serwera-SSH-Debian/</loc>
+    
+    <lastmod>2020-04-12T13:37:06.298Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cezarytworzewski.github.io/2018/06/20/bootstrap-nauka/</loc>
+    
+    <lastmod>2020-04-12T13:37:06.295Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cezarytworzewski.github.io/2018/06/13/podstawy-js-2/</loc>
     
     <lastmod>2020-04-06T16:59:30.483Z</lastmod>
@@ -100,13 +114,6 @@
   </url>
   
   <url>
-    <loc>https://cezarytworzewski.github.io/2020/04/06/instalacja-konfiguracja-serwera-SSH-Debian/</loc>
-    
-    <lastmod>2020-04-06T16:43:30.573Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cezarytworzewski.github.io/kontakt/index.html</loc>
     
     <lastmod>2020-02-16T21:28:15.049Z</lastmod>
@@ -131,13 +138,6 @@
     <loc>https://cezarytworzewski.github.io/2018/06/21/dostosowanie-umiejetnosci-pod-rekrutacje/</loc>
     
     <lastmod>2020-02-16T21:28:15.041Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cezarytworzewski.github.io/2018/06/20/bootstrap-nauka/</loc>
-    
-    <lastmod>2020-02-16T21:28:15.040Z</lastmod>
     
   </url>
   

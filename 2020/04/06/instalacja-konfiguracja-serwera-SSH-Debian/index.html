@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="Postanowiłem wznowić pisanie artykułów oraz dzielić się z Wami tym, co sięnauczyłem. Będę starał się pisać już regularnie moje daily raportyz przebieg"/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Cezary Tworzewski"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Instalacja oraz konfiguracja serwera SSH na Debian"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Postanowiłem wznowić pisanie artykułów oraz dzielić się z Wami tym, co sięnauczyłem. Będę starał się pisać już regularnie moje daily raportyz przebieg"/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Cezary Tworzewski"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="https://cezarytworzewski.github.io/blog/images/front.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="https://cezarytworzewski.github.io/blog/images/front.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>Instalacja oraz konfiguracja serwera SSH na Debian - Cezary Tworzewski</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/blog/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/blog/">Strona główna</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/blog/">
+                            
+                                Strona główna
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/kontakt/">
+                            
+                                Kontakt
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/ctworzewski">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://twitter.com/ctworzewski">
+                            
+                                <i class="fa fa-twitter fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://youtube.com/czarek92r">
+                            
+                                <i class="fa fa-youtube fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://facebook.com/ctworzewski">
+                            
+                                <i class="fa fa-facebook fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://linkedin.com/in/ctworzewski">
+                            
+                                <i class="fa fa-linkedin fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/blog/images/front.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Instalacja oraz konfiguracja serwera SSH na Debian</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2020-04-06
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Postanowiłem wznowić pisanie artykułów oraz dzielić się z Wami tym, co się<br>nauczyłem. Będę starał się pisać już regularnie moje <strong>daily raporty</strong><br>z przebiegu swojej nauki.</p>
+<p>Do testów wziąłem dwie fizyczne maszyny, pierwszy z nich to laptop z<br>Windows 10, na którym robię testowe połączenie z serwerem, a drugi komputer<br>to komputer stacjonarny z zainstalowanym Debianem.</p>
+<h2 id="Instalacja-Debiana"><a href="#Instalacja-Debiana" class="headerlink" title="Instalacja Debiana"></a>Instalacja Debiana</h2><p>W swoim domowym zaciszu postanowiłem zainstalować Debian 9. Dlaczego akurat<br>Debian 9? Odpowiedź prosta. Debian to system, na którym jest hosting w firmie,<br>w której pracuje, a również są postawione serwery plików również z użyciem tego<br>systemu. Wygrzebałem stary komputer… mała renowacja i gotowe.</p>
+<p>System został zainstalowany. Podstawowe usługi, jakie były domyślnie — również.<br>Co prawda, była możliwość instalacji serwera SSH, ale pomyślałem, że byłoby<br>za łatwo.</p>
+<h2 id="Otwieram-terminal"><a href="#Otwieram-terminal" class="headerlink" title="Otwieram terminal"></a>Otwieram terminal</h2><p>Na początku wydaję polecenia.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'apt-get update'</span> // polecenie to aktualizuję liste pakietów w repozytoriach</span><br><span class="line"><span class="string">'apt-get upgrade'</span> // polecenie aktualizuję pakiety</span><br></pre></td></tr></table></figure>
+<h2 id="Instalacja-serwera-SSH"><a href="#Instalacja-serwera-SSH" class="headerlink" title="Instalacja serwera SSH"></a>Instalacja serwera SSH</h2><p>Na to czekałem od samego początku…</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'apt-get install openssh-server'</span> // polecenie to pobiera i instaluje pakiet</span><br><span class="line">`openssh-server`</span><br></pre></td></tr></table></figure>
+<p>W zasadzie to już wszystko powinno działać. Jakby tak było ze wszystkim,<br>to byłoby super — ale <strong>live is brutal</strong>.</p>
+<p>Po wydaniu polecenia <code>apt-get install openssh-server</code> pojawił się pierwszy<br>niespodziewany błąd, o którym nikt nie pisał w źródłach, z których korzystałem.<br>Problem to:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Czytanie listy pakietów...Gotowe</span><br><span class="line">Budowanie drzewa zależności</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">Kontynuować? [T/n] T</span><br><span class="line">Media change: please insert the disc labeled</span><br><span class="line">Debian GNU/Linux... - Official amd64 DVD Binary... <span class="keyword">in</span> the drive <span class="string">'/media/cdrom/'</span></span><br><span class="line">and press [Enter]</span><br></pre></td></tr></table></figure>
+<p>No i właśnie to już <strong>pierwszy problem</strong>.</p>
+<p>Po przeszukaniu Internetu. Znalazłem rozwiązanie.</p>
+<p>Muszę edytować plik z <code>/etc/apt/sources.list</code> tzn. zakomentować jedną z<br>linijek:</p>
+<p>Przed:</p>
+<p><code>deb cdrom&quot;[Debian GNU/Linux 9.12.0 _sTRETCH_ - oFFICIAL AMD64 dvd bINARY-1 2$</code></p>
+<p>Po:</p>
+<p><code># deb cdrom&quot;[Debian GNU/Linux 9.12.0_sTRETCH_- oFFICIAL AMD64 dvd bINARY-1 2$</code></p>
+<p>Po wprowadzeniu tej zmiany próbuję ponownie zainstalować serwer ssh, znowu ten<br>sam problem, co wcześniej.</p>
+<p>No dobra, to uruchamiamy ponownie system. W konsoli wydaję polecenie <code>reboot</code> -<br>polecenie to uruchamia ponownie system. System się uruchamia i próbujemy od<br>nowa zainstalować. Tym razem się udało. Czas na świętowanie!!! :)</p>
+<p>Do testowania sprawdzenia połączenia przez SSH użyje programu <strong>Putty</strong>.<br>Program ten jest bezpłatnym klientem usług Telnet, SSH oraz działa pod<br>systemami Windows, oraz Linux.</p>
+<h3 id="Uruchamiam-Putty"><a href="#Uruchamiam-Putty" class="headerlink" title="Uruchamiam Putty"></a>Uruchamiam <strong>Putty</strong></h3><p><img src="https://i.imgur.com/Yj2FVN4.jpg" alt="Imgur"></p>
+<p>Następnie podaję dane do logowania do systemu Debian.<br>Połączenie wykonuje z systemu Windows.</p>
+<p><img src="https://i.imgur.com/00GXAT1.jpg" alt="Imgur"></p>
+<p>więc pojawił nam się <strong>problem numer dwa</strong>… <strong>Access denied</strong> -<br>sądząc po komunikacje chodzi o jakieś uprawnienia, no dobra przeglądamy dalej<br>Internet w poszukiwaniu rozwiązania :)</p>
+<p>Znalazłem rozwiązanie!!!</p>
+<p>Tym razem muszę edytować plik <code>sshd_config</code>, dokładna lokalizacja jest w<br>katalogu <code>/etc/ssh</code>. Więc otwieramy sobie terminalowy edytor, wydając<br>polecenie: <code>nano /etc/ssh/sshd_config</code>. W tym pliku odnajdujemy fragment kodu<br>taki jak:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Authentication:</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#LoginGraceTime 2m</span></span><br><span class="line"><span class="comment">#PermitRootLogin prohibit-password</span></span><br><span class="line"><span class="comment">#StrictModes yes</span></span><br><span class="line"><span class="comment">#MaxAuthTries 6</span></span><br><span class="line"><span class="comment">#MaxSessions 10</span></span><br></pre></td></tr></table></figure>
+<p>linijkę <code>#PermitRootLogin prohibit-password</code> zamieniam na <code>PermitRootLogin yes</code><br>zapisuję plik i próbujemy ponownie.</p>
+<p><img src="https://i.imgur.com/7IImWoN.jpg" alt="Imgur"></p>
+<p>Musimy teraz zrestartować nasz serwer SSH</p>
+<p><img src="https://i.imgur.com/CEfgvcn.jpg" alt="Imgur"></p>
+<h3 id="Testujemy-ponownie-polaczenie"><a href="#Testujemy-ponownie-polaczenie" class="headerlink" title="Testujemy ponownie połączenie"></a>Testujemy ponownie połączenie</h3><p>Otwieram program Putty, podaję dane do logowania i…</p>
+<p><img src="https://i.imgur.com/jaw4clZ.jpg" alt="Imgur"></p>
+<h2 id="Udalo-sie-Podstawowa-konfiguracja-SSH-zakonczona-powodzeniem"><a href="#Udalo-sie-Podstawowa-konfiguracja-SSH-zakonczona-powodzeniem" class="headerlink" title="Udało się! Podstawowa konfiguracja SSH zakończona powodzeniem"></a>Udało się! Podstawowa konfiguracja SSH zakończona powodzeniem</h2>
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>Komentarze:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2020 Cezary Tworzewski<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'cezarytworzewski';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+
+</html>
