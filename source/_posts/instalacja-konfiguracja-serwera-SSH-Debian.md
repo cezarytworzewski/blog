@@ -101,7 +101,6 @@ więc pojawił nam się **problem numer dwa**... **Access denied** -
 sądząc po komunikacje chodzi o jakieś uprawnienia, szukam dalej w Internet
 w poszukiwaniu rozwiązania. Po znalezieniu w czym błąd, przechodzę do pracy.
 
-
 Tym razem muszę edytować plik `sshd_config`, dokładna lokalizacja jest w
 katalogu `/etc/ssh`. Więc otwieramy sobie terminalowy edytor, wydając
 polecenie: `nano /etc/ssh/sshd_config`. W tym pliku odnajdujemy fragment kodu
