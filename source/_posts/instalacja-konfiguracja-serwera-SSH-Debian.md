@@ -14,10 +14,12 @@ to komputer stacjonarny z zainstalowanym Debianem.
 
 ## Instalacja Debiana
 
-W swoim domowym zaciszu postanowiłem zainstalować Debian 9. Dlaczego akurat
-Debian 9? Odpowiedź prosta. Debian to system, na którym jest hosting w firmie,
-w której pracuje, a również są postawione serwery plików również z użyciem tego
-systemu. Wygrzebałem stary komputer... mała renowacja i gotowe.
+W swoim domowym zaciszu postanowiłem zainstalować Debian 9.
+Dlaczego akurat Debian 9? Odpowiedź prosta. Debian to system, na którym jest
+hosting w firmie, w której pracuje, a również są postawione serwery plików
+również z użyciem tego systemu.
+
+Wygrzebałem stary komputer... mała renowacja i gotowe.
 
 System został zainstalowany. Podstawowe usługi, jakie były domyślnie — również.
 Co prawda, była możliwość instalacji serwera SSH, ale pomyślałem, że byłoby
@@ -75,8 +77,7 @@ Po:
 
 `# deb cdrom"[Debian GNU/Linux 9.12.0_sTRETCH_- oFFICIAL AMD64 dvd bINARY-1 2$`
 
-Po wprowadzeniu tej zmiany próbuję ponownie zainstalować serwer ssh, znowu ten
-sam problem, co wcześniej.
+Po wprowadzeniu tej zmiany próbuję ponownie zainstalować serwer ssh, znowu ten sam problem, co wcześniej.
 
 No dobra, to uruchamiamy ponownie system. W konsoli wydaję polecenie `reboot` -
 polecenie to uruchamia ponownie system. System się uruchamia i próbujemy od
@@ -96,10 +97,9 @@ Połączenie wykonuje z systemu Windows.
 ![Imgur](https://i.imgur.com/00GXAT1.jpg)
 
 więc pojawił nam się **problem numer dwa**... **Access denied** -
-sądząc po komunikacje chodzi o jakieś uprawnienia, no dobra przeglądamy dalej
-Internet w poszukiwaniu rozwiązania :)
+sądząc po komunikacje chodzi o jakieś uprawnienia, szukam dalej w Internet
+w poszukiwaniu rozwiązania. Po znalezieniu w czym błąd, przechodzę do pracy.
 
-Znalazłem rozwiązanie!!!
 
 Tym razem muszę edytować plik `sshd_config`, dokładna lokalizacja jest w
 katalogu `/etc/ssh`. Więc otwieramy sobie terminalowy edytor, wydając
